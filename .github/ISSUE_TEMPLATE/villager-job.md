@@ -8,7 +8,12 @@ assignees: ''
 ---
 
 # Villager Job info
-**Name:** 
-**Description:** 
-**Related to Sub-Building:** 
-**Needs custom behavior tree?**
+- **Name:** 
+- **Description:** 
+- **Related to Sub-Building:** 
+- **Needs custom behavior tree?**
+
+## Other notes
+
+## Tasks
+- [ ] TBD

@@ -8,8 +8,13 @@ assignees: ''
 ---
 
 # Sub-Building info
-**Name:** 
-**Description:** 
-**Tier unlocked:** 
-**Needs custom icons?** 
-**Special building prefabs needed?**
+- **Name:** 
+- **Description:** 
+- **Tier unlocked:** 
+- **Needs custom icons?** 
+- **Special building prefabs needed?**
+
+## Other notes
+
+## Tasks
+- [ ] TBD
