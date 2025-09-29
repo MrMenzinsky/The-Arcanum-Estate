@@ -2,7 +2,7 @@
 name: Sub-Building
 about: Issue for high-level planning of an entire Sub-Building
 title: 'Sub-Building: '
-labels: ''
+labels: Sub-Building
 assignees: ''
 
 ---

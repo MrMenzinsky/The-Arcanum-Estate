@@ -2,7 +2,7 @@
 name: Villager Job
 about: Issue for high-level planning of an entire Villager job
 title: 'Villager Job: '
-labels: ''
+labels: Villager Job
 assignees: ''
 
 ---

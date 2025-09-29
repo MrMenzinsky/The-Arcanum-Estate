@@ -2,7 +2,7 @@
 name: Villager Status
 about: Issue for high-level planning of an entire Villager Status
 title: 'Villager Status: '
-labels: ''
+labels: Villager Status
 assignees: ''
 
 ---

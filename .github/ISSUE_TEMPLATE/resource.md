@@ -1,8 +1,8 @@
 ---
 name: Resource
 about: Issue for high-level planning of a cusom resource
-title: ''
-labels: ''
+title: 'Resource: '
+labels: Resource
 assignees: ''
 
 ---
