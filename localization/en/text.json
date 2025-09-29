@@ -1,6 +1,60 @@
 {
-  "PLACEHOLDER": {
-      "PLACEHOLDER_NAME": "Placeholder",
-      "PLACEHOLDER_DESC": "A placeholder"
+  "ARCANUM": {
+      "ESTATE_ARCANUM_NAME": "Arcanum",
+      "ESTATE_ARCANUM_DESC": "The Arcanum Estate"
+  },
+
+  "MONUMENT_ARCANUM_AETHER_COURT": {
+    "MONUMENT_ARCANUM_AETHER_COURT_NAME": "Aether Court",
+    "MONUMENT_ARCANUM_AETHER_COURT_DESC": "A center dedicated to the arcane arts with buildings both for general study and specialized fields, including towers, groves and sanctums."
+  },
+
+  "BUILDING_ARCANUM_AETHER_COURT_ACADEMY": {
+    "BUILDING_ARCANUM_AETHER_COURT_ACADEMY_NAME": "Academy",
+    "BUILDING_ARCANUM_AETHER_COURT_ACADEMY_DESC": "ACADEMY DESCRIPTION"
+  },
+  
+  "RESEARCH_PAPER": {
+    "RESEARCH_PAPER_NAME": "Research Paper"
+  },
+  
+  "PROGRESS_TIER_ARCANUM_T1": {
+    "PROGRESS_TIER_ARCANUM_T1_NAME": "Tier 1",
+    "PROGRESS_TIER_ARCANUM_T1_DESC": "Rumours about a new Aether Court start to spread."
+  },
+  "PROGRESS_TIER_ARCANUM_T2": {
+    "PROGRESS_TIER_ARCANUM_T2_NAME": "Tier 2",
+    "PROGRESS_TIER_ARCANUM_T2_DESC": "Scholars have started talking about your research."
+  },
+  "PROGRESS_TIER_ARCANUM_T3": {
+    "PROGRESS_TIER_ARCANUM_T3_NAME": "Tier 3",
+    "PROGRESS_TIER_ARCANUM_T3_DESC": "Third tier in the Arcanum Estate progress tree."
+  },
+  "PROGRESS_TIER_ARCANUM_T4": {
+    "PROGRESS_TIER_ARCANUM_T4_NAME": "Tier 4",
+    "PROGRESS_TIER_ARCANUM_T4_DESC": "Fourth tier in the Arcanum Estate progress tree."
+  },
+  "PROGRESS_TIER_ARCANUM_T5": {
+    "PROGRESS_TIER_ARCANUM_T5_NAME": "Tier 5",
+    "PROGRESS_TIER_ARCANUM_T5_DESC": "Fifth tier in the Arcanum Estate progress tree."
+  },
+
+  "UNLOCKABLE_ARCANUM_AETHER_COURT": {
+    "UNLOCKABLE_ARCANUM_AETHER_COURT_NAME": "Aether Court",
+    "UNLOCKABLE_ARCANUM_AETHER_COURT_DESC": "Unlocks the Aether Court monument, which lets you delve into magic.",
+    "UNLOCKABLE_ARCANUM_AETHER_COURT_NAME_OPTIONAL": "Unlockable Aether Court (optional)",
+    "UNLOCKABLE_ARCANUM_AETHER_COURT_BOUGHT": "Aether Court bought",
+    "UNLOCKNAME_MONUMENT_ARCANUM_AETHER_COURT": "Aether Court Unlocked!"
+  },
+  "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY": {
+    "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY_NAME": "Treasury",
+    "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY_DESC": "Unlocks the Treasury for your Aether Court.",
+    "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY_NAME_OPTIONAL": "",
+    "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY_BOUGHT": "Treasury unlocked!"
+  },
+
+  "JOB_RESEARCHER": {
+    "JOB_RESEARCHER_NAME": "Researcher",
+    "JOB_RESEARCHER_DESC": "Researches the science and fundamentals of magic."
   }
 }
