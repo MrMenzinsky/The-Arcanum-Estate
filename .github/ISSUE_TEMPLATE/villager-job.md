@@ -1,7 +1,7 @@
 ---
 name: Villager Job
 about: Issue for high-level planning of an entire Villager job
-title: 'Villager Job: '
+title: 'Villager Job:'
 labels: Villager Job
 assignees: ''
 
@@ -11,7 +11,7 @@ assignees: ''
 - **Name:** 
 - **Description:** 
 - **Related to Sub-Building:** 
-- **Needs custom behavior tree?**
+- **Needs custom behavior tree?** 
 
 ## Other notes
 

@@ -1,8 +1,8 @@
 ---
 name: Resource
 about: Issue for high-level planning of a cusom resource
-title: 'Resource: '
-labels: Resource
+title: 'Resource:'
+labels: Resource, Villager Status
 assignees: ''
 
 ---
@@ -11,7 +11,7 @@ assignees: ''
 - **Name:** 
 - **Description:** 
 - **Tier unlocked:** 
-- **Relaed Sub-Building:** 
+- **Related Sub-Building:** 
 - **Needs custom icons?** 
 
 ## Other notes
