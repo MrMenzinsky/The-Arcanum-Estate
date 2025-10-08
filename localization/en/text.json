@@ -54,8 +54,8 @@
     "UNLOCKNAME_BUILDING_TREASURY": "Treasury Unlocked!"
   },
 
-  "JOB_RESEARCHER": {
-    "JOB_RESEARCHER_NAME": "Researcher",
-    "JOB_RESEARCHER_DESC": "Researches the science and fundamentals of magic."
+  "JOB_AETHERCOURT_SCHOLAR": {
+    "JOB_AETHERCOURT_SCHOLAR_NAME": "Scholar",
+    "JOB_AETHERCOURT_SCHOLAR_DESC": "Researches the science and fundamentals of magic."
   }
 }

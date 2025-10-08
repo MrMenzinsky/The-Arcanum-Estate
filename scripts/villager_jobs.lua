@@ -2,9 +2,9 @@ local mod = ...
 
 mod:registerAsset({
   DataType = "JOB",
-  Id = "JOB_RESEARCHER",
-  JobName = "JOB_RESEARCHER_NAME",
-  JobDescription = "JOB_RESEARCHER_DESC",
+  Id = "JOB_AETHERCOURT_SCHOLAR",
+  JobName = "JOB_AETHERCOURT_SCHOLAR_NAME",
+  JobDescription = "JOB_AETHERCOURT_SCHOLAR_DESC",
   UseWorkplaceBehavior = true,
   NeededMasteredJobList = {},
   ExperienceToMaster = 20, -- TODO: What does this mean?
@@ -31,6 +31,6 @@ mod:overrideAsset({
   Id = "STATUS_VILLAGER_SERF",
   CompatibleJobList = {
     Action = "APPEND",
-    "JOB_RESEARCHER"
+    "JOB_AETHERCOURT_SCHOLAR"
   }
 })

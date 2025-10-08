@@ -43,7 +43,7 @@ mod:registerAsset({
   },
   RelatedJob = {
     DataType = "ASSOCIATION_JOB_BEHAVIOR",
-    Job = "JOB_RESEARCHER",
+    Job = "JOB_AETHERCOURT_SCHOLAR",
     Behavior = "BEHAVIOR_WORK"
   },
   CanAssignWorkerAutomatically = false,
