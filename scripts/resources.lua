@@ -1,19 +1,27 @@
 local mod = ...
 
+-- Register a new resource type
+mod:registerEnumValue ("RESOURCE_TYPE", "ARCANE")
+
+
 mod:registerAsset({
   DataType = "RESOURCE",
-  Id = "RESEARCH_PAPER",
-  ResourceName = "RESEARCH_PAPER_NAME",
-  Icon = "ICON_RESOURCE_MANUSCRIPT", -- TODO: (#14) Fix custom icon for research paper resource
+  Id = "RESOURCE_GLYPH",
+  ResourceName = "RESOURCE_GLYPH_NAME",
+  Icon = "ICON_RESOURCE_GLYPH",
   ResourceTypeList = {
     "RESOURCE",
-    "LITERATURE"
+    "LITERATURE",
+    "ARCANE"
   },
   ResourceLayoutType = "TRUNKS",
+  DisplayInToolbar = true,
   ResourceVisualPrefabList = {
     "PREFAB_RESOURCE_VISUAL_GENERIC_CRATE"
   },
   IndividualResourceVisualPrefabList = {
     "PREFAB_RESOURCE_VISUAL_GENERIC_CRATE"
-  }
+  }--,
+  -- TransportInteractiveLocationSetup = "INTERACTIVE_LOCATION_SETUP_TRANSPORT"
+  -- Maybe needed when transporting the resource?
 })

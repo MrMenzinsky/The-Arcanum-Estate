@@ -49,7 +49,7 @@ mod:registerAsset({
   CanAssignWorkerAutomatically = false,
   ResourceProduced = {
     {
-      Resource = "RESEARCH_PAPER",
+      Resource = "RESOURCE_GLYPH",
       Quantity = 1
     }
   }
