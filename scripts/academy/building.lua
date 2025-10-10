@@ -18,6 +18,7 @@ mod:registerAsset({
   AssetBuildingPartList = {
     -- Add specific building parts for the academy here
   },
+  AssetBuildingFunction = "BUILDING_FUNCTION_ARCANUM_AETHER_COURT_ACADEMY",
   RequiredPartList = {
     {
       Category = "ROOM",
@@ -26,8 +27,7 @@ mod:registerAsset({
   },
   AssetBuildingConditionConfigList = {
     "BUILDING_GAME_CONDITION_CONFIG_INTERIOR_ACCESS"
-  },
-  AssetBuildingFunction = "BUILDING_FUNCTION_ARCANUM_AETHER_COURT_ACADEMY"
+  }
 })
 
 mod:registerAsset({
