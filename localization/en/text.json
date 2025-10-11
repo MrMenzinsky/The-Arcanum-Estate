@@ -4,14 +4,14 @@
       "ESTATE_ARCANUM_DESC": "The Arcanum Estate"
   },
 
-  "MONUMENT_ARCANUM_AETHER_COURT": {
-    "MONUMENT_ARCANUM_AETHER_COURT_NAME": "Aether Court",
-    "MONUMENT_ARCANUM_AETHER_COURT_DESC": "A center dedicated to the arcane arts with buildings both for general study and specialized fields, including towers, groves and sanctums."
+  "MONUMENT_ARCANUM_AETHERCOURT": {
+    "MONUMENT_ARCANUM_AETHERCOURT_NAME": "Aether Court",
+    "MONUMENT_ARCANUM_AETHERCOURT_DESC": "A center dedicated to the arcane arts with buildings both for general study and specialized fields, including towers, groves and sanctums."
   },
 
-  "BUILDING_ARCANUM_AETHER_COURT_ACADEMY": {
-    "BUILDING_ARCANUM_AETHER_COURT_ACADEMY_NAME": "Academy",
-    "BUILDING_ARCANUM_AETHER_COURT_ACADEMY_DESC": "ACADEMY DESCRIPTION"
+  "BUILDING_ARCANUM_AETHERCOURT_ACADEMY": {
+    "BUILDING_ARCANUM_AETHERCOURT_ACADEMY_NAME": "Academy",
+    "BUILDING_ARCANUM_AETHERCOURT_ACADEMY_DESC": "ACADEMY DESCRIPTION"
   },
   
   "RESOURCE_GLYPH": {
@@ -39,23 +39,37 @@
     "PROGRESS_TIER_ARCANUM_T5_DESC": "Fifth tier in the Arcanum Estate progress tree."
   },
 
-  "UNLOCKABLE_ARCANUM_AETHER_COURT": {
-    "UNLOCKABLE_ARCANUM_AETHER_COURT_NAME": "Aether Court",
-    "UNLOCKABLE_ARCANUM_AETHER_COURT_DESC": "Unlocks the Aether Court monument, which lets you delve into magic.",
-    "UNLOCKABLE_ARCANUM_AETHER_COURT_NAME_OPTIONAL": "Unlockable Aether Court (optional)",
-    "UNLOCKABLE_ARCANUM_AETHER_COURT_BOUGHT": "Aether Court bought",
-    "UNLOCKNAME_MONUMENT_ARCANUM_AETHER_COURT": "Aether Court Unlocked!"
+  "UNLOCKABLE_ARCANUM_AETHERCOURT": {
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_NAME": "Aether Court",
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_DESC": "Unlocks the Aether Court monument, which lets you delve into magic.",
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_NAME_OPTIONAL": "Unlockable Aether Court (optional)",
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_BOUGHT": "Aether Court bought",
+    "UNLOCKNAME_MONUMENT_ARCANUM_AETHERCOURT": "Aether Court Unlocked!"
   },
-  "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY": {
-    "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY_NAME": "Treasury",
-    "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY_DESC": "Unlocks the Treasury for your Aether Court.",
-    "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY_NAME_OPTIONAL": "",
-    "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY_BOUGHT": "Treasury bought!",
+  "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY": {
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_NAME": "Treasury",
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_DESC": "Unlocks the Treasury for your Aether Court.",
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_NAME_OPTIONAL": "",
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_BOUGHT": "Treasury bought!",
     "UNLOCKNAME_BUILDING_TREASURY": "Treasury Unlocked!"
   },
 
   "JOB_AETHERCOURT_SCHOLAR": {
     "JOB_AETHERCOURT_SCHOLAR_NAME": "Scholar",
     "JOB_AETHERCOURT_SCHOLAR_DESC": "Researches the science and fundamentals of magic."
+  },
+
+  "STATUS_AETHERCOURT_ASPIRANT": {
+    "STATUS_AETHERCOURT_ASPIRANT_GENERIC_NAME": "Aspirant",
+    "STATUS_AETHERCOURT_ASPIRANT_GENERIC_DESC": "Aspirants are eager to study and learn about magic, aether and the arcane arts.",
+    "STATUS_AETHERCOURT_ASPIRANT_GENERIC_TITLE": "Aspirant title"
+  },
+  "PROFILE_AETHERCOURT_AETHERIANS": {
+    "PROFILE_AETHERCOURT_AETHERIAN_ALL": "Aetherian",
+    "PROFILE_AETHERCOURT_AETHERIAN_ALL_PLURAL": "Aetherians"
+  },
+  "NEED_HOUSE_AETHERCOURT_ANNEX": {
+    "NEED_HOUSE_AETHERCOURT_ANNEX_NAME": "Annex",
+    "NEED_HOUSE_AETHERCOURT_ANNEX_DESC": "Annex need"
   }
 }

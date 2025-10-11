@@ -9,9 +9,9 @@ mod:dofile("scripts/academy/building.lua")
 -- Register the monument building
 mod:registerAsset({
   DataType = "BUILDING",
-  Id = "MONUMENT_ARCANUM_AETHER_COURT",
-  Name = "MONUMENT_ARCANUM_AETHER_COURT_NAME",
-  Description = "MONUMENT_ARCANUM_AETHER_COURT_DESC",
+  Id = "MONUMENT_ARCANUM_AETHERCOURT",
+  Name = "MONUMENT_ARCANUM_AETHERCOURT_NAME",
+  Description = "MONUMENT_ARCANUM_AETHERCOURT_DESC",
   BuildingType = "MONUMENT",
   NavMeshLockCategory = "ARCANE",
   AssetCoreBuildingPart = "BUILDING_PART_MONUMENT_POLE",
@@ -37,6 +37,6 @@ mod:registerAsset({
   },
   SubAssetBuildingList = {
     "BUILDING_GREAT_HALL",
-    "BUILDING_ARCANUM_AETHER_COURT_ACADEMY"
+    "BUILDING_ARCANUM_AETHERCOURT_ACADEMY"
   }
 })

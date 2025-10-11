@@ -2,11 +2,11 @@ local mod = ...
 
 mod:registerAsset({
   DataType = "UNLOCKABLE",
-  Id = "UNLOCKABLE_ARCANUM_AETHER_COURT",
-  Name = "UNLOCKABLE_ARCANUM_AETHER_COURT_NAME",
-  Description = "UNLOCKABLE_ARCANUM_AETHER_COURT_DESC",
-  OptionalNameParameter = "UNLOCKABLE_ARCANUM_AETHER_COURT_NAME_OPTIONAL",
-  BoughtText = "UNLOCKABLE_ARCANUM_AETHER_COURT_BOUGHT",
+  Id = "UNLOCKABLE_ARCANUM_AETHERCOURT",
+  Name = "UNLOCKABLE_ARCANUM_AETHERCOURT_NAME",
+  Description = "UNLOCKABLE_ARCANUM_AETHERCOURT_DESC",
+  OptionalNameParameter = "UNLOCKABLE_ARCANUM_AETHERCOURT_NAME_OPTIONAL",
+  BoughtText = "UNLOCKABLE_ARCANUM_AETHERCOURT_BOUGHT",
   DataCost = {
     DataInfluenceCostList = {},
     ResourceCollection = {
@@ -23,9 +23,9 @@ mod:registerAsset({
       DataType = "GAME_ACTION_UNLOCK_BUILDING_LIST",
       BuildingProgressData = {
         DataType = "BUILDING_PROGRESS",
-        UnlockName = "UNLOCKNAME_MONUMENT_ARCANUM_AETHER_COURT",
+        UnlockName = "UNLOCKNAME_MONUMENT_ARCANUM_AETHERCOURT",
         AssetBuildingList = {
-          "MONUMENT_ARCANUM_AETHER_COURT"
+          "MONUMENT_ARCANUM_AETHERCOURT"
         },
         AdditionalBuildingUnlockList = {},
         AssetBuildingFunctionList = {},
@@ -33,16 +33,16 @@ mod:registerAsset({
       }
     }
   },
-  UnlockableImage = "ICON_AETHER_COURT"
+  UnlockableImage = "ICON_AETHERCOURT"
 })
 
 mod:registerAsset({
   DataType = "UNLOCKABLE",
-  Id = "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY",
-  Name = "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY_NAME",
-  Description = "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY_DESC",
-  OptionalNameParameter = "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY_NAME_OPTIONAL",
-  BoughtText = "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY_BOUGHT",
+  Id = "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY",
+  Name = "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_NAME",
+  Description = "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_DESC",
+  OptionalNameParameter = "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_NAME_OPTIONAL",
+  BoughtText = "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_BOUGHT",
   DataCost = {
     DataInfluenceCostList = {
       {
@@ -53,7 +53,7 @@ mod:registerAsset({
     ResourceCollection = {}
   },
   PrerequisiteUnlockableList = {
-    "UNLOCKABLE_ARCANUM_AETHER_COURT"
+    "UNLOCKABLE_ARCANUM_AETHERCOURT"
   },
   IsMajor = false,
   ActionList = {
@@ -66,7 +66,7 @@ mod:registerAsset({
         AdditionalBuildingUnlockList = {
           {
             DataType = "PROGRESS_UNLOCK_BUILDING_PART",
-            OwnerBuilding = "MONUMENT_ARCANUM_AETHER_COURT",
+            OwnerBuilding = "MONUMENT_ARCANUM_AETHERCOURT",
             AssetBuildingPartList = {},
             SubBuildingList = {
               "BUILDING_TREASURY"
