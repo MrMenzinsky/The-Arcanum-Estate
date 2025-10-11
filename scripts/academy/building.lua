@@ -34,6 +34,8 @@ mod:registerAsset({
   DataType = "BUILDING_FUNCTION_CHANGE_PROFILE_WORKPLACE",  -- Parent class is BUILDING_FUNCTION_WORKPLACE
   Id = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ACADEMY",
   TargetProfile = "PROFILE_AETHERCOURT_AETHERIANS",
+  RevertOnDismissal = true,
+  RevertOnBuildingDestruction = true,
   WorkerRatioFromCapacity = 1.5,
   StorageRatioFromCapacity = 10,
   UpkeepPerWorker = {
