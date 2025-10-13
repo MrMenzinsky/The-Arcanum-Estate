@@ -28,16 +28,16 @@ mod:registerAsset({
     "STATUS_AETHERCOURT_ASPIRANT_GENERIC_TITLE"
   },
   StatusIcon = "ICON_2", -- TODO: Figure out where this is used in-game
-  StatusImportance = 0, -- Set to default value, what does it mean?
+  StatusImportance = 1, -- Set to default value, what does it mean?
   IsReachedByDefault = false, -- Set to default value, what does it mean?
-  IsManuallyReached = false, -- Set to default value, what does it mean?
+  IsManuallyReached = true, -- Set to default value, what does it mean?
   IsSetNextStatusAutomaticallyWhenNeedsFilled = false, -- Set to default value, what does it mean? How does this work? How to specify what the next status IS?
   CanLowerStatusAssignJob = false, -- Set to default value, what does it mean?
-  AssetAgentNeedList = { -- AGENT_NEED_TYPE
-  -- "NEED_HOUSE_AETHERCOURT_ANNEX",
+  AssetAgentNeedList = {
+    "NEED_HOUSE_AETHERCOURT_ANNEX",
     "NEED_ESSENTIAL_WATER",
     "NEED_ESSENTIAL_FOOD_RUSTIC",
-    "NEED_ADDITIONAL_FOOD_REFINED"
+    "NEED_ADDITIONAL_FOOD_REFINED",
     "NEED_ADDITIONAL_SERVICE"
   },
   AssetAgentNeedToRemoveList = {},
@@ -67,25 +67,22 @@ mod:registerAsset({
       }
     }
   },
-  JobProgressionAffectedByStatusImportance = true
+  JobProgressionAffectedByStatusImportance = false
 })
 
 
--- -- Register a new resource type (housing for the Aethercourt)
--- mod:registerEnumValue("RESOURCE_TYPE", "AETHERCOURT_ANNEX")
-
-
--- mod:registerAsset({
---   DataType = "AGENT_NEED_TYPE_HOUSING", -- Parent class: AGENT_NEED_TYPE
---   Id = "NEED_HOUSE_AETHERCOURT_ANNEX",
---   Icon = "ICON_NEED_HOUSING",
---   NeedTypeName = "NEED_HOUSE_AETHERCOURT_ANNEX_NAME",
---   NeedTypeDescription = "NEED_HOUSE_AETHERCOURT_ANNEX_DESC",
---   NeedTypeList = {
---     "AETHERCOURT_ANNEX"
---   },
---   ProcessHousingBehavior = "BEHAVIOR_PROCESS_HOUSE"
--- })
+mod:registerAsset({
+  DataType = "AGENT_NEED_TYPE_HOUSING",
+  Id = "NEED_HOUSE_AETHERCOURT_ANNEX",
+  Icon = "ICON_NEED_HOUSING",
+  NeedTypeName = "NEED_HOUSE_AETHERCOURT_ANNEX_NAME",
+  NeedTypeDescription = "NEED_HOUSE_AETHERCOURT_ANNEX_DESC",
+  IsNeedFirstConsumptionBeforeLacking = false,
+  NeedTypeList = {
+    "HOUSE_AETHERCOURT_ANNEX"
+  },
+  ProcessHousingBehavior = "BEHAVIOR_PROCESS_HOUSE"
+})
 
 
 -- Create new Villager_Profile for the Aethercourt

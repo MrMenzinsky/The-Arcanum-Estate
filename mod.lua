@@ -30,4 +30,3 @@ mod:registerAssetId("icons/Icon_5.png", "ICON_5", "ATLAS_CELL") -- Privilege Ima
 -- Add a new enum value to restrict which villagers can go through the monument buildings.
 mod:registerEnumValue("NAVMESH_LOCK_CATEGORY", "ARCANE")
 
--- TODO: Remember to create an AGENT_PROFILE for Arcanum workers
