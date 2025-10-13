@@ -1,5 +1,8 @@
 local mod = foundation.createMod();
 
+-- Custom Building Function: BUILDING_FUNCTION_CHANGE_PROFILE_WORKPLACE
+mod:dofile("scripts/building_function_change_profile_workplace.lua")
+
 -- Estate, progress path, and privilege assets
 mod:dofile("scripts/arcanum_estate.lua")
 
@@ -13,7 +16,7 @@ mod:dofile("scripts/villager_statuses.lua")
 -- Estate icons
 mod:registerAssetId("icons/Icon_Arcanum_Influence.png", "ICON_ARCANUM_INFLUENCE", "ATLAS_CELL")
 mod:registerAssetId("icons/Icon_Arcanum_Splendor.png", "ICON_ARCANUM_SPLENDOR", "ATLAS_CELL")
-mod:registerAssetId("icons/Icon_Aether_Court.png", "ICON_AETHER_COURT", "ATLAS_CELL")
+mod:registerAssetId("icons/Icon_Aethercourt.png", "ICON_AETHERCOURT", "ATLAS_CELL")
 mod:registerAssetId("icons/Icon_Resource_Glyph.png", "ICON_RESOURCE_GLYPH", "ATLAS_CELL")
 
 -- TODO: Temp icons until I figure out what they are for...

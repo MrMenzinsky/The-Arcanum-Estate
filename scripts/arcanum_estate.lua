@@ -25,7 +25,7 @@ mod:registerAsset({
   InfluenceEffectList = {},
   EstateInfluenceRange = "DEFAULT_INFLUENCE_RANGE",
   AssetBuildingList = {
-    "MONUMENT_ARCANUM_AETHER_COURT"
+    "MONUMENT_ARCANUM_AETHERCOURT"
   }
 })
 
@@ -70,7 +70,7 @@ mod:registerAsset({
   OnReachedActionList = {},
   OnUnreachedActionList = {},
   UnlockableList = {
-    "UNLOCKABLE_ARCANUM_AETHER_COURT"
+    "UNLOCKABLE_ARCANUM_AETHERCOURT"
   },
   ProgressTierImage = "ICON_ARCANUM_INFLUENCE",
   AllowTierCelebrationNotification = false
@@ -98,7 +98,7 @@ mod:registerAsset({
   OnReachedActionList = {},
   OnUnreachedActionList = {},
   UnlockableList = {
-    "UNLOCKABLE_ARCANUM_AETHER_COURT_TREASURY"
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY"
   },
   ProgressTierImage = "ICON_ARCANUM_INFLUENCE"
 })

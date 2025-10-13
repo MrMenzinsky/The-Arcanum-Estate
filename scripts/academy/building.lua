@@ -8,9 +8,9 @@ mod:dofile("scripts/academy/behavior_tree.lua")
 
 mod:registerAsset({
   DataType = "BUILDING",
-  Id = "BUILDING_ARCANUM_AETHER_COURT_ACADEMY",
-  Name = "BUILDING_ARCANUM_AETHER_COURT_ACADEMY_NAME",
-  Description = "BUILDING_ARCANUM_AETHER_COURT_ACADEMY_DESC",
+  Id = "BUILDING_ARCANUM_AETHERCOURT_ACADEMY",
+  Name = "BUILDING_ARCANUM_AETHERCOURT_ACADEMY_NAME",
+  Description = "BUILDING_ARCANUM_AETHERCOURT_ACADEMY_DESC",
   BuildingType = "RESOURCE_PRODUCTION",
   NavMeshLockCategory = "ARCANE",
   OptionalSubBuildingIcon = "ICON_SUB_BUILDING_SCRIPTORIUM",
@@ -18,7 +18,7 @@ mod:registerAsset({
   AssetBuildingPartList = {
     -- Add specific building parts for the academy here
   },
-  AssetBuildingFunction = "BUILDING_FUNCTION_ARCANUM_AETHER_COURT_ACADEMY",
+  AssetBuildingFunction = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ACADEMY",
   RequiredPartList = {
     {
       Category = "ROOM",
@@ -31,8 +31,11 @@ mod:registerAsset({
 })
 
 mod:registerAsset({
-  DataType = "BUILDING_FUNCTION_WORKPLACE",
-  Id = "BUILDING_FUNCTION_ARCANUM_AETHER_COURT_ACADEMY",
+  DataType = "BUILDING_FUNCTION_CHANGE_PROFILE_WORKPLACE",  -- Parent class is BUILDING_FUNCTION_WORKPLACE
+  Id = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ACADEMY",
+  TargetProfile = "PROFILE_AETHERCOURT_AETHERIANS",
+  RevertOnDismissal = false,
+  RevertOnBuildingDestruction = false,
   WorkerRatioFromCapacity = 1.5,
   StorageRatioFromCapacity = 10,
   UpkeepPerWorker = {
