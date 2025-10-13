@@ -30,7 +30,9 @@ function BUILDING_FUNCTION_CHANGE_PROFILE_WORKPLACE:reloadBuildingFunction(gameO
 end
 
 function BUILDING_FUNCTION_CHANGE_PROFILE_WORKPLACE:removeBuildingFunction(gameObject)
+  local comp = gameObject:getEnabledComponent("COMP_CHANGE_PROFILE")
   self.super:removeBuildingFunction(gameObject)
+  gameObject:removeComponent(comp)
 end
 
 mod:registerClass(BUILDING_FUNCTION_CHANGE_PROFILE_WORKPLACE)

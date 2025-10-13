@@ -7,25 +7,39 @@ mod:registerAsset({
   JobDescription = "JOB_AETHERCOURT_SCHOLAR_DESC",
   UseWorkplaceBehavior = true,
   NeededMasteredJobList = {},
-  ExperienceToMaster = 20, -- TODO: What does this mean?
-  AssetJobProgression = "DEFAULT_JOB_PROGRESSION",
-  -- AssetJobProgression = "SCHOLAR_JOB_PROGRESSION" -- TODO: Check if this is needed
-  -- CharacterSetup = {}, -- Advanced customization of the character
+  -- ExperienceToMaster = 20, -- TODO: What does this mean?
+  -- AssetJobProgression = "DEFAULT_JOB_PROGRESSION",
+  AssetJobProgression = "SCHOLAR_JOB_PROGRESSION",
+  CharacterSetup = {}, -- Advanced customization of the character
   IsDefinitive = true,
   IsLockedByDefault = true
 })
 
--- TODO: Check how this works and if its applicable on my magic users?!
--- mod:registerAsset({
---   DataType = "JOB_PROGRESSION",
---   Id = "SCHOLAR_JOB_PROGRESSION",
---   ProgressionElementList = {
---     {
---       DataType = "JOB_PROGESSION_ELEMENT",
---       XpNeeded = 1000 -- TODO: Check what this means in relation to what?!?
---     }
---   }
--- })
+-- From Mathieu:
+-- Default: 20, 40, 80, 130, 180
+-- Combatant: 500, 1000, 1500, 2000, 2500
+mod:registerAsset({
+  DataType = "JOB_PROGRESSION",
+  Id = "SCHOLAR_JOB_PROGRESSION",
+  ProgressionElementList = {
+    {
+      DataType = "JOB_PROGESSION_ELEMENT",
+      XpNeeded = 30 -- For level 2
+    },
+    {
+      DataType = "JOB_PROGESSION_ELEMENT",
+      XpNeeded = 60 -- For level 3
+    },
+    {
+      DataType = "JOB_PROGESSION_ELEMENT",
+      XpNeeded = 120 -- For level 4
+    },
+    {
+      DataType = "JOB_PROGESSION_ELEMENT",
+      XpNeeded = 200 -- For level 5
+    }
+  }
+})
 
 mod:overrideAsset({
   Id = "STATUS_VILLAGER_SERF",

@@ -34,11 +34,13 @@ mod:registerAsset({
   IsSetNextStatusAutomaticallyWhenNeedsFilled = false, -- Set to default value, what does it mean? How does this work? How to specify what the next status IS?
   CanLowerStatusAssignJob = false, -- Set to default value, what does it mean?
   AssetAgentNeedList = { -- AGENT_NEED_TYPE
-    "NEED_HOUSE_AETHERCOURT_ANNEX"
+  -- "NEED_HOUSE_AETHERCOURT_ANNEX",
+    "NEED_ESSENTIAL_WATER",
+    "NEED_ESSENTIAL_FOOD_RUSTIC",
+    "NEED_ADDITIONAL_FOOD_REFINED"
+    "NEED_ADDITIONAL_SERVICE"
   },
-  AssetAgentNeedToRemoveList = {
-    "NEED_HOUSE_LEVEL_1" -- Is this needed?
-  },
+  AssetAgentNeedToRemoveList = {},
   CompatibleJobList = {
     "JOB_AETHERCOURT_SCHOLAR"
   },
@@ -65,25 +67,25 @@ mod:registerAsset({
       }
     }
   },
-  JobProgressionAffectedByStatusImportance = false -- Set to default value, what does it mean?
+  JobProgressionAffectedByStatusImportance = true
 })
 
 
--- Register a new resource type (housing for the Aethercourt)
-mod:registerEnumValue("RESOURCE_TYPE", "AETHERCOURT_ANNEX")
+-- -- Register a new resource type (housing for the Aethercourt)
+-- mod:registerEnumValue("RESOURCE_TYPE", "AETHERCOURT_ANNEX")
 
 
-mod:registerAsset({
-  DataType = "AGENT_NEED_TYPE_HOUSING", -- Parent class: AGENT_NEED_TYPE
-  Id = "NEED_HOUSE_AETHERCOURT_ANNEX",
-  Icon = "ICON_NEED_HOUSING",
-  NeedTypeName = "NEED_HOUSE_AETHERCOURT_ANNEX_NAME",
-  NeedTypeDescription = "NEED_HOUSE_AETHERCOURT_ANNEX_DESC",
-  NeedTypeList = {
-    "AETHERCOURT_ANNEX"
-  },
-  ProcessHousingBehavior = "BEHAVIOR_PROCESS_HOUSE"
-})
+-- mod:registerAsset({
+--   DataType = "AGENT_NEED_TYPE_HOUSING", -- Parent class: AGENT_NEED_TYPE
+--   Id = "NEED_HOUSE_AETHERCOURT_ANNEX",
+--   Icon = "ICON_NEED_HOUSING",
+--   NeedTypeName = "NEED_HOUSE_AETHERCOURT_ANNEX_NAME",
+--   NeedTypeDescription = "NEED_HOUSE_AETHERCOURT_ANNEX_DESC",
+--   NeedTypeList = {
+--     "AETHERCOURT_ANNEX"
+--   },
+--   ProcessHousingBehavior = "BEHAVIOR_PROCESS_HOUSE"
+-- })
 
 
 -- Create new Villager_Profile for the Aethercourt
@@ -138,6 +140,7 @@ mod:registerAsset({
   },
   StatusList = {
     "STATUS_AETHERCOURT_ASPIRANT"
+    -- , "STATUS_AETHERCOURT_ARCANIST"
   },
   NavMeshUnlockCategoryList = {
     "ARCANE"
