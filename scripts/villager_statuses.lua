@@ -25,18 +25,19 @@ mod:registerAsset({
     -- FEMALE
     "",
     -- ALL
-    "STATUS_AETHERCOURT_ASPIRANT_GENERIC_TITLE"
+    ""
   },
-  StatusIcon = "ICON_2", -- TODO: Figure out where this is used in-game
-  StatusImportance = 1, -- Set to default value, what does it mean?
-  IsReachedByDefault = false, -- Set to default value, what does it mean?
-  IsManuallyReached = true, -- Set to default value, what does it mean?
-  IsSetNextStatusAutomaticallyWhenNeedsFilled = false, -- Set to default value, what does it mean? How does this work? How to specify what the next status IS?
-  CanLowerStatusAssignJob = false, -- Set to default value, what does it mean?
+  StatusIcon = "ICON_RESOURCE_BARREL", -- This isn't used for VILLAGER_STATUS, but can't be nil.
+  StatusImportance = 1, -- Set to 1 instead of 0 to leave room for a future lower status if needed.
+  -- IsManuallyReached = true -- This isn't used for VILLAGER_STATUS, but can't be nil.
+  IsReachedByDefault = true, -- This must be true for the lowest VILLAGER_STATUS in an AGENT_PROFILE. Otherwise its needs aren't registered correctly. Can be false for higher VILLAGER_STATUS that are promoted up to normally.
+  IsSetNextStatusAutomaticallyWhenNeedsFilled = false,
+  CanLowerStatusAssignJob = false,
+  OptionalAdditionalBehavior = nil,
   AssetAgentNeedList = {
-    "NEED_HOUSE_AETHERCOURT_ANNEX",
     "NEED_ESSENTIAL_WATER",
     "NEED_ESSENTIAL_FOOD_RUSTIC",
+    "NEED_HOUSE_AETHERCOURT_ANNEX",
     "NEED_ADDITIONAL_FOOD_REFINED",
     "NEED_ADDITIONAL_SERVICE"
   },
@@ -44,29 +45,7 @@ mod:registerAsset({
   CompatibleJobList = {
     "JOB_AETHERCOURT_SCHOLAR"
   },
-  CharacterSetup = {
-    DataType = "CHARACTER_SETUP",
-    CharacterSetupDataGendered = {
-      -- MALE
-      {
-        ClothingModel = {
-            "PREFAB_BODY_MALE_DEFAULT"
-        }
-      },
-      -- FEMALE
-      {
-        ClothingModel = {
-            "PREFAB_BODY_FEMALE_DEFAULT"
-        }
-      },
-      -- ALL
-      {
-        DataType = "CHARACTER_SETUP_DATA",
-        WalkAnimationList = { "WALKING" },
-        IdleAnimationList = { "IDLE" }
-      }
-    }
-  },
+  CharacterSetup = {},
   JobProgressionAffectedByStatusImportance = false
 })
 
@@ -109,7 +88,9 @@ mod:registerAsset({
       -- ALL
       {
           DataType = "CHARACTER_SETUP_DATA",
-      }
+          WalkAnimationList = { "WALKING" },
+          IdleAnimationList = { "IDLE" }
+        }
     }
   },
   ProfileFunction = {

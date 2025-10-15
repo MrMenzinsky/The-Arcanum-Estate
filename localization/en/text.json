@@ -5,7 +5,7 @@
   },
 
   "MONUMENT_ARCANUM_AETHERCOURT": {
-    "MONUMENT_ARCANUM_AETHERCOURT_NAME": "Aether Court",
+    "MONUMENT_ARCANUM_AETHERCOURT_NAME": "Aethercourt",
     "MONUMENT_ARCANUM_AETHERCOURT_DESC": "A center dedicated to the arcane arts with buildings both for general study and specialized fields, including towers, groves and sanctums."
   },
 
@@ -13,14 +13,20 @@
     "BUILDING_ARCANUM_AETHERCOURT_ACADEMY_NAME": "Academy",
     "BUILDING_ARCANUM_AETHERCOURT_ACADEMY_DESC": "ACADEMY DESCRIPTION"
   },
+
+  "BUILDING_ARCANUM_AETHERCOURT_ANNEX": {
+    "BUILDING_ARCANUM_AETHERCOURT_ANNEX_NAME": "Annex",
+    "BUILDING_ARCANUM_AETHERCOURT_ANNEX_DESC": "A place for your aetherians to study and rest."
+  },
   
-  "RESOURCE_GLYPH": {
-    "RESOURCE_GLYPH_NAME": "Glyph"
+  "RESOURCES": {
+    "RESOURCE_GLYPH_NAME": "Glyph",
+    "HOUSING_AETHERCOURT_ANNEX_NAME": "Aethercourt Annex"
   },
   
   "PROGRESS_TIER_ARCANUM_T1": {
     "PROGRESS_TIER_ARCANUM_T1_NAME": "Tier 1",
-    "PROGRESS_TIER_ARCANUM_T1_DESC": "Rumours about a new Aether Court start to spread."
+    "PROGRESS_TIER_ARCANUM_T1_DESC": "Rumours about a new Aethercourt start to spread."
   },
   "PROGRESS_TIER_ARCANUM_T2": {
     "PROGRESS_TIER_ARCANUM_T2_NAME": "Tier 2",
@@ -40,15 +46,15 @@
   },
 
   "UNLOCKABLE_ARCANUM_AETHERCOURT": {
-    "UNLOCKABLE_ARCANUM_AETHERCOURT_NAME": "Aether Court",
-    "UNLOCKABLE_ARCANUM_AETHERCOURT_DESC": "Unlocks the Aether Court monument, which lets you delve into magic.",
-    "UNLOCKABLE_ARCANUM_AETHERCOURT_NAME_OPTIONAL": "Unlockable Aether Court (optional)",
-    "UNLOCKABLE_ARCANUM_AETHERCOURT_BOUGHT": "Aether Court bought",
-    "UNLOCKNAME_MONUMENT_ARCANUM_AETHERCOURT": "Aether Court Unlocked!"
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_NAME": "Aethercourt",
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_DESC": "Unlocks the Aethercourt monument, which lets you delve into magic.",
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_NAME_OPTIONAL": "Unlockable Aethercourt (optional)",
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_BOUGHT": "Aethercourt bought",
+    "UNLOCKNAME_MONUMENT_ARCANUM_AETHERCOURT": "Aethercourt Unlocked!"
   },
   "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY": {
     "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_NAME": "Treasury",
-    "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_DESC": "Unlocks the Treasury for your Aether Court.",
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_DESC": "Unlocks the Treasury for your Aethercourt.",
     "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_NAME_OPTIONAL": "",
     "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY_BOUGHT": "Treasury bought!",
     "UNLOCKNAME_BUILDING_TREASURY": "Treasury Unlocked!"
@@ -61,15 +67,14 @@
 
   "STATUS_AETHERCOURT_ASPIRANT": {
     "STATUS_AETHERCOURT_ASPIRANT_GENERIC_NAME": "Aspirant",
-    "STATUS_AETHERCOURT_ASPIRANT_GENERIC_DESC": "Aspirants are eager to study and learn about magic, aether and the arcane arts.",
-    "STATUS_AETHERCOURT_ASPIRANT_GENERIC_TITLE": "Aspirant title"
+    "STATUS_AETHERCOURT_ASPIRANT_GENERIC_DESC": "Aspirants are eager to study and learn about magic, aether and the arcane arts."
   },
   "PROFILE_AETHERCOURT_AETHERIANS": {
     "PROFILE_AETHERCOURT_AETHERIAN_ALL": "Aetherian",
     "PROFILE_AETHERCOURT_AETHERIAN_ALL_PLURAL": "Aetherians"
   },
   "NEED_HOUSE_AETHERCOURT_ANNEX": {
-    "NEED_HOUSE_AETHERCOURT_ANNEX_NAME": "Annex",
-    "NEED_HOUSE_AETHERCOURT_ANNEX_DESC": "Annex need"
+    "NEED_HOUSE_AETHERCOURT_ANNEX_NAME": "Housing",
+    "NEED_HOUSE_AETHERCOURT_ANNEX_DESC": "Must rest under a roof in order to feel comfortable."
   }
 }
