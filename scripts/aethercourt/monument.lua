@@ -15,7 +15,7 @@ mod:registerAsset({
   Id = "MONUMENT_ARCANUM_AETHERCOURT",
   Name = "MONUMENT_ARCANUM_AETHERCOURT_NAME",
   Description = "MONUMENT_ARCANUM_AETHERCOURT_DESC",
-  BuildingType = "MONUMENT",
+  BuildingType = BUILDING_TYPE.ADMINISTRATION,
   NavMeshLockCategory = "ARCANE",
   AssetCoreBuildingPart = "BUILDING_PART_MONUMENT_POLE",
   AssetBuildingPartList = {
