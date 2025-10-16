@@ -32,7 +32,7 @@ mod:registerAsset({
   DataType = "RESOURCE",
   Id = "HOUSING_AETHERCOURT_ANNEX",
   ResourceName = "HOUSING_AETHERCOURT_ANNEX_NAME",
-  Icon = "ICON_1",
+  Icon = "ICON_HOUSE_QUALITY_2",
   ResourceTypeList = {
     "HOUSE_AETHERCOURT_ANNEX"
   },
@@ -46,7 +46,5 @@ mod:registerAsset({
   },
   IndividualResourceVisualPrefabList = {
     "PREFAB_EMPTY_PART"
-  }--,
-  -- TransportInteractiveLocationSetup = "INTERACTIVE_LOCATION_SETUP_TRANSPORT"
-  -- Maybe needed when transporting the resource?
+  }
 })
