@@ -33,32 +33,26 @@ mod:registerAsset({
 mod:registerAsset({
   DataType = "BUILDING_FUNCTION_HOUSE",
   Id = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ANNEX_HOUSING",
-  Name = "",
-  NamePluralKey = "",
-  Description = "",
+  Name = "Some name",
+  NamePluralKey = "Some names",
+  Description = "Just some test text",
   UpkeepPerCapacity = {
     -- Add building cost here?
+    {
+      Resource = "GOLD_COINS",
+      Quantity = 5
+    }
   },
   RelatedDesirability = "DESIRABILITY_RESIDENTIAL",
   AssetHouseSetup = "HOUSE_SETUP_ARCANUM_AETHERCOURT_ANNEX_HOUSING",
-  RelatedZone = "ZONE_RESIDENTIAL", -- Test with empty object and see if its accepted
+  RelatedZone = "ZONE_RESIDENTIAL", -- What should I put here?
   IsCapacityOverriden = false, -- Default value, what does it do?
   OptionalGenderCompatibility = {
     "MALE",
     "FEMALE"
   },
-  ShowCapacity = false, -- Default value, what does it do?
-  OccupationCapacityMultiplier = 1.0, -- Default value
-
-  -- TargetProfile = "PROFILE_AETHERCOURT_AETHERIANS",
-  -- WorkerRatioFromCapacity = 1.5,
-  -- StorageRatioFromCapacity = 10,
-  -- UpkeepPerWorker = {
-  --   {
-  --     Resource = "GOLD_COINS",
-  --     Quantity = 5
-  --   }
-  -- }
+  ShowCapacity = true,
+  OccupationCapacityMultiplier = 1.0 -- Default value
 })
 
 mod:registerAsset({
@@ -66,11 +60,12 @@ mod:registerAsset({
   Id = "HOUSE_SETUP_ARCANUM_AETHERCOURT_ANNEX_HOUSING",
   HouseStatusList = {
     {
+      DataType = "HOUSE_STATUS",
       AssetHouseRequirementList = {},
       ResourceGenerated = "HOUSING_AETHERCOURT_ANNEX",
       DataHouseDensityList = {},
-      Name = "",
-      Description = ""
+      Name = "HOUSE_SETUP_ANNEX_NAME",
+      Description = "HOUSE_SETUP_ANNEX_DESC"
     }
   },
   HouseStatusUpgradeDelay = {DataType = "TIME_SYSTEM"},
