@@ -61,7 +61,14 @@ mod:registerAsset({
   HouseStatusList = {
     {
       DataType = "HOUSE_STATUS",
-      AssetHouseRequirementList = {},
+      AssetHouseRequirementList = {
+        {
+          DataType = "HOUSE_REQUIREMENT",
+          Name = "HOUSE_REQUIREMENT_ARCANUM_AETHERCOURT_ANNEX",
+          Description = "HOUSE_REQUIREMENT_ARCANUM_AETHERCOURT_ANNEX_DESC",
+          Icon = "ICON_HOUSE_QUALITY_2"
+        }
+      },
       ResourceGenerated = "HOUSING_AETHERCOURT_ANNEX",
       DataHouseDensityList = {
         {
