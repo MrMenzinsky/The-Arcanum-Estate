@@ -63,7 +63,15 @@ mod:registerAsset({
       DataType = "HOUSE_STATUS",
       AssetHouseRequirementList = {},
       ResourceGenerated = "HOUSING_AETHERCOURT_ANNEX",
-      DataHouseDensityList = {},
+      DataHouseDensityList = {
+        {
+          DataType = "DATA_HOUSE_DENSITY",
+          Name = "HOUSE_DENSITY_1_NAME",
+          Description = "HOUSE_DENSITY_1_DESC",
+          AssetHouseBuildingPart = "BUILDING_PART_MANOR_HOUSE_STONE_CHAMBER",
+          AssetHouseRequirementList = {}
+        }
+      },
       Name = "HOUSE_SETUP_ANNEX_NAME",
       Description = "HOUSE_SETUP_ANNEX_DESC"
     }
