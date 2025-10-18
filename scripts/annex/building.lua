@@ -11,7 +11,7 @@ mod:registerAsset({
   Id = "BUILDING_ARCANUM_AETHERCOURT_ANNEX",
   Name = "BUILDING_ARCANUM_AETHERCOURT_ANNEX_NAME",
   Description = "BUILDING_ARCANUM_AETHERCOURT_ANNEX_DESC",
-  BuildingType = "HOUSING",
+  BuildingType = BUILDING_TYPE.GENERAL,
   NavMeshLockCategory = "ARCANE",
   OptionalSubBuildingIcon = "ICON_SUB_BUILDING_DORM",
   AssetCoreBuildingPart = "BUILDING_PART_MONUMENT_POLE",
@@ -61,24 +61,9 @@ mod:registerAsset({
   HouseStatusList = {
     {
       DataType = "HOUSE_STATUS",
-      AssetHouseRequirementList = {
-        {
-          DataType = "HOUSE_REQUIREMENT",
-          Name = "HOUSE_REQUIREMENT_ARCANUM_AETHERCOURT_ANNEX",
-          Description = "HOUSE_REQUIREMENT_ARCANUM_AETHERCOURT_ANNEX_DESC",
-          Icon = "ICON_HOUSE_QUALITY_2"
-        }
-      },
+      AssetHouseRequirementList = {},
       ResourceGenerated = "HOUSING_AETHERCOURT_ANNEX",
-      DataHouseDensityList = {
-        {
-          DataType = "DATA_HOUSE_DENSITY",
-          Name = "HOUSE_DENSITY_1_NAME",
-          Description = "HOUSE_DENSITY_1_DESC",
-          AssetHouseBuildingPart = "BUILDING_PART_MANOR_HOUSE_STONE_CHAMBER",
-          AssetHouseRequirementList = {}
-        }
-      },
+      DataHouseDensityList = {},
       Name = "HOUSE_SETUP_ANNEX_NAME",
       Description = "HOUSE_SETUP_ANNEX_DESC"
     }
