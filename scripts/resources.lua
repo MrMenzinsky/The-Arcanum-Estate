@@ -22,9 +22,7 @@ mod:registerAsset({
   },
   IndividualResourceVisualPrefabList = {
     "PREFAB_RESOURCE_VISUAL_GENERIC_CRATE"
-  }--,
-  -- TransportInteractiveLocationSetup = "INTERACTIVE_LOCATION_SETUP_TRANSPORT"
-  -- Maybe needed when transporting the resource?
+  }
 })
 
 

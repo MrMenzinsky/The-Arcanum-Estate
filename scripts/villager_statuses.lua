@@ -43,7 +43,8 @@ mod:registerAsset({
   },
   AssetAgentNeedToRemoveList = {},
   CompatibleJobList = {
-    "JOB_AETHERCOURT_SCHOLAR"
+    "JOB_AETHERCOURT_SCHOLAR",
+    "JOB_AETHERCOURT_ARCHIVIST"
   },
   CharacterSetup = {},
   JobProgressionAffectedByStatusImportance = false

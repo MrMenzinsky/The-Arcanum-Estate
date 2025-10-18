@@ -33,9 +33,9 @@ mod:registerAsset({
 mod:registerAsset({
   DataType = "BUILDING_FUNCTION_HOUSE",
   Id = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ANNEX_HOUSING",
-  Name = "Some name",
-  NamePluralKey = "Some names",
-  Description = "Just some test text",
+  Name = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ANNEX_HOUSING_NAME",
+  NamePluralKey = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ANNEX_HOUSING_NAMES",
+  Description = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ANNEX_HOUSING_DESC",
   UpkeepPerCapacity = {
     -- Add building cost here?
     {

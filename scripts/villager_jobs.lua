@@ -48,3 +48,17 @@ mod:overrideAsset({
     "JOB_AETHERCOURT_SCHOLAR"
   }
 })
+
+mod:registerAsset({
+  DataType = "JOB",
+  Id = "JOB_AETHERCOURT_ARCHIVIST",
+  JobName = "JOB_AETHERCOURT_ARCHIVIST_NAME",
+  JobDescription = "JOB_AETHERCOURT_ARCHIVIST_DESC",
+  UseWorkplaceBehavior = true,
+  NeededMasteredJobList = {},
+  AssetJobProgression = "DEFAULT_JOB_PROGRESSION",
+  CharacterSetup = {}, -- Advanced customization of the character
+  IsDefinitive = false,
+  IsLockedByDefault = true,
+  AreLowerStatusCompatible = false
+})
