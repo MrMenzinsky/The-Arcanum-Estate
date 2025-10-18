@@ -57,10 +57,11 @@ mod:registerAsset({
   NeedTypeName = "NEED_HOUSE_AETHERCOURT_ANNEX_NAME",
   NeedTypeDescription = "NEED_HOUSE_AETHERCOURT_ANNEX_DESC",
   IsNeedFirstConsumptionBeforeLacking = false,
+  HappinessFactor = "HAPPINESS_FACTOR_LACK_HOUSING",
   NeedTypeList = {
     "HOUSE_AETHERCOURT_ANNEX"
   },
-  ProcessHousingBehavior = "BEHAVIOR_PROCESS_HOUSE"
+  ProcessHousingBehavior = "BEHAVIOR_PROCESS_HOUSE" -- Should it be "BEHAVIOR_PROCESS_HOUSE_MONK" instead?
 })
 
 
