@@ -9,6 +9,9 @@ mod:dofile("scripts/academy/building.lua")
 -- Annex sub-building
 mod:dofile("scripts/annex/building.lua")
 
+-- Archive sub-building
+mod:dofile("scripts/archive/building.lua")
+
 -- Register the monument building
 mod:registerAsset({
   DataType = "BUILDING",
@@ -41,6 +44,7 @@ mod:registerAsset({
   SubAssetBuildingList = {
     "BUILDING_GREAT_HALL",
     "BUILDING_ARCANUM_AETHERCOURT_ACADEMY",
-    "BUILDING_ARCANUM_AETHERCOURT_ANNEX"
+    "BUILDING_ARCANUM_AETHERCOURT_ANNEX",
+    "BUILDING_ARCANUM_AETHERCOURT_ARCHIVE"
   }
 })
