@@ -2,7 +2,7 @@
 name: Blender Model
 about: Issue for a custom Blender Model
 title: 'Blender Model:'
-labels: ''
+labels: Blender Model
 assignees: ''
 
 ---
