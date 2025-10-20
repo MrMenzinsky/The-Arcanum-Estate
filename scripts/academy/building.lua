@@ -33,10 +33,14 @@ mod:registerAsset({
 mod:registerAsset({
   DataType = "BUILDING_FUNCTION_CHANGE_PROFILE_WORKPLACE",  -- Parent class is BUILDING_FUNCTION_WORKPLACE
   Id = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ACADEMY",
+
+  -- Custom properties
   TargetProfile = "PROFILE_AETHERCOURT_AETHERIANS",
   RevertOnDismissal = false,
   RevertOnBuildingDestruction = false,
-  WorkerRatioFromCapacity = 1.5,
+
+  -- Regular properties
+  WorkerRatioFromCapacity = 1,
   StorageRatioFromCapacity = 10,
   UpkeepPerWorker = {
     {
@@ -50,6 +54,8 @@ mod:registerAsset({
     Behavior = "BEHAVIOR_WORK"
   },
   CanAssignWorkerAutomatically = false,
+  ProductionCycleDurationInSec = 20.0, -- 20.0f is the default. Don't make them level up their job too fast.
+  WorkCycleNeededToProduceOnce = 3, -- 1 is the default, make the resource a bit scarcer.
   ResourceProduced = {
     {
       Resource = "RESOURCE_GLYPH",
