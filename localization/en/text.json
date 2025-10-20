@@ -45,6 +45,7 @@
 
   "RESOURCES": {
     "RESOURCE_GLYPH_NAME": "Glyphs",
+    "RESOURCE_ARCANE_LORE_NAME": "Arcane Lore",
     "HOUSING_AETHERCOURT_ANNEX_NAME": "Aethercourt Annex"
   },
   
