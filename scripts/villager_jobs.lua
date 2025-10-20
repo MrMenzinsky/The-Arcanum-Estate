@@ -62,3 +62,50 @@ mod:registerAsset({
   IsLockedByDefault = true,
   AreLowerStatusCompatible = false
 })
+
+
+
+mod:registerAsset({
+  DataType = "JOB",
+  Id = "JOB_AETHERCOURT_CASTER",
+  JobName = "JOB_AETHERCOURT_CASTER_NAME",
+  JobDescription = "JOB_AETHERCOURT_CASTER_DESC",
+  UseWorkplaceBehavior = true,
+  NeededMasteredJobList = {
+    "JOB_AETHERCOURT_SCHOLAR"
+  },
+  -- ExperienceToMaster = 20, -- TODO: What does this mean?
+  -- AssetJobProgression = "DEFAULT_JOB_PROGRESSION",
+  AssetJobProgression = "CASTER_JOB_PROGRESSION",
+  CharacterSetup = {}, -- Advanced customization of the character
+  IsDefinitive = true,
+  IsLockedByDefault = true
+  AreLowerStatusCompatible = false -- default value
+})
+
+-- From Mathieu:
+-- Xp to level:  2,    3,    4,    5,    6
+-- Default:     20,   40,   80,  130,  180
+-- Combatant:  500, 1000, 1500, 2000, 2500
+mod:registerAsset({
+  DataType = "JOB_PROGRESSION",
+  Id = "CASTER_JOB_PROGRESSION",
+  ProgressionElementList = {
+    {
+      DataType = "JOB_PROGESSION_ELEMENT",
+      XpNeeded = 30 -- For level 2
+    },
+    {
+      DataType = "JOB_PROGESSION_ELEMENT",
+      XpNeeded = 60 -- For level 3
+    },
+    {
+      DataType = "JOB_PROGESSION_ELEMENT",
+      XpNeeded = 120 -- For level 4
+    },
+    {
+      DataType = "JOB_PROGESSION_ELEMENT",
+      XpNeeded = 200 -- For level 5
+    }
+  }
+})
