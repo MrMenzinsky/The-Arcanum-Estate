@@ -7,7 +7,7 @@ mod:registerEnumValue ("RESOURCE_TYPE", "ARCANE_LITERATURE")
 mod:registerEnumValue("RESOURCE_TYPE", "HOUSE_AETHERCOURT_ANNEX")
 
 -- Register a new resource type (entertainment for the Arcanum Estate)
-mod:registerEnumValue("RESOURCE_TYPE", "ARCANUM_ENTERTAINMENT")
+mod:registerEnumValue("RESOURCE_TYPE", "ARCANUM_DISCOURSE")
 
 mod:registerAssetId("icons/Icon_Resource_Glyph.png", "ICON_RESOURCE_GLYPH", "ATLAS_CELL")
 mod:registerAssetId("icons/Icon_Resource_Arcane_Lore.png", "ICON_RESOURCE_ARCANE_LORE", "ATLAS_CELL")
@@ -74,9 +74,9 @@ mod:registerAsset({
   DataType = "RESOURCE",
   Id = "AETHERCOURT_ARCANE_LECTURE",
   ResourceName = "AETHERCOURT_ARCANE_LECTURE_NAME",
-  Icon = "ICON_HOUSE_QUALITY_2",
+  Icon = "ICON_HOUSE_QUALITY_2", -- Fix later, need a custom icon for mouse-over tooltip that shows the icon
   ResourceTypeList = {
-    "ARCANUM_ENTERTAINMENT"
+    "ARCANUM_DISCOURSE"
   },
   IsTradable = false,
   DisplayInInventory = false,

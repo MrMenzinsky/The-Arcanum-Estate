@@ -65,6 +65,35 @@ mod:registerAsset({
   IsMergeVisitorNotification = false -- default value
 })
 
+mod:overrideAsset({
+  DataType = "PROMOTION_COST_LIST",
+  Id = "DEFAULT_PROMOTION_COST_LIST",
+  StatusCostList = {
+    Action = "APPEND",
+    {
+      -- Maybe unneccesary but lets keep it anyway
+      DataType = "VILLAGER_STATUS_RESOURCE_LIST_PAIR",
+      Status = "STATUS_AETHERCOURT_ASPIRANT",
+      ResourceCollection = {
+        {
+          Resource = "GOLD_COINS",
+          Quantity = 10
+        }
+      }
+    },
+    {
+      DataType = "VILLAGER_STATUS_RESOURCE_LIST_PAIR",
+      Status = "STATUS_AETHERCOURT_ARCANIST",
+      ResourceCollection = {
+        {
+          Resource = "RESOURCE_GLYPH",
+          Quantity = 10
+        }
+      }
+    }
+  }
+})
+
 
 mod:registerAsset({
   DataType = "VILLAGER_STATUS",
@@ -167,13 +196,14 @@ mod:registerAsset({
   OptionalAdditionalBehavior = nil,
   AssetAgentNeedList = {
     "NEED_ESSENTIAL_FOOD_REFINED",
+    "NEED_ESSENTIAL_FOOD_REFINED",
     "NEED_ESSENTIAL_SERVICE",
-    "NEED_ADDITIONAL_FOOD_REFINED",
-    "NEED_ADDITIONAL_GOODS",
-    "NEED_ADDITIONAL_ARCANUM_ENTERTAINMENT"
+    "NEED_ADDITIONAL_ARCANUM_DISCOURSE",
+    "NEED_ADDITIONAL_GOODS"
   },
   AssetAgentNeedToRemoveList = {
     "NEED_ESSENTIAL_FOOD_RUSTIC",
+    "NEED_ADDITIONAL_FOOD_REFINED",
     "NEED_ADDITIONAL_SERVICE"
   },
   CompatibleJobList = {
@@ -186,18 +216,18 @@ mod:registerAsset({
 -- Like NEED_ESSENTIAL_ENTERTAINMENT (Tavern), but for Aetherians (Lyceum)
 mod:registerAsset({
   DataType = "AGENT_NEED_TYPE_RESOURCE",
-  Id = "NEED_ESSENTIAL_ARCANUM_ENTERTAINMENT",
+  Id = "NEED_ESSENTIAL_ARCANUM_DISCOURSE",
 
   -- AGENT_NEED_TYPE properties
   Icon = "ICON_NEED_ENTERTAINMENT", -- Fix custom icon later (book icon?)
-  NeedTypeName = "NEED_ESSENTIAL_ARCANUM_ENTERTAINMENT_NAME",
-  NeedTypeDescription = "NEED_ESSENTIAL_ARCANUM_ENTERTAINMENT_DESC",
+  NeedTypeName = "NEED_ESSENTIAL_ARCANUM_DISCOURSE_NAME",
+  NeedTypeDescription = "NEED_ESSENTIAL_ARCANUM_DISCOURSE_DESC",
   IsNeedFirstConsumptionBeforeLacking = false,
   HappinessFactor = "HAPPINESS_FACTOR_LACK_ENTERTAINMENT", -- Fix later, custom asset with matching icon?
 
   -- AGENT_NEED_TYPE_RESOURCE properties
   NeedTypeList = {
-    "ARCANUM_ENTERTAINMENT"
+    "ARCANUM_DISCOURSE"
   },
   RestrictToLocalProviders = true, -- default value, what does it mean?
   -- ResourceNeedActivityMessage = <asset> -- Fix later, custom message for this need
@@ -206,18 +236,18 @@ mod:registerAsset({
 -- Like NEED_ADDITIONAL_ENTERTAINMENT (Tavern), but for Aetherians (Lyceum)
 mod:registerAsset({
   DataType = "AGENT_NEED_TYPE_RESOURCE",
-  Id = "NEED_ADDITIONAL_ARCANUM_ENTERTAINMENT",
+  Id = "NEED_ADDITIONAL_ARCANUM_DISCOURSE",
 
   -- AGENT_NEED_TYPE properties
   Icon = "ICON_NEED_ENTERTAINMENT", -- Fix custom icon later (book icon?)
-  NeedTypeName = "NEED_ADDITIONAL_ARCANUM_ENTERTAINMENT_NAME",
-  NeedTypeDescription = "NEED_ADDITIONAL_ARCANUM_ENTERTAINMENT_DESC",
+  NeedTypeName = "NEED_ADDITIONAL_ARCANUM_DISCOURSE_NAME",
+  NeedTypeDescription = "NEED_ADDITIONAL_ARCANUM_DISCOURSE_DESC",
   IsNeedFirstConsumptionBeforeLacking = true,
   HappinessFactor = "HAPPINESS_FACTOR_LACK_ENTERTAINMENT", -- Fix later, custom asset with matching icon?
 
   -- AGENT_NEED_TYPE_RESOURCE properties
   NeedTypeList = {
-    "ARCANUM_ENTERTAINMENT"
+    "ARCANUM_DISCOURSE"
   },
   RestrictToLocalProviders = true, -- default value, what does it mean?
   -- ResourceNeedActivityMessage = <asset> -- Fix later, custom message for this need

@@ -79,7 +79,7 @@ mod:registerAsset({
   AssetJobProgression = "CASTER_JOB_PROGRESSION",
   CharacterSetup = {}, -- Advanced customization of the character
   IsDefinitive = true,
-  IsLockedByDefault = true
+  IsLockedByDefault = true,
   AreLowerStatusCompatible = false -- default value
 })
 
