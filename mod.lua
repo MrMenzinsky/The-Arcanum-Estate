@@ -20,7 +20,6 @@ mod:dofile("scripts/villager_statuses.lua")
 mod:registerAssetId("icons/Icon_Arcanum_Influence.png", "ICON_ARCANUM_INFLUENCE", "ATLAS_CELL")
 mod:registerAssetId("icons/Icon_Arcanum_Splendor.png", "ICON_ARCANUM_SPLENDOR", "ATLAS_CELL")
 mod:registerAssetId("icons/Icon_Aethercourt.png", "ICON_AETHERCOURT", "ATLAS_CELL")
-mod:registerAssetId("icons/Icon_Resource_Glyph.png", "ICON_RESOURCE_GLYPH", "ATLAS_CELL")
 
 -- TODO: Temp icons until I figure out what they are for...
 mod:registerAssetId("icons/Icon_1.png", "ICON_1", "ATLAS_CELL") -- DualIcon
