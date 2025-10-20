@@ -53,8 +53,8 @@ mod:registerAsset({
     "PROFILE_AETHERCOURT_AETHERIAN_ALL_PLURAL"
   },
   StatusList = {
-    "STATUS_AETHERCOURT_ASPIRANT"
-    -- , "STATUS_AETHERCOURT_ARCANIST"
+    "STATUS_AETHERCOURT_ASPIRANT",
+    "STATUS_AETHERCOURT_ARCANIST"
   },
   NavMeshUnlockCategoryList = {
     "ARCANE"
@@ -130,3 +130,95 @@ mod:registerAsset({
   ProcessHousingBehavior = "BEHAVIOR_PROCESS_HOUSE"
 })
 
+
+mod:registerAsset({
+  DataType = "VILLAGER_STATUS",
+  Id = "STATUS_AETHERCOURT_ARCANIST",
+  StatusNameGendered = {
+    -- MALE
+    "",
+    -- FEMALE
+    "",
+    -- ALL
+    "STATUS_AETHERCOURT_ARCANIST_GENERIC_NAME"
+  },
+  StatusDescriptionGendered = {
+    -- MALE
+    "",
+    -- FEMALE
+    "",
+    -- ALL
+    "STATUS_AETHERCOURT_ARCANIST_GENERIC_DESC"
+  },
+  TitleGendered = {
+    -- MALE
+    "",
+    -- FEMALE
+    "",
+    -- ALL
+    ""
+  },
+  StatusIcon = "ICON_RESOURCE_BARREL", -- This isn't used for VILLAGER_STATUS, but can't be nil.
+  StatusImportance = 2, -- Set to 1 instead of 0 to leave room for a future lower status if needed.
+  -- IsManuallyReached = true -- This isn't used for VILLAGER_STATUS, but can't be nil.
+  IsReachedByDefault = false, -- This must be true for the lowest VILLAGER_STATUS in an AGENT_PROFILE. Otherwise its needs aren't registered correctly. Can be false for higher VILLAGER_STATUS that are promoted up to normally.
+  IsSetNextStatusAutomaticallyWhenNeedsFilled = false,
+  CanLowerStatusAssignJob = false,
+  OptionalAdditionalBehavior = nil,
+  AssetAgentNeedList = {
+    "NEED_ESSENTIAL_FOOD_REFINED",
+    "NEED_ESSENTIAL_SERVICE",
+    "NEED_ADDITIONAL_FOOD_REFINED",
+    "NEED_ADDITIONAL_GOODS",
+    "NEED_ADDITIONAL_ARCANUM_ENTERTAINMENT"
+  },
+  AssetAgentNeedToRemoveList = {
+    "NEED_ESSENTIAL_FOOD_RUSTIC",
+    "NEED_ADDITIONAL_SERVICE"
+  },
+  CompatibleJobList = {
+    "JOB_AETHERCOURT_CASTER"
+  },
+  CharacterSetup = {},
+  JobProgressionAffectedByStatusImportance = false
+})
+
+-- Like NEED_ESSENTIAL_ENTERTAINMENT (Tavern), but for Aetherians (Lyceum)
+mod:registerAsset({
+  DataType = "AGENT_NEED_TYPE_RESOURCE",
+  Id = "NEED_ESSENTIAL_ARCANUM_ENTERTAINMENT",
+
+  -- AGENT_NEED_TYPE properties
+  Icon = "ICON_NEED_ENTERTAINMENT", -- Fix custom icon later (book icon?)
+  NeedTypeName = "NEED_ESSENTIAL_ARCANUM_ENTERTAINMENT_NAME",
+  NeedTypeDescription = "NEED_ESSENTIAL_ARCANUM_ENTERTAINMENT_DESC",
+  IsNeedFirstConsumptionBeforeLacking = false,
+  HappinessFactor = "HAPPINESS_FACTOR_LACK_ENTERTAINMENT", -- Fix later, custom asset with matching icon?
+
+  -- AGENT_NEED_TYPE_RESOURCE properties
+  NeedTypeList = {
+    "ARCANUM_ENTERTAINMENT"
+  },
+  RestrictToLocalProviders = true, -- default value, what does it mean?
+  -- ResourceNeedActivityMessage = <asset> -- Fix later, custom message for this need
+})
+
+-- Like NEED_ADDITIONAL_ENTERTAINMENT (Tavern), but for Aetherians (Lyceum)
+mod:registerAsset({
+  DataType = "AGENT_NEED_TYPE_RESOURCE",
+  Id = "NEED_ADDITIONAL_ARCANUM_ENTERTAINMENT",
+
+  -- AGENT_NEED_TYPE properties
+  Icon = "ICON_NEED_ENTERTAINMENT", -- Fix custom icon later (book icon?)
+  NeedTypeName = "NEED_ADDITIONAL_ARCANUM_ENTERTAINMENT_NAME",
+  NeedTypeDescription = "NEED_ADDITIONAL_ARCANUM_ENTERTAINMENT_DESC",
+  IsNeedFirstConsumptionBeforeLacking = true,
+  HappinessFactor = "HAPPINESS_FACTOR_LACK_ENTERTAINMENT", -- Fix later, custom asset with matching icon?
+
+  -- AGENT_NEED_TYPE_RESOURCE properties
+  NeedTypeList = {
+    "ARCANUM_ENTERTAINMENT"
+  },
+  RestrictToLocalProviders = true, -- default value, what does it mean?
+  -- ResourceNeedActivityMessage = <asset> -- Fix later, custom message for this need
+})

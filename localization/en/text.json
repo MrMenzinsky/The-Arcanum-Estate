@@ -40,13 +40,15 @@
   
   "RESOURCE_TYPES": {
     "ARCANE_LITERATURE": "Arcane Literature",
-    "HOUSE_AETHERCOURT_ANNEX": "Aethercourt sleeping quarters"
+    "HOUSE_AETHERCOURT_ANNEX": "Aethercourt sleeping quarters",
+    "ARCANUM_ENTERTAINMENT": "Arcanum Entertainment"
   },
 
   "RESOURCES": {
     "RESOURCE_GLYPH_NAME": "Glyphs",
     "RESOURCE_ARCANE_LORE_NAME": "Arcane Lore",
-    "HOUSING_AETHERCOURT_ANNEX_NAME": "Aethercourt Annex"
+    "HOUSING_AETHERCOURT_ANNEX_NAME": "Aethercourt Annex",
+    "AETHERCOURT_ARCANE_LECTURE_NAME": "Arcane Lecture"
   },
   
   "PROGRESS_TIER_ARCANUM_T1": {
@@ -108,9 +110,21 @@
     "STATUS_AETHERCOURT_ASPIRANT_GENERIC_NAME": "Aspirant",
     "STATUS_AETHERCOURT_ASPIRANT_GENERIC_DESC": "Aspirants are eager to study and learn about magic, aether and the arcane arts."
   },
+  "STATUS_AETHERCOURT_ARCANIST": {
+    "STATUS_AETHERCOURT_AETHERIAN_GENERIC_NAME": "Arcanist",
+    "STATUS_AETHERCOURT_AETHERIAN_GENERIC_DESC": "ARCANIST DESC"
+  },
 
   "NEED_HOUSE_AETHERCOURT_ANNEX": {
     "NEED_HOUSE_AETHERCOURT_ANNEX_NAME": "Housing",
     "NEED_HOUSE_AETHERCOURT_ANNEX_DESC": "Must rest under a roof in order to feel comfortable."
+  },
+  "NEED_ESSENTIAL_ARCANUM_ENTERTAINMENT": {
+    "NEED_ESSENTIAL_ARCANUM_ENTERTAINMENT_NAME": "Essential Entertainment",
+    "NEED_ESSENTIAL_ARCANUM_ENTERTAINMENT_DESC": ""
+  },
+  "NEED_ADDITIONAL_ARCANUM_ENTERTAINMENT": {
+    "NEED_ADDITIONAL_ARCANUM_ENTERTAINMENT_NAME": "Additional Entertainment",
+    "NEED_ADDITIONAL_ARCANUM_ENTERTAINMENT_DESC": ""
   }
 }

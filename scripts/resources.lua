@@ -6,6 +6,9 @@ mod:registerEnumValue ("RESOURCE_TYPE", "ARCANE_LITERATURE")
 -- Register a new resource type (housing for the Aethercourt)
 mod:registerEnumValue("RESOURCE_TYPE", "HOUSE_AETHERCOURT_ANNEX")
 
+-- Register a new resource type (entertainment for the Arcanum Estate)
+mod:registerEnumValue("RESOURCE_TYPE", "ARCANUM_ENTERTAINMENT")
+
 mod:registerAssetId("icons/Icon_Resource_Glyph.png", "ICON_RESOURCE_GLYPH", "ATLAS_CELL")
 mod:registerAssetId("icons/Icon_Resource_Arcane_Lore.png", "ICON_RESOURCE_ARCANE_LORE", "ATLAS_CELL")
 
@@ -53,6 +56,27 @@ mod:registerAsset({
   Icon = "ICON_HOUSE_QUALITY_2",
   ResourceTypeList = {
     "HOUSE_AETHERCOURT_ANNEX"
+  },
+  IsTradable = false,
+  DisplayInInventory = false,
+  DisplayInToolbar = false,
+  DisplayGizmo = false,
+  IsDisplayContainerTracker = false,
+  ResourceVisualPrefabList = {
+    "PREFAB_EMPTY_PART"
+  },
+  IndividualResourceVisualPrefabList = {
+    "PREFAB_EMPTY_PART"
+  }
+})
+
+mod:registerAsset({
+  DataType = "RESOURCE",
+  Id = "AETHERCOURT_ARCANE_LECTURE",
+  ResourceName = "AETHERCOURT_ARCANE_LECTURE_NAME",
+  Icon = "ICON_HOUSE_QUALITY_2",
+  ResourceTypeList = {
+    "ARCANUM_ENTERTAINMENT"
   },
   IsTradable = false,
   DisplayInInventory = false,
