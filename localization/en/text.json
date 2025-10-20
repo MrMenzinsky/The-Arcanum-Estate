@@ -94,6 +94,11 @@
     "JOB_AETHERCOURT_ARCHIVIST_DESC": "Works in the Archive handling arcane literature."
   },
 
+  "JOB_AETHERCOURT_CASTER": {
+    "JOB_AETHERCOURT_CASTER_NAME": "Caster",
+    "JOB_AETHERCOURT_CASTER_DESC": "Applies mastered principles to manipulate and channel arcane energy."
+  },
+
   "PROFILE_AETHERCOURT_AETHERIANS": {
     "PROFILE_AETHERCOURT_AETHERIAN_ALL": "Aetherian",
     "PROFILE_AETHERCOURT_AETHERIAN_ALL_PLURAL": "Aetherians"
