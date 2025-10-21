@@ -87,6 +87,15 @@ mod:registerAsset({
 })
 
 mod:overrideAsset({
+  DataType = "PROMOTE_VILLAGER_MANDATE_TYPE",
+  Id = "MANDATE_PROMOTION",
+  VillagerProfileOrderingList = {
+    Action = "APPEND",
+    "PROFILE_AETHERCOURT_AETHERIANS"
+  }
+})
+
+mod:overrideAsset({
   DataType = "PROMOTION_COST_LIST",
   Id = "DEFAULT_PROMOTION_COST_LIST",
   StatusCostList = {
