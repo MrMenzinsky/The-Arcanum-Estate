@@ -9,29 +9,33 @@ mod:registerAsset({
     CharacterSetupDataGendered = {
       -- MALE
       {
-          DataType = "CHARACTER_SETUP_DATA",
-          ClothingModel = {
-              "PREFAB_BODY_MALE_DEFAULT"
-          }
+        DataType = "CHARACTER_SETUP_DATA",
+        ClothingModel = {
+            "PREFAB_BODY_MALE_DEFAULT"
+        }
       },
       -- FEMALE
       {
-          DataType = "CHARACTER_SETUP_DATA",
-          ClothingModel = {
-              "PREFAB_BODY_FEMALE_DEFAULT"
-          }
+        DataType = "CHARACTER_SETUP_DATA",
+        ClothingModel = {
+            "PREFAB_BODY_FEMALE_DEFAULT"
+        }
       },
       -- ALL
       {
-          DataType = "CHARACTER_SETUP_DATA",
-          WalkAnimationList = { "WALKING" },
-          IdleAnimationList = { "IDLE" }
-        }
+        DataType = "CHARACTER_SETUP_DATA",
+        WalkAnimationList = { "WALKING" },
+        IdleAnimationList = { "IDLE" }
+      }
     }
   },
   ProfileFunction = {
     DataType = "AGENT_PROFILE_FUNCTION",
-    AssetStatusQuotaGendered = {},
+    AssetStatusQuotaGendered = {
+      MALE = nil,
+      FEMALE = nil,
+      ALL = "AETHERCOURT_AETHERIANS_STATUS_QUOTA"
+    },
     IsNeedMasteredJobToPromote = true
   },
   Vehicle = nil,
@@ -63,6 +67,23 @@ mod:registerAsset({
   AllowUnemployedVillager = true, -- default value
   CanHaveAPartner = true, -- default value
   IsMergeVisitorNotification = false -- default value
+})
+
+mod:registerAsset({
+  DataType = "VILLAGER_STATUS_QUOTA",
+  Id = "AETHERCOURT_AETHERIANS_STATUS_QUOTA",
+  VillagerStatusRatioList = {
+    {
+      DataType = "VILLAGER_STATUS_RATIO",
+      Status = "STATUS_AETHERCOURT_ASPIRANT",
+      Ratio = 0
+    },
+    {
+      DataType = "VILLAGER_STATUS_RATIO",
+      Status = "STATUS_AETHERCOURT_ARCANIST",
+      Ratio = 0
+    }
+  }
 })
 
 mod:overrideAsset({
