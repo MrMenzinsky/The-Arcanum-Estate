@@ -7,8 +7,6 @@ mod:registerAsset({
   JobDescription = "JOB_AETHERCOURT_SCHOLAR_DESC",
   UseWorkplaceBehavior = true,
   NeededMasteredJobList = {},
-  -- ExperienceToMaster = 20, -- TODO: What does this mean?
-  -- AssetJobProgression = "DEFAULT_JOB_PROGRESSION",
   AssetJobProgression = "SCHOLAR_JOB_PROGRESSION",
   CharacterSetup = {}, -- Advanced customization of the character
   IsDefinitive = true,
@@ -74,8 +72,6 @@ mod:registerAsset({
   NeededMasteredJobList = {
     "JOB_AETHERCOURT_SCHOLAR"
   },
-  -- ExperienceToMaster = 20, -- TODO: What does this mean?
-  -- AssetJobProgression = "DEFAULT_JOB_PROGRESSION",
   AssetJobProgression = "CASTER_JOB_PROGRESSION",
   CharacterSetup = {}, -- Advanced customization of the character
   IsDefinitive = true,
