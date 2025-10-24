@@ -38,6 +38,7 @@ IdMap = {
 	{ "RESOURCE_ARCANE_LORE", "RESOURCE", "b782a1eb-e277-49af-9da6-7716fa9e1e49" },
 	{ "icons/Icon_4.png", "", "632c0787-c62b-4c4b-a05f-2c7820060f16" },
 	{ "icons/Icon_5.png", "", "3a135816-0039-4a4a-af9d-5c8c6ce3f129" },
+	{ "BUILDING_ARCANUM_AETHERCOURT_AETHERIUM", "BUILDING", "012df703-6cab-4ead-a80f-2f7a655e7f7d" },
 	{ "icons/Icon_Aethercourt.png", "", "8c047650-e0ac-490c-833d-188b26500bab" },
 	{ "icons/Icon_Arcanum_Splendor.png", "", "a2440461-3a9d-48f7-8e44-1a98e89486c9" },
 	{ "icons/Icon_Resource_Arcane_Lore.png", "", "0fbc8a0a-b98d-45a1-a5cc-8ecc8776724c" },
@@ -48,4 +49,6 @@ IdMap = {
 	{ "AETHERCOURT_ARCANE_LECTURE", "RESOURCE", "e15012a4-d4b0-432f-8d8b-d9eef256dbd7" },
 	{ "NEED_ESSENTIAL_ARCANUM_DISCOURSE", "AGENT_NEED_TYPE", "36826850-a1a7-45a8-8dcb-e077c26fb0cb" },
 	{ "NEED_ADDITIONAL_ARCANUM_DISCOURSE", "AGENT_NEED_TYPE", "1e801c24-e292-4198-b796-05333739fe45" },
+	{ "UNLOCKABLE_ARCANUM_AETHERCOURT_AETHERIUM", "UNLOCKABLE", "5d1fc532-1e5d-470f-ae66-5b02e53651ce" },
+	{ "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_AETHERIUM", "BUILDING_FUNCTION", "0b6b1afe-2b12-4cbd-8285-06023d595b42" },
 }

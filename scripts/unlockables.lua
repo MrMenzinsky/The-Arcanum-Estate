@@ -114,7 +114,7 @@ mod:registerAsset({
             OwnerBuilding = "MONUMENT_ARCANUM_AETHERCOURT",
             AssetBuildingPartList = {},
             SubBuildingList = {
-              "BUILDING_AETHERIUM"
+              "BUILDING_ARCANUM_AETHERCOURT_AETHERIUM"
             }
           }
         },

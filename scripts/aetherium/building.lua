@@ -35,9 +35,9 @@ mod:registerAsset({
   Id = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_AETHERIUM",
   
   -- BUILDING_FUNCTION properties
-  Name = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ARCHIVE_NAME",
-  NamePluralKey = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ARCHIVE_NAMES",
-  Description = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ARCHIVE_DESC",
+  Name = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_AETHERIUM_NAME",
+  NamePluralKey = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_AETHERIUM_NAMES",
+  Description = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_AETHERIUM_DESC",
   -- UpkeepPerCapacity = {},
 
   -- BUILDING_FUNCTION_WORKPLACE properties
@@ -59,19 +59,19 @@ mod:registerAsset({
   WorkCycleNeededToProduceOnce = 3, -- 1 is the default, make the resource a bit scarcer.
   InputInventoryCapacity = {
     {
-      Resource = RESOURCE.RESOURCE_GLYPH,
+      Resource = "RESOURCE_GLYPH",
       Quantity = 50
     }
   },
   ResourceListNeeded = {
     {
-      Resource = RESOURCE.RESOURCE_GLYPH,
+      Resource = "RESOURCE_GLYPH",
       Quantity = 3
     }
-  }
+  },
   ResourceProduced = {
     {
-      Resource = RESOURCE.RESOURCE_ARCANE_LORE,
+      Resource = "RESOURCE_ARCANE_LORE",
       Quantity = 1
     }
   }
