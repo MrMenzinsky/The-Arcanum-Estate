@@ -12,6 +12,9 @@ mod:dofile("scripts/annex/building.lua")
 -- Archive sub-building
 mod:dofile("scripts/archive/building.lua")
 
+-- Aetherium sub-building
+mod:dofile("scripts/aetherium/building.lua")
+
 -- Register the monument building
 mod:registerAsset({
   DataType = "BUILDING",
@@ -31,6 +34,8 @@ mod:registerAsset({
     "BUILDING_PART_MANOR_HOUSE_SIMPLE_STONE_ENTRANCE",
     "BUILDING_PART_MONASTERY_RUSTIC_GATE_ELEVATED",
     "BUILDING_PART_RUSTIC_CHURCH_HUMBLE_GATE",
+    -- Uncomment when QoL update is released
+    -- "BUILDING_PART_VISITOR_LOCATION",
     -- Chimneys
     "BUILDING_PART_MANOR_HOUSE_ENCASED_CHIMNEY",
     "BUILDING_PART_CHIMNEY_E",

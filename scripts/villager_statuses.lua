@@ -153,7 +153,7 @@ mod:registerAsset({
     ""
   },
   StatusIcon = "ICON_RESOURCE_BARREL", -- This isn't used for VILLAGER_STATUS, but can't be nil.
-  StatusImportance = 1, -- Set to 1 instead of 0 to leave room for a future lower status if needed.
+  StatusImportance = 0,
   -- IsManuallyReached = true -- This isn't used for VILLAGER_STATUS, but can't be nil.
   IsReachedByDefault = true, -- This must be true for the lowest VILLAGER_STATUS in an AGENT_PROFILE. Otherwise its needs aren't registered correctly. Can be false for higher VILLAGER_STATUS that are promoted up to normally.
   IsSetNextStatusAutomaticallyWhenNeedsFilled = false,
@@ -218,7 +218,7 @@ mod:registerAsset({
     ""
   },
   StatusIcon = "ICON_RESOURCE_BARREL", -- This isn't used for VILLAGER_STATUS, but can't be nil.
-  StatusImportance = 2, -- Set to 1 instead of 0 to leave room for a future lower status if needed.
+  StatusImportance = 1,
   -- IsManuallyReached = true -- This isn't used for VILLAGER_STATUS, but can't be nil.
   IsReachedByDefault = false, -- This must be true for the lowest VILLAGER_STATUS in an AGENT_PROFILE. Otherwise its needs aren't registered correctly. Can be false for higher VILLAGER_STATUS that are promoted up to normally.
   IsSetNextStatusAutomaticallyWhenNeedsFilled = false,

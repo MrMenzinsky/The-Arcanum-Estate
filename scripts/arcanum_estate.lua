@@ -98,7 +98,8 @@ mod:registerAsset({
   OnReachedActionList = {},
   OnUnreachedActionList = {},
   UnlockableList = {
-    "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY"
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_TREASURY",
+    "UNLOCKABLE_ARCANUM_AETHERCOURT_AETHERIUM"
   },
   ProgressTierImage = "ICON_ARCANUM_INFLUENCE"
 })
