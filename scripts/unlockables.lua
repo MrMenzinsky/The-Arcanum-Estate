@@ -80,3 +80,48 @@ mod:registerAsset({
   },
   UnlockableImage = "ICON_UNLOCKABLE_TREASURY"
 })
+
+mod:registerAsset({
+  DataType = "UNLOCKABLE",
+  Id = "UNLOCKABLE_ARCANUM_AETHERCOURT_AETHERIUM",
+  Name = "UNLOCKABLE_ARCANUM_AETHERCOURT_AETHERIUM_NAME",
+  Description = "UNLOCKABLE_ARCANUM_AETHERCOURT_AETHERIUM_DESC",
+  OptionalNameParameter = "UNLOCKABLE_ARCANUM_AETHERCOURT_AETHERIUM_NAME_OPTIONAL",
+  BoughtText = "UNLOCKABLE_ARCANUM_AETHERCOURT_AETHERIUM_BOUGHT",
+  DataCost = {
+    DataInfluenceCostList = {
+      {
+        Estate = "ARCANUM",
+        Quantity = 5
+      }
+    },
+    ResourceCollection = {}
+  },
+  PrerequisiteUnlockableList = {
+    "UNLOCKABLE_ARCANUM_AETHERCOURT"
+  },
+  IsMajor = false,
+  ActionList = {
+    {
+      DataType = "GAME_ACTION_UNLOCK_BUILDING_LIST",
+      BuildingProgressData = {
+        DataType = "BUILDING_PROGRESS",
+        UnlockName = "UNLOCKNAME_BUILDING_AETHERIUM",
+        AssetBuildingList = {},
+        AdditionalBuildingUnlockList = {
+          {
+            DataType = "PROGRESS_UNLOCK_BUILDING_PART",
+            OwnerBuilding = "MONUMENT_ARCANUM_AETHERCOURT",
+            AssetBuildingPartList = {},
+            SubBuildingList = {
+              "BUILDING_AETHERIUM"
+            }
+          }
+        },
+        AssetBuildingFunctionList = {},
+        DataEstateDecorationList = {}
+      }
+    }
+  },
+  UnlockableImage = "ICON_UNLOCKABLE_ABBATIAL" -- Fix custom icon later
+})
