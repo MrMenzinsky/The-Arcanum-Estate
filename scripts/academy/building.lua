@@ -33,13 +33,18 @@ mod:registerAsset({
 mod:registerAsset({
   DataType = "BUILDING_FUNCTION_CHANGE_PROFILE_WORKPLACE",  -- Parent class is BUILDING_FUNCTION_WORKPLACE
   Id = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ACADEMY",
+  
+  -- BUILDING_FUNCTION properties
+  Name = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ACADEMY_NAME",
+  NamePluralKey = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ACADEMY_NAMES",
+  Description = "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_ACADEMY_DESC",
 
   -- Custom properties
   TargetProfile = "PROFILE_AETHERCOURT_AETHERIANS",
   RevertOnDismissal = false,
   RevertOnBuildingDestruction = false,
 
-  -- Regular properties
+  -- BUILDING_FUNCTION_WORKPLACE properties
   WorkerRatioFromCapacity = 1,
   StorageRatioFromCapacity = 10,
   UpkeepPerWorker = {
