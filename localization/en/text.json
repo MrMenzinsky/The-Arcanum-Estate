@@ -40,13 +40,15 @@
   
   "RESOURCE_TYPES": {
     "ARCANE_LITERATURE": "Arcane Literature",
-    "HOUSE_AETHERCOURT_ANNEX": "Aethercourt sleeping quarters"
+    "HOUSE_AETHERCOURT_ANNEX": "Aethercourt sleeping quarters",
+    "ARCANUM_DISCOURSE": "Arcanum Discourse"
   },
 
   "RESOURCES": {
     "RESOURCE_GLYPH_NAME": "Glyphs",
     "RESOURCE_ARCANE_LORE_NAME": "Arcane Lore",
-    "HOUSING_AETHERCOURT_ANNEX_NAME": "Aethercourt Annex"
+    "HOUSING_AETHERCOURT_ANNEX_NAME": "Aethercourt Annex",
+    "AETHERCOURT_ARCANE_LECTURE_NAME": "Arcane Lecture"
   },
   
   "PROGRESS_TIER_ARCANUM_T1": {
@@ -108,9 +110,21 @@
     "STATUS_AETHERCOURT_ASPIRANT_GENERIC_NAME": "Aspirant",
     "STATUS_AETHERCOURT_ASPIRANT_GENERIC_DESC": "Aspirants are eager to study and learn about magic, aether and the arcane arts."
   },
+  "STATUS_AETHERCOURT_ARCANIST": {
+    "STATUS_AETHERCOURT_ARCANIST_GENERIC_NAME": "Arcanist",
+    "STATUS_AETHERCOURT_ARCANIST_GENERIC_DESC": "Arcanists satisfy their thirst for knowledge and are granted the authority to channel arcane energy."
+  },
 
   "NEED_HOUSE_AETHERCOURT_ANNEX": {
     "NEED_HOUSE_AETHERCOURT_ANNEX_NAME": "Housing",
     "NEED_HOUSE_AETHERCOURT_ANNEX_DESC": "Must rest under a roof in order to feel comfortable."
+  },
+  "NEED_ESSENTIAL_ARCANUM_DISCOURSE": {
+    "NEED_ESSENTIAL_ARCANUM_DISCOURSE_NAME": "Discourse",
+    "NEED_ESSENTIAL_ARCANUM_DISCOURSE_DESC": "Must attend advanced lectures and discussions to satisfy their intellectual curiosity."
+  },
+  "NEED_ADDITIONAL_ARCANUM_DISCOURSE": {
+    "NEED_ADDITIONAL_ARCANUM_DISCOURSE_NAME": "Discourse",
+    "NEED_ADDITIONAL_ARCANUM_DISCOURSE_DESC": "Must attend advanced lectures and discussions to satisfy their intellectual curiosity."
   }
 }
