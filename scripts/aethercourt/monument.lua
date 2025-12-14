@@ -25,6 +25,8 @@ mod:registerAsset({
   NavMeshLockCategory = "ARCANE",
   AssetCoreBuildingPart = "BUILDING_PART_MONUMENT_POLE",
   AssetBuildingPartList = {
+    "BIG_HOUSE_PART",
+    "SMALL_HOUSE_PART",
     -- Temporary reuse of existing building parts for quick testing
     -- Core
     "BUILDING_PART_MANOR_HOUSE_MANOR_GALLERY_MAJOR",

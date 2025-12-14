@@ -20,6 +20,7 @@ IdMap = {
 	{ "ARCANUM", "ESTATE", "7741c0b1-68b9-4430-b6c3-3bc9464d0b65" },
 	{ "icons/Icon_Arcanum_Influence.png", "", "97eb9a1f-256b-435c-89d8-a74dfe88cec5" },
 	{ "PROGRESS_PATH_ARCANUM", "PROGRESS_PATH", "d1cb56ed-b0c1-401a-9d48-19ae529281fa" },
+	{ "BIG_HOUSE_PART", "BUILDING_PART", "5cd8b589-d44d-4021-b13d-b71a455782ba" },
 	{ "PROGRESS_TIER_ARCANUM_T2", "PROGRESS_TIER_DATA", "596ecfc9-d636-4966-93c2-4b6c0d34bbe1" },
 	{ "PROGRESS_TIER_ARCANUM_T3", "PROGRESS_TIER_DATA", "ad9eee58-e9aa-4bf2-93e3-cabdfa8d5a94" },
 	{ "NEED_HOUSE_AETHERCOURT_ANNEX", "AGENT_NEED_TYPE", "b6c12f8c-ea5b-4f64-9f31-8c21191ec31c" },
@@ -41,6 +42,7 @@ IdMap = {
 	{ "BUILDING_ARCANUM_AETHERCOURT_AETHERIUM", "BUILDING", "012df703-6cab-4ead-a80f-2f7a655e7f7d" },
 	{ "icons/Icon_Aethercourt.png", "", "8c047650-e0ac-490c-833d-188b26500bab" },
 	{ "icons/Icon_Arcanum_Splendor.png", "", "a2440461-3a9d-48f7-8e44-1a98e89486c9" },
+	{ "SMALL_HOUSE_PART", "BUILDING_PART", "4936c53e-7cd1-4731-a71f-8242b4d4eb8d" },
 	{ "icons/Icon_Resource_Arcane_Lore.png", "", "0fbc8a0a-b98d-45a1-a5cc-8ecc8776724c" },
 	{ "JOB_AETHERCOURT_CASTER", "JOB", "581f0ab6-2daf-4262-be3a-4bed220a517b" },
 	{ "icons/Icon_Resource_Glyph.png", "", "49b38031-771f-4aa2-822b-124f8ae030a0" },
@@ -51,4 +53,5 @@ IdMap = {
 	{ "NEED_ADDITIONAL_ARCANUM_DISCOURSE", "AGENT_NEED_TYPE", "1e801c24-e292-4198-b796-05333739fe45" },
 	{ "UNLOCKABLE_ARCANUM_AETHERCOURT_AETHERIUM", "UNLOCKABLE", "5d1fc532-1e5d-470f-ae66-5b02e53651ce" },
 	{ "BUILDING_FUNCTION_ARCANUM_AETHERCOURT_AETHERIUM", "BUILDING_FUNCTION", "0b6b1afe-2b12-4cbd-8285-06023d595b42" },
+	{ "models/small_house_003.fbx", "", "7c891ebd-01d7-4f3b-9240-4acd6567c85e" },
 }
