@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="7c891ebd-01d7-4f3b-9240-4acd6567c85e">
+	<meta id="f6b2c448-be1f-456b-b51d-3c2601e76be2" type="group" folder="true" name="Materials">
+		<meta id="1b00137c-3b6d-4b29-8398-2b777b6d43e4" name="Material.012"/>
+		<meta id="2df38eff-a1d6-4258-855e-5c6b95db83f3" name="Material.001"/>
+		<meta id="e56a3029-a09e-4abf-916c-c13326d86459" name="Material.014"/>
+		<meta id="71c23eda-3998-4a89-9592-e528c61f8157" name="Material.015"/>
+		<meta id="1a9e9d3a-8b79-4a77-9ec8-441b1fce2d4f" name="Material.006"/>
+		<meta id="178a6b1c-8926-474b-ac77-9bfd16871e18" name="Material.009"/>
+		<meta id="0faf7d1d-90c1-43fe-a633-a8201be7015e" name="Material.010"/>
+		<meta id="4ccb68cc-980e-4760-9c7f-adfe498c7e62" name="Material.011"/>
+	</meta>
+	<meta id="27760c51-13fb-4e6f-9527-acc953b3cd77" type="group" folder="true" name="Meshes">
+		<meta id="9e05212b-527a-4ec2-bfae-01c5623b6a9c" name="0_Roof_Material.001"/>
+		<meta id="07dd8fd9-22ff-4ff4-82b2-2bed7d5e224b" name="1_Top_Material.001"/>
+		<meta id="1bcd52e9-8a2d-4b3f-ab52-f39eacc55d40" name="3_Middle_Bottom_Material.014"/>
+		<meta id="9d97b58b-4f97-47f0-ba35-3bdf2a42998f" name="4_Bottom_Material.015"/>
+		<meta id="c6ca3718-0ea2-44b4-9bf3-17a7dbcf180e" name="0_Roof.001_Material.006"/>
+		<meta id="f1a44750-1cef-4697-85f4-d61b3a7df07e" name="1_Top.001_Material.009"/>
+		<meta id="157eafe8-a05b-4aae-ae78-1aa842c45699" name="2_Middle_Top.001_Material.010"/>
+		<meta id="59d2ee5d-fab9-4395-bdba-32d4ffeca2dc" name="3_Middle_Bottom.001_Material.011"/>
+		<meta id="0554a247-c68e-48ae-a497-d9cdc47fd313" name="4_Bottom.001_Material.012"/>
+	</meta>
+	<meta id="8102daf9-4c45-4437-add1-b61b96fec4a9" name="Prefab">
+		<meta id="e3a3d57b-95f7-4d7a-9cac-04cb4e62af16" name="Big_House_Part">
+			<meta id="d80d6b9c-5e7f-42de-9997-b0f868747363" name="0_Roof"/>
+			<meta id="93b5ddc9-8e0c-4f78-b2c9-6708e754af37" name="1_Top"/>
+			<meta id="ccc58b58-1975-4fa7-b2ff-14c8cc5d24fa" name="3_Middle_Bottom"/>
+			<meta id="d73b9459-f13c-4fb1-b203-07a87b08a381" name="4_Bottom"/>
+		</meta>
+		<meta id="62a2d078-d107-4f82-b471-d98f3d94ebc4" name="Small_House_Part">
+			<meta id="dcf5514c-b709-4ccf-b29e-d0e87b3d1234" name="0_Roof.001"/>
+			<meta id="4e40db02-1f23-473a-a2ff-a47996b7c339" name="1_Top.001"/>
+			<meta id="625cbec4-3453-4ff2-b904-0ba29813dad0" name="2_Middle_Top.001"/>
+			<meta id="2d62361f-e897-4693-ac9e-605b58100a71" name="3_Middle_Bottom.001"/>
+			<meta id="21c69027-f23b-41d1-9124-98483e6abe0f" name="4_Bottom.001"/>
+		</meta>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<WorkFilePath value="utf8:"/>
+	<Md5Checksum value="1bacf4e91146b9cc384da4f97ca09542"/>
+	<ModelVersion value="37"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<ZUpSource value="false"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="0_Roof"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="1_Top"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="3_Middle_Bottom"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="4_Bottom"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Big_House_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="0_Roof.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="1_Top.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="2_Middle_Top.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="3_Middle_Bottom.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="4_Bottom.001"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Small_House_Part"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Material.001"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Material.006"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Material.009"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Material.010"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Material.011"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Material.012"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Material.014"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Material.015"/>
+		</Item>
+	</MaterialList>
+</importer>
+
