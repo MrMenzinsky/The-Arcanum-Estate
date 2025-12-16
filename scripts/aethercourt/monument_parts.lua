@@ -106,8 +106,6 @@ for _, small_house_part in ipairs(small_house_parts) do
 end
 
 
-mod:registerAssetId("models/Scalable_Attach_Cube.fbx/Materials/Mat_Gen_Wall_WoodPLanks_01A_Diff.png", "WALL_WOODPLANKS")
-
 local materials = {
     "Template_Bottom",
     "Template_Middle_Bottom",
@@ -115,9 +113,9 @@ local materials = {
     "Template_Top",
     "Template_Roof",
     "Window_Black",
-    "Tex_Wall_Stone_Rustic_01A_Diff.png",
-    "Tex_Wall_Stone_Rustic_Moss_Diff.png",
-    "Tex_Gen_Wall_Plaster_01A_Diff.png",
+    "Mat_Wall_Stone_Rustic_01A_Diff.png",
+    "Mat_Wall_Stone_Rustic_Moss_Diff.png",
+    "Mat_Gen_Wall_Plaster_01A_Diff.png",
     "Roof_tiles",
     "Roof_base",
     "Green",
