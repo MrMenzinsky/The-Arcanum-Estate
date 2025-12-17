@@ -1,6 +1,6 @@
 local mod = ...
 
-local filename = "small_house_003.fbx"
+local filename = "small_house_004.fbx"
 
 
 -- To easily read in and correctly parse the different attach points (Attach_Bottom, Attach_Top etc.)
