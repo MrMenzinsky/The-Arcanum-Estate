@@ -33,6 +33,8 @@ for _, templateBlock in ipairs(templateBlocks) do
     mod:registerAsset({
         DataType = "BUILDING_PART",
         Id = string.upper(templateBlock),
+        Name = templateBlock,
+        Description = templateBlock,
         ConstructorData = {
             DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
             CoreObjectPrefab = prefab
