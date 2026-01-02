@@ -136,6 +136,85 @@ for _, material in ipairs(materials) do
     mod:registerAssetId("models/" .. filename .. "/Materials/" .. material, string.upper(material))
 end
 
+local roof_materials = {
+  "Roof tiles - Vibrance -25 Saturation +25.png",
+  "Roof tiles - Vibrance -25 Saturation +50.png",
+  "Roof tiles - Vibrance -25 Saturation 0.png",
+  "Roof tiles - Vibrance -50 Saturation +25.png",
+  "Roof tiles - Vibrance -50 Saturation +50.png",
+  "Roof tiles - Vibrance -50 Saturation 0.png",
+  "Roof tiles - Vibrance -100 Saturation 0.png",
+}
+
+for _, roof_material in ipairs(roof_materials) do
+  mod:registerAssetId("models/textures/Variants/" .. roof_material, string.upper(roof_material))
+end
+
+
+-- Register custom swatches for recoloring/changing the texture on the block
+mod:registerAsset({
+	DataType = "MATERIAL_SET_LIST",
+	Id = "ROOF_TEST_MATERIAL_SET_LIST",
+	MaterialSetList = {
+        {
+            SetName = "TEST_0",
+            AssetSelectionButtonImage = "ICON_3",
+            MaterialList = {
+                "ROOF_TILES_2"
+            }
+        },
+        {
+          SetName = "TEST_1",
+          AssetSelectionButtonImage = "ICON_1",
+          MaterialList = {
+              "ROOF TILES - VIBRANCE -25 SATURATION +25.PNG"
+          }
+        },
+        {
+            SetName = "TEST_2",
+            AssetSelectionButtonImage = "ICON_2",
+            MaterialList = {
+                "ROOF TILES - VIBRANCE -25 SATURATION +50.PNG"
+            }
+        },
+        {
+            SetName = "TEST_3",
+            AssetSelectionButtonImage = "ICON_3",
+            MaterialList = {
+                "ROOF TILES - VIBRANCE -25 SATURATION 0.PNG"
+            }
+        },
+        {
+            SetName = "TEST_4",
+            AssetSelectionButtonImage = "ICON_4",
+            MaterialList = {
+                "ROOF TILES - VIBRANCE -50 SATURATION +25.PNG"
+            }
+        },
+        {
+            SetName = "TEST_5",
+            AssetSelectionButtonImage = "ICON_5",
+            MaterialList = {
+                "ROOF TILES - VIBRANCE -50 SATURATION +50.PNG"
+            }
+        },
+        {
+            SetName = "TEST_6",
+            AssetSelectionButtonImage = "ICON_1",
+            MaterialList = {
+                "ROOF TILES - VIBRANCE -50 SATURATION 0.PNG"
+            }
+        },
+        {
+            SetName = "TEST_7",
+            AssetSelectionButtonImage = "ICON_2",
+            MaterialList = {
+                "ROOF TILES - VIBRANCE -100 SATURATION 0.PNG"
+            }
+        }
+    }
+})
+
 -- mod:registerAsset({
 --     DataType = "BUILDING",
 --     Id = "SMALL_HOUSE",
@@ -180,7 +259,7 @@ mod:registerAsset({
     --         }
     --     }
     -- },
-    -- AssetMaterialSetList = "BLOCK_MATERIAL_SET_LIST",
+    AssetMaterialSetList = "ROOF_TEST_MATERIAL_SET_LIST",
     -- Cost = {
     --     BuildRightTaxes = {
     --         { Resource = "GOLD_COINS", Quantity = 5 }
@@ -231,6 +310,7 @@ mod:registerAsset({
             "4_SMALL_HOUSE_PLASTER_FILLER_1_PART",
         },
         IsRepeatLastFiller = false,
+        GizmoHeightOffset = 2.0,
     }
 })
 
