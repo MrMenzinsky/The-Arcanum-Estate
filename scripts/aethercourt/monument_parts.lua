@@ -137,17 +137,17 @@ for _, material in ipairs(materials) do
 end
 
 local roof_materials = {
-  "Roof tiles - Vibrance -25 Saturation +25.png",
-  "Roof tiles - Vibrance -25 Saturation +50.png",
-  "Roof tiles - Vibrance -25 Saturation 0.png",
-  "Roof tiles - Vibrance -50 Saturation +25.png",
-  "Roof tiles - Vibrance -50 Saturation +50.png",
-  "Roof tiles - Vibrance -50 Saturation 0.png",
-  "Roof tiles - Vibrance -100 Saturation 0.png",
+    "Roof tiles - Vibrance -25 Saturation +25.png",
+    "Roof tiles - Vibrance -25 Saturation +50.png",
+    "Roof tiles - Vibrance -25 Saturation 0.png",
+    "Roof tiles - Vibrance -50 Saturation +25.png",
+    "Roof tiles - Vibrance -50 Saturation +50.png",
+    "Roof tiles - Vibrance -50 Saturation 0.png",
+    "Roof tiles - Vibrance -100 Saturation 0.png",
 }
 
 for _, roof_material in ipairs(roof_materials) do
-  mod:registerAssetId("models/textures/Variants/" .. roof_material, string.upper(roof_material))
+    mod:registerAssetId("models/" .. filename .. "/Materials/" .. roof_material, string.upper(roof_material))
 end
 
 
@@ -164,11 +164,11 @@ mod:registerAsset({
             }
         },
         {
-          SetName = "TEST_1",
-          AssetSelectionButtonImage = "ICON_1",
-          MaterialList = {
-              "ROOF TILES - VIBRANCE -25 SATURATION +25.PNG"
-          }
+            SetName = "TEST_1",
+            AssetSelectionButtonImage = "ICON_1",
+            MaterialList = {
+                "ROOF TILES - VIBRANCE -25 SATURATION +25.PNG"
+            }
         },
         {
             SetName = "TEST_2",
