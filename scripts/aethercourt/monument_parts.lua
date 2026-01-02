@@ -1,6 +1,6 @@
 local mod = ...
 
-local filename = "small_house_006.fbx"
+local filename = "small_house_010.fbx"
 
 
 -- To easily read in and correctly parse the different attach points (Attach_Bottom, Attach_Top etc.)
@@ -96,9 +96,13 @@ end
 -- })
 local small_house_parts = {
     "1_Small_House_Bottom_Part",
-    "2_Small_House_Stone_Filler_Part",
+    "2_Small_House_Stone_Filler_1_Part",
+    "2_Small_House_Stone_Filler_2_Part",
+    "2_Small_House_Stone_Filler_3_Part",
     "3_Small_House_Middle_Part",
-    "4_Small_House_Plaster_Filler_Part",
+    "4_Small_House_Plaster_Filler_1_Part",
+    "4_Small_House_Plaster_Filler_2_Part",
+    "4_Small_House_Plaster_Filler_3_Part",
     "5_Small_House_Roof_Part"
 }
 
@@ -119,7 +123,9 @@ local materials = {
     "Mat_Wall_Stone_Rustic_Moss_Diff.png",
     "Mat_Gen_Wall_Plaster_01A_Diff.png",
     "Roof_tiles",
+    "Roof_tiles_2",
     "Roof_base",
+    "Window_Black",
     "Green",
     "Light_Green",
     "Aqua",
@@ -153,8 +159,11 @@ mod:registerAsset({
         CoreObjectPrefab = "PREFAB_1_SMALL_HOUSE_BOTTOM_PART",
         EndPart = "3_SMALL_HOUSE_MIDDLE_PART",
         FillerList = {
-            "2_SMALL_HOUSE_STONE_FILLER_PART"
+            "2_SMALL_HOUSE_STONE_FILLER_3_PART",
+            "2_SMALL_HOUSE_STONE_FILLER_2_PART",
+            "2_SMALL_HOUSE_STONE_FILLER_1_PART",
         },
+        IsRepeatLastFiller = false,
         -- MiniatureConfig = {
         --     CameraPosition = { 0.0, 0.0, 0.0 },
         --     ClipUnderGround = false
@@ -179,13 +188,31 @@ mod:registerAsset({
     -- }
 })
 
--- Tiling one part
+-- Tiling one part (1, 2, 3)
 mod:registerAsset({
     DataType = "BUILDING_PART",
-    Id = "2_SMALL_HOUSE_STONE_FILLER_PART",
+    Id = "2_SMALL_HOUSE_STONE_FILLER_1_PART",
     ConstructorData = {
         DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-        CoreObjectPrefab = "PREFAB_2_SMALL_HOUSE_STONE_FILLER_PART"
+        CoreObjectPrefab = "PREFAB_2_SMALL_HOUSE_STONE_FILLER_1_PART"
+    }
+})
+
+mod:registerAsset({
+    DataType = "BUILDING_PART",
+    Id = "2_SMALL_HOUSE_STONE_FILLER_2_PART",
+    ConstructorData = {
+        DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+        CoreObjectPrefab = "PREFAB_2_SMALL_HOUSE_STONE_FILLER_2_PART"
+    }
+})
+
+mod:registerAsset({
+    DataType = "BUILDING_PART",
+    Id = "2_SMALL_HOUSE_STONE_FILLER_3_PART",
+    ConstructorData = {
+        DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+        CoreObjectPrefab = "PREFAB_2_SMALL_HOUSE_STONE_FILLER_3_PART"
     }
 })
 
@@ -199,18 +226,39 @@ mod:registerAsset({
         CoreObjectPrefab = "PREFAB_3_SMALL_HOUSE_MIDDLE_PART",
         EndPart = "5_SMALL_HOUSE_ROOF_PART",
         FillerList = {
-            "4_SMALL_HOUSE_PLASTER_FILLER_PART"
-        }
+            "4_SMALL_HOUSE_PLASTER_FILLER_3_PART",
+            "4_SMALL_HOUSE_PLASTER_FILLER_2_PART",
+            "4_SMALL_HOUSE_PLASTER_FILLER_1_PART",
+        },
+        IsRepeatLastFiller = false,
     }
 })
 
--- Tiling two part
+-- Tiling two part (1, 2, 3)
 mod:registerAsset({
     DataType = "BUILDING_PART",
-    Id = "4_SMALL_HOUSE_PLASTER_FILLER_PART",
+    Id = "4_SMALL_HOUSE_PLASTER_FILLER_1_PART",
     ConstructorData = {
         DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-        CoreObjectPrefab = "PREFAB_4_SMALL_HOUSE_PLASTER_FILLER_PART"
+        CoreObjectPrefab = "PREFAB_4_SMALL_HOUSE_PLASTER_FILLER_1_PART"
+    }
+})
+
+mod:registerAsset({
+    DataType = "BUILDING_PART",
+    Id = "4_SMALL_HOUSE_PLASTER_FILLER_2_PART",
+    ConstructorData = {
+        DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+        CoreObjectPrefab = "PREFAB_4_SMALL_HOUSE_PLASTER_FILLER_2_PART"
+    }
+})
+
+mod:registerAsset({
+    DataType = "BUILDING_PART",
+    Id = "4_SMALL_HOUSE_PLASTER_FILLER_3_PART",
+    ConstructorData = {
+        DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+        CoreObjectPrefab = "PREFAB_4_SMALL_HOUSE_PLASTER_FILLER_3_PART"
     }
 })
 
