@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="4d6c1e1e-52df-4566-876c-302928d69307">
+	<meta id="339deb62-1c18-444e-9c11-f2cd5865a8a3" type="group" folder="true" name="Materials">
+		<meta id="a8c80ee2-25f4-4ff8-b856-47c774d455dd" name="Mat_Wall_Stone_Rustic_Moss_Diff.png"/>
+		<meta id="6816094a-f23f-428d-bbf1-8fbec8874ade" name="Mat_Wall_Stone_Rustic_01A_Diff"/>
+		<meta id="9e755344-0f3b-497f-8300-3b59abb80284" name="Mat_Wall_Stone_Rustic_01A_Diff.png"/>
+		<meta id="2c2053e5-b60e-400b-86ff-b0962878c44c" name="Window_Black"/>
+		<meta id="05951bb3-9f8b-4f53-bf51-2c64a8a1aa31" name="Mat_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="4abc812f-1d57-4670-9664-da082b900495" name="Mat_Gen_Wall_Plaster_01A_Diff.png"/>
+		<meta id="59dcd8e0-1037-4236-8c86-8f125fff60a7" name="Roof_tiles_3"/>
+	</meta>
+	<meta id="6ff34340-e893-4c65-84bf-554f06aa933b" type="group" folder="true" name="Meshes">
+		<meta id="94dd3ea3-c521-42a1-9769-dae19074e1bf" name="Moss_Foundation_Tex_Wall_Stone_Rustic_Moss_Diff.png"/>
+		<meta id="db233cb5-4275-4f9e-a292-f5958c5fe534" name="Arched_window_simple.004_Tex_Wall_Stone_Rustic_01A_Diff"/>
+		<meta id="4da2fc9e-185f-4a40-aa55-f9900a8a0161" name="Stone_Wall_Tex_Wall_Stone_Rustic_01A_Diff.png"/>
+		<meta id="1adc5d66-e5eb-4202-9f2d-9e16cc59251b" name="Arched_window_simple.001_Tex_Wall_Stone_Rustic_01A_Diff"/>
+		<meta id="49a63f52-06b9-4ae9-9992-80a5f2745dc6" name="Arched_window_simple.001_Window_Black"/>
+		<meta id="db3540cb-89c0-4965-8544-5bb085730b3b" name="Stone_Wall.001_Tex_Wall_Stone_Rustic_01A_Diff.png"/>
+		<meta id="7b4cded7-1821-4a36-a446-958acaadd6cc" name="Arched_window_simple.002_Tex_Wall_Stone_Rustic_01A_Diff"/>
+		<meta id="6e9b83fb-bc39-45de-a2de-6836c0c71a21" name="Stone_Wall.002_Tex_Wall_Stone_Rustic_01A_Diff.png"/>
+		<meta id="4cde11ea-7d2e-4704-a1fb-0c8e6a2fe355" name="Wooden_Beam_End_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="23e87076-a2fa-4824-948f-a39676c37607" name="Wooden_Beam_End.001_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="d9c7113d-6039-454a-abdb-407f3cb17c9a" name="Wooden_Beam_End.002_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="12e34baf-ca3d-44fb-8cc0-abe63432e5e7" name="Wooden_Beam_End.003_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="8f5cbfa3-d945-4ce7-bb20-ad471a9a5c47" name="Wooden_Beam_End.005_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="211533cf-7ad5-4b57-8427-3f90b958e9ef" name="Wooden_Beam_Long_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="869c776e-2ce0-44f5-a996-05ea85ebf929" name="Wooden_Beam_Short_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="63c3817d-621e-42db-86a2-72c4916ed967" name="Plaster_Wall_Tex_Gen_Wall_Plaster_01A_Diff.png"/>
+		<meta id="4715aa61-d5f7-4038-8765-b3cc0d90401e" name="Wooden_Beam_Corners_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="6b9ac9d5-c21f-4912-a416-632133ad82d8" name="Wooden_Beam_Diagonal_1_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="9369ce09-207d-47ab-b6d6-82c9512ff0ab" name="Wooden_Beam_Diagonal_2_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="540185c4-c118-410f-bc24-a1245ea5b621" name="Wooden_Beam_Diagonal_3_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="2eaa7411-1c5f-4df1-90e6-94eeeef52a73" name="Wooden_Beam_Middle_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="072e7ae2-a742-4abc-acea-63bad6c191be" name="Wooden_Beam_Window_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="86c85507-1b5a-4ab5-b0dd-a78e61be449c" name="windowsill.002_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="9be81573-68a4-443e-94b0-6c8facf9a7db" name="Plaster_Wall.002_Tex_Gen_Wall_Plaster_01A_Diff.png"/>
+		<meta id="d12dcffd-c185-4d77-9a70-f0008607c683" name="Wooden_Beam_Corners.002_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="0951e042-603b-4780-96fb-be0c8a8db2d4" name="Wooden_Beam_Diagonal_1.002_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="c86317e2-3e1c-451c-80a1-9efd1df744d3" name="Wooden_Beam_Diagonal_2.002_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="5199a20f-8b40-4ff7-9440-60f262da4372" name="Wooden_Beam_Diagonal_3.002_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="64968824-2ad5-47eb-81c2-9df043635318" name="Wooden_Beam_Middle.002_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="fe29a0b7-5018-44d7-b969-aadeedf2b188" name="windowsill.006_Window_Black"/>
+		<meta id="717d2743-81e5-45c4-aee2-d81404618a6d" name="windowsill.006_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="ea7a2b64-2bcd-41e6-a681-0ec29c1ae44c" name="Plaster_Wall.001_Tex_Gen_Wall_Plaster_01A_Diff.png"/>
+		<meta id="fb7ea2cf-404a-4411-b2c2-9fc1d1e4ce4e" name="Wooden_Beam_Corners.001_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="02dbed81-9a38-4002-92bd-fbbc3c43265d" name="Wooden_Beam_Diagonal_1.001_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="bb617de5-604e-4edd-9187-9ea761da5753" name="Wooden_Beam_Diagonal_2.001_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="4001f984-e48b-4607-b7e9-d596d90b2395" name="Wooden_Beam_Diagonal_3.001_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="4571e440-f5ca-415f-b097-b85f4dec30f3" name="Wooden_Beam_Long.002_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="1f456458-c527-466f-b254-6cacc2c2f9ff" name="Wooden_Beam_Middle.001_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="6f3143f2-1818-4f90-b1e2-6c61c094885f" name="Wooden_Beam_Short.001_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="d2debfe9-3593-44a5-80f1-9b8a76cf3bc0" name="Roof_Plank.007_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="3a2a5a59-8dde-4fde-966b-76ad523a568f" name="Roof_Plank.008_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="d45ff0e5-393f-4015-b97f-1c618b03084c" name="Roof_Plank.009_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="520e7ebc-e78f-4115-8656-0a88de554c72" name="Roof_Plank.010_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="26c5fd6f-5350-42a6-9b00-f047468c2b23" name="Roof_Plank.011_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="86e65feb-9aab-40e5-8c2e-855e4493ee8f" name="Roof_Plank.012_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="e62f98db-c280-434e-92b4-f3ac8549e154" name="Roof_Plank.013_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="d5d6f403-8a8b-4b8a-8247-f1f7c4379098" name="Roof_Plank.015_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="52245d61-f204-47e8-94c6-b1043f2983de" name="Roof_Plank.016_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="33bcdf24-cd59-4839-8f21-0a8fac53fd9a" name="Roof_Plank.018_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="e6d088c2-18bd-4f52-98f6-c941e80e91e2" name="Roof_Side_Panels_Tex_Gen_Wall_Plaster_01A_Diff.png"/>
+		<meta id="0cff7fec-2858-443a-83ea-67619460efb8" name="Wooden_Beam_Long.001_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="d2066ea6-3bef-4ca4-8db7-f5676ea2bb93" name="Wooden_Beam_Short.002_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="3aec08bd-492d-4d73-9719-a430981ba21b" name="Wooden_Beam_Short.003_Tex_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		<meta id="de833688-03f0-4b5f-8319-1385eb7f56e2" name="Roof_Scaled_Up_Roof_tiles_3"/>
+		<meta id="cb5c77b7-10e9-4f22-9654-f85d17dcedea" name="Roof_Tile.003_Roof_tiles_3"/>
+		<meta id="d487a500-f0e0-4c11-8279-71ca12442062" name="Roof_Tile.004_Roof_tiles_3"/>
+		<meta id="4b4900e3-1c38-4c96-a896-2dc2928d0720" name="Roof_Tile.005_Roof_tiles_3"/>
+		<meta id="be221f74-d340-48e0-93f3-573c51503393" name="Roof_Tile.006_Roof_tiles_3"/>
+		<meta id="c2a96b51-f8b9-400c-a548-295b705de738" name="Roof_Tile.007_Roof_tiles_3"/>
+		<meta id="763077dc-b2e9-4696-b41d-8fae92fd9a68" name="Roof_Tile.008_Roof_tiles_3"/>
+		<meta id="5c8fdcfc-a74c-4e6a-bf12-4bed6f53f9f3" name="Roof_Tile.009_Roof_tiles_3"/>
+		<meta id="a7ac0ed7-0efe-4d3b-aa8b-5f54647031e1" name="Roof_Tile.010_Roof_tiles_3"/>
+		<meta id="3e41fad6-9b6b-4c01-8236-a72dee19f98b" name="Roof_Tile.011_Roof_tiles_3"/>
+		<meta id="f24b0746-613f-4a0d-af8d-0c100d755fec" name="Roof_Tile.012_Roof_tiles_3"/>
+		<meta id="d9f7cabf-c2b9-4168-8dea-1d721e435e69" name="Roof_Tile.013_Roof_tiles_3"/>
+		<meta id="c8b9847e-9d6a-4be4-9bb0-1740c3ec41c6" name="Roof_Tile.023_Roof_tiles_3"/>
+		<meta id="85adf581-57c7-4d61-b311-3cd623c03d4d" name="Roof_Tile.024_Roof_tiles_3"/>
+		<meta id="baf20a44-2b6d-420d-9609-6f776f6a3fe1" name="Roof_Tile.025_Roof_tiles_3"/>
+		<meta id="ec738a59-56fc-494a-8042-136546635e38" name="Roof_Tile.026_Roof_tiles_3"/>
+		<meta id="48f1c446-11b7-4912-abcb-2350ddf24e6c" name="Roof_Tile.027_Roof_tiles_3"/>
+		<meta id="a7d8b93c-30f7-44c0-98da-f2c3a08be201" name="Roof_Tile.028_Roof_tiles_3"/>
+		<meta id="4f9386b5-1d88-45c1-ae69-ff3a256b14f7" name="Roof_Tile.029_Roof_tiles_3"/>
+		<meta id="ede022b4-82fc-4249-82aa-39d5e96046f4" name="Roof_Tile.030_Roof_tiles_3"/>
+		<meta id="86624843-0bfd-403e-ac86-ad1b75304b91" name="Roof_Tile.031_Roof_tiles_3"/>
+		<meta id="54a5a275-3504-43d6-9c6e-a12dac0b7289" name="Roof_Tile.032_Roof_tiles_3"/>
+		<meta id="01ec16cf-37e2-4121-b466-f24f7565c562" name="Roof_Tile.033_Roof_tiles_3"/>
+		<meta id="5c6d2ced-dacb-47b9-a8fd-2f711b1a0bca" name="Roof_Tile.034_Roof_tiles_3"/>
+		<meta id="05b90cb1-4e08-42e2-8540-4ae1df81df31" name="Roof_Tile.035_Roof_tiles_3"/>
+		<meta id="b95e6b44-1ed3-4f2d-9191-68b332fb9478" name="Roof_Tile.036_Roof_tiles_3"/>
+		<meta id="59088f40-22f3-4821-80a3-8c6138fb9fd8" name="Roof_Tile.037_Roof_tiles_3"/>
+		<meta id="a58d84a7-1039-41d7-b375-6d72294b77f5" name="Roof_Tile.038_Roof_tiles_3"/>
+		<meta id="5aefed03-89c1-49ff-a8e8-14ef6a6dbaf2" name="Roof_Tile.039_Roof_tiles_3"/>
+		<meta id="276f5478-d421-4c7f-b255-7799229ce8db" name="Roof_Tile.041_Roof_tiles_3"/>
+		<meta id="b97bb000-a1b7-4263-813d-af600b4653b2" name="Roof_Tile.045_Roof_tiles_3"/>
+		<meta id="fd2fe470-237a-4e72-8a3b-a7e46b50c9e8" name="Roof_Tile.046_Roof_tiles_3"/>
+		<meta id="1a60f93f-c040-4e25-b65d-5156f68455d6" name="Roof_Tile.047_Roof_tiles_3"/>
+		<meta id="0452e50d-450a-43ed-9e02-b32c0ad3bcfe" name="Roof_Tile.048_Roof_tiles_3"/>
+	</meta>
+	<meta id="2a0ee8c1-e75f-4f27-bef2-e9f5705dd2eb" name="Prefab">
+		<meta id="5cc36d01-44a5-4598-bc4c-9295215b4e5e" name="1_Small_House_Bottom_Part">
+			<meta id="64d25b34-03e4-423d-9402-becd3220c44d" name="Attach_Bottom"/>
+			<meta id="8677ef23-f3b5-4834-aa2b-eefc0a714397" name="Attach_Major"/>
+			<meta id="e3c6974b-5e9c-4d91-af1c-016a7d40f25f" name="Attach_Major.001"/>
+			<meta id="a2e568e6-69eb-4491-b428-d6dd67d8422d" name="Attach_Major.002"/>
+			<meta id="fcf22fdf-88ae-48e4-ae8a-c510f1c2c91d" name="Attach_Major.003"/>
+			<meta id="08c59a75-a52d-43d8-8240-d3cb7b1b1537" name="Attach_Major.004"/>
+			<meta id="70b7877e-4b09-4b60-97f2-da158d0c280e" name="Attach_Top"/>
+			<meta id="a17be6ad-929e-4ce9-9960-793b765d369e" name="Moss_Foundation"/>
+		</meta>
+		<meta id="125377a1-190d-4031-b4d1-51e8fb67195b" name="2_Small_House_Stone_Filler_1_Part">
+			<meta id="df743e93-2431-4314-8924-ecf29b825479" name="Arched_window_simple.004"/>
+			<meta id="23b83495-58cd-4de2-9736-51bebe06dfbb" name="Attach_Bottom.001"/>
+			<meta id="d932e5cd-cb56-4173-a2bf-7c01a61d90ef" name="Attach_Top.001"/>
+			<meta id="612ff57e-a96d-4783-a534-bd024ed01d26" name="Stone_Wall"/>
+		</meta>
+		<meta id="62b48123-403c-4c26-9225-f487a7b624a2" name="2_Small_House_Stone_Filler_2_Part">
+			<meta id="259ffebc-aef0-43cc-9b4b-3183aace41d8" name="Arched_window_simple.001">
+				<meta id="066cbc02-90f4-49b7-b26d-cc2e9a7802c8" name="Arched_window_simple.001_0"/>
+				<meta id="bfd76725-f6e9-41d8-afd2-4bcb7c51e858" name="Arched_window_simple.001_1"/>
+			</meta>
+			<meta id="93d7f6e8-7f56-4c57-ba80-a8cf72caccfc" name="Attach_Bottom.005"/>
+			<meta id="854303e8-c68d-476d-abf1-7fa52fec4bef" name="Attach_Top.004"/>
+			<meta id="91c3c3d9-a6de-445a-b8b9-3461c1bf4dad" name="Stone_Wall.001"/>
+		</meta>
+		<meta id="24a0dbee-cdaf-4e85-8853-451203c6cfac" name="2_Small_House_Stone_Filler_3_Part">
+			<meta id="51d6cfca-c8a1-46d9-8d03-5f9ed61563e3" name="Arched_window_simple.002"/>
+			<meta id="51a259da-b738-43cc-b59e-cfacdda3e0d4" name="Attach_Bottom.006"/>
+			<meta id="daaf7bbf-0964-44f4-83d0-e0cc561508e1" name="Attach_Top.005"/>
+			<meta id="3a76976b-1567-4bac-982d-a83dcc0041be" name="Stone_Wall.002"/>
+		</meta>
+		<meta id="d13aabf2-e4b4-4fcd-8af5-454870489c7a" name="3_Small_House_Middle_Part">
+			<meta id="2bce5d21-0abf-4209-aab7-c1abb47228dc" name="Attach_Bottom.002"/>
+			<meta id="1036333a-1735-4c27-b162-006ad5c7c68a" name="Attach_Top.002"/>
+			<meta id="e06c2fb6-2d4b-4546-9510-43b41383cb7e" name="Wooden_Beam_End"/>
+			<meta id="72e6730c-f384-4f0a-a0e2-2ae70985333e" name="Wooden_Beam_End.001"/>
+			<meta id="80ee2d60-6175-4839-af63-2e423d691680" name="Wooden_Beam_End.002"/>
+			<meta id="7adacbaa-ccea-499b-b379-0464e939ecaa" name="Wooden_Beam_End.003"/>
+			<meta id="4c427726-a2d8-456a-a000-12f361d8ad83" name="Wooden_Beam_End.004"/>
+			<meta id="0273407d-81d3-4cec-9a65-9f2b969eeb18" name="Wooden_Beam_End.005"/>
+			<meta id="ac37493a-c842-49c4-98e7-f01a03040df1" name="Wooden_Beam_Long"/>
+			<meta id="a592173d-0b70-44df-986b-58fa0a305bac" name="Wooden_Beam_Short"/>
+		</meta>
+		<meta id="8ce20ae3-2165-47d6-bde5-aa781af9d86e" name="4_Small_House_Plaster_Filler_1_Part">
+			<meta id="a14ec3ee-9dec-4019-97c4-762c7da374c6" name="Attach_Bottom.003"/>
+			<meta id="2cb1e101-9600-48d4-8705-f0c8442fcee1" name="Attach_Top.003"/>
+			<meta id="de8e2196-c477-490b-96f3-63f6cece5295" name="Plaster_Wall"/>
+			<meta id="c16a658c-4de9-4f99-a9dd-847504447b30" name="Wooden_Beam_Corners"/>
+			<meta id="52016494-70c1-46f6-9b32-88f267ad54e3" name="Wooden_Beam_Diagonal_1"/>
+			<meta id="8caeffbd-dfea-4871-bd91-6f8a32ecfe97" name="Wooden_Beam_Diagonal_2"/>
+			<meta id="3331344c-e274-4549-919a-31432623e061" name="Wooden_Beam_Diagonal_3"/>
+			<meta id="6d514988-e286-4613-8d2a-1f38d938296d" name="Wooden_Beam_Middle"/>
+			<meta id="45e7b867-cb58-4acd-96c6-8b75ad06245f" name="Wooden_Beam_Window"/>
+			<meta id="f756d544-d03f-4fa0-b04b-4515bef82bf3" name="windowsill.002"/>
+		</meta>
+		<meta id="c73be5c2-7b97-445f-8d7f-f371c48d9343" name="4_Small_House_Plaster_Filler_2_Part">
+			<meta id="4d23668c-dcfe-4577-945a-57171c7ddb47" name="Attach_Bottom.009"/>
+			<meta id="3212145c-f79d-49a3-aa51-5f12b5fd43e7" name="Attach_Top.008"/>
+			<meta id="66a0e1b2-6348-40f4-a8eb-593e40c6174f" name="Plaster_Wall.002"/>
+			<meta id="0c108448-5d5e-4003-a54e-f52bd74dab7d" name="Wooden_Beam_Corners.002"/>
+			<meta id="11839add-898b-4326-bd9c-37c03179b95e" name="Wooden_Beam_Diagonal_1.002"/>
+			<meta id="98a7b3e1-1f2a-4a84-83c5-35fb2873d7a4" name="Wooden_Beam_Diagonal_2.002"/>
+			<meta id="840c2241-715a-448d-b605-697328b13959" name="Wooden_Beam_Diagonal_3.002"/>
+			<meta id="ee553d00-4cf6-4e57-bac2-f8296685370f" name="Wooden_Beam_Middle.002"/>
+			<meta id="8d3e8830-2dc0-46f2-918f-76e55c325e7b" name="windowsill.006">
+				<meta id="38dc7f63-1948-4fb0-a41f-a785bf948dea" name="windowsill.006_0"/>
+				<meta id="7f178682-9353-48ad-a5c2-b9f2776cee88" name="windowsill.006_1"/>
+			</meta>
+		</meta>
+		<meta id="fbc84fa5-c682-42b2-8895-6c771d8a736b" name="4_Small_House_Plaster_Filler_3_Part">
+			<meta id="c1f7bb32-e8fa-4a33-b93a-66e51cdc5dc7" name="Attach_Bottom.008"/>
+			<meta id="67816558-1fa6-4b9c-b60b-01f37109c5ae" name="Attach_Top.007"/>
+			<meta id="4c1815d8-8c0d-4512-b481-b65da84f6a9a" name="Plaster_Wall.001"/>
+			<meta id="dd4d6e61-2cc5-40e8-a620-803ca2007200" name="Wooden_Beam_Corners.001"/>
+			<meta id="51b68b9b-a23b-4e46-ac11-6e39752082f8" name="Wooden_Beam_Diagonal_1.001"/>
+			<meta id="f57628e6-3e33-4c9c-8963-a0191922355c" name="Wooden_Beam_Diagonal_2.001"/>
+			<meta id="fc3460f9-dfa8-4a0a-b7e4-50463d29bdca" name="Wooden_Beam_Diagonal_3.001"/>
+			<meta id="2f8606e5-defd-422d-b988-e0d7523b67dd" name="Wooden_Beam_Long.002"/>
+			<meta id="11b2e2f8-8c66-4857-8478-e2cadc284206" name="Wooden_Beam_Middle.001"/>
+			<meta id="58e04080-9787-4b1e-842f-adfeec8c22a7" name="Wooden_Beam_Short.001"/>
+		</meta>
+		<meta id="e81248dc-b7fa-42c8-ad58-a8d4b86457dd" name="5_Small_House_Roof_Part">
+			<meta id="7f191cae-41fa-4569-ad35-9c651562f089" name="Attach_Bottom.004"/>
+			<meta id="758e1344-5a01-46f0-b5b1-f7f25f5ef842" name="Roof_Plank.007"/>
+			<meta id="9c0919f5-3288-4d89-bb9f-dedaf46486ff" name="Roof_Plank.008"/>
+			<meta id="a18aba6e-b1d3-471d-8fca-9bee344ae1cb" name="Roof_Plank.009"/>
+			<meta id="d17c6ad0-a53d-4366-ab81-d0e0faa06635" name="Roof_Plank.010"/>
+			<meta id="b4958db7-6659-44f8-9d56-efd73392cb96" name="Roof_Plank.011"/>
+			<meta id="5399b726-8ea0-4cf5-ac9d-8e6dbba28a8c" name="Roof_Plank.012"/>
+			<meta id="9dfa2bf1-20d2-43f3-835f-cc64ea8a2b38" name="Roof_Plank.013"/>
+			<meta id="cc7f94d6-93d0-4f70-a8d1-d2701a924d5a" name="Roof_Plank.014"/>
+			<meta id="48c86bbd-6e29-4250-8e50-c1491e566670" name="Roof_Plank.015"/>
+			<meta id="90c99a71-39d6-4419-8847-470a8c69ea3b" name="Roof_Plank.016"/>
+			<meta id="b65ba88d-2e47-4aa3-ad04-9ed726bf709c" name="Roof_Plank.017"/>
+			<meta id="ad7ffe28-4895-467b-b505-8b2bd204e9c4" name="Roof_Plank.018"/>
+			<meta id="82bb9d9a-8cf2-4231-bc6a-3ecdfb6369ce" name="Roof_Scaled_Up"/>
+			<meta id="082ea037-7bc7-44e7-aeda-e21cea1fce3b" name="Roof_Side_Panels"/>
+			<meta id="47a3e230-f009-4b00-94e8-e0eed35c47ad" name="Wooden_Beam_Long.001"/>
+			<meta id="0e5bbf6d-0511-4c29-b4bb-a38fc9561792" name="Wooden_Beam_Short.002"/>
+			<meta id="7b8f2b34-08b4-4286-af66-df2768ee4348" name="Wooden_Beam_Short.003"/>
+			<meta id="297f52a2-3596-40cd-8993-29feac3ca5ff" name="Roof_Tile.003"/>
+			<meta id="55169944-be78-45fd-8717-2455ec05c064" name="Roof_Tile.004"/>
+			<meta id="894e9039-a4ee-4401-8c27-d6c4a8521692" name="Roof_Tile.005"/>
+			<meta id="cc414813-427d-4b81-a6b0-6218befd54f4" name="Roof_Tile.006"/>
+			<meta id="78cb1af9-b03f-46de-a807-9d1ee30ca65f" name="Roof_Tile.007"/>
+			<meta id="7631cf37-310d-45c3-b1a4-de62a170b83d" name="Roof_Tile.008"/>
+			<meta id="bbecf10e-e3d6-41af-9123-2981a498138e" name="Roof_Tile.009"/>
+			<meta id="94dbae53-b6d8-44cb-ba47-da290e1e83e9" name="Roof_Tile.010"/>
+			<meta id="5f015363-9207-4d21-bc54-369abb2fe053" name="Roof_Tile.011"/>
+			<meta id="6140d66d-3633-4826-9749-d1c40e8828b8" name="Roof_Tile.012"/>
+			<meta id="8e3fdd81-42fb-4504-9f60-4eacef88ef97" name="Roof_Tile.013"/>
+			<meta id="997007cc-c940-4977-8b06-60fb635805f3" name="Roof_Tile.014"/>
+			<meta id="38a91175-605a-4ba0-8fa7-26cd34b08a42" name="Roof_Tile.015"/>
+			<meta id="2b767079-41b9-4fc4-9f07-e3fffd9053e1" name="Roof_Tile.016"/>
+			<meta id="eadb0ecb-d9e0-4bf9-8d31-1b5b77b0ba7f" name="Roof_Tile.017"/>
+			<meta id="1f8498a5-dfd4-46ca-8dbb-319b14e64a42" name="Roof_Tile.018"/>
+			<meta id="84273229-a70e-4ca7-9b7c-463268309655" name="Roof_Tile.019"/>
+			<meta id="dd2dd33c-f9e0-44a2-93a6-795665e0b5cb" name="Roof_Tile.020"/>
+			<meta id="36455aa8-1c9d-4239-be5e-aa2c026264f5" name="Roof_Tile.021"/>
+			<meta id="c22990bd-9ea3-4a73-9896-f918135b825c" name="Roof_Tile.022"/>
+			<meta id="b1af4909-0f98-4cf7-922e-91b5304269b3" name="Roof_Tile.023"/>
+			<meta id="216e4401-4bff-4ca9-9259-9fa7ce8de1a8" name="Roof_Tile.024"/>
+			<meta id="d18f4756-bfd4-4047-8666-4a1a497f1cd0" name="Roof_Tile.025"/>
+			<meta id="f57b37b2-ee02-406b-b04a-146e61d23643" name="Roof_Tile.026"/>
+			<meta id="790d088e-e2fa-40b9-abe2-ab6fc5919f6b" name="Roof_Tile.027"/>
+			<meta id="02bb629c-4013-4d7c-87b1-9f57549f59b7" name="Roof_Tile.028"/>
+			<meta id="ddb7a5f4-9620-4ec1-b26d-4411d6155196" name="Roof_Tile.029"/>
+			<meta id="cf4deb41-078e-4397-a95f-981559d3db30" name="Roof_Tile.030"/>
+			<meta id="8ee7d48d-580d-42f8-acba-06eeef5c10be" name="Roof_Tile.031"/>
+			<meta id="9aa89ede-15fb-42e6-911f-82f9816a0f42" name="Roof_Tile.032"/>
+			<meta id="d984a02a-37d9-4d05-b354-9f3c25737d0a" name="Roof_Tile.033"/>
+			<meta id="6718addf-23e0-404c-8175-875d9df12a73" name="Roof_Tile.034"/>
+			<meta id="87ff6ebe-553d-4edc-a8a6-5647b7f89988" name="Roof_Tile.035"/>
+			<meta id="9a52576f-56c3-46ef-af16-f1d2b4c6832b" name="Roof_Tile.036"/>
+			<meta id="29dd0362-e5c8-4542-a06f-44bdf97c43cb" name="Roof_Tile.037"/>
+			<meta id="38f9a3e4-4766-48ee-8203-06726459e0ff" name="Roof_Tile.038"/>
+			<meta id="fb9cd740-fb8c-4990-8a54-eeb0cd5f10bb" name="Roof_Tile.039"/>
+			<meta id="fade6b62-49d6-4975-bcfa-b2f88d6c554e" name="Roof_Tile.040"/>
+			<meta id="9dbbef31-8745-4e9c-b981-ea465c402082" name="Roof_Tile.041"/>
+			<meta id="8e2ad2db-ede0-42ae-8cac-d98535dcc887" name="Roof_Tile.042"/>
+			<meta id="92379cec-591f-4d7b-a1c6-930ff8eaf458" name="Roof_Tile.043"/>
+			<meta id="7a34a81b-f9fe-479f-8dcb-902e29f99c82" name="Roof_Tile.044"/>
+			<meta id="4a4555ce-11d7-46f4-801a-15a2b75fe3c0" name="Roof_Tile.045"/>
+			<meta id="6e2ca9d7-4ad6-4c5e-b053-1e76d988e103" name="Roof_Tile.046"/>
+			<meta id="a1b99fb7-52ce-4c05-8404-d07c19f632fa" name="Roof_Tile.047"/>
+			<meta id="0920f385-cadd-4ca1-8e41-b03aaee9efb2" name="Roof_Tile.048"/>
+		</meta>
+		<meta id="c385b02f-6925-428a-ad0d-64d80603723d" name="Sun"/>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<WorkFilePath value="utf8:"/>
+	<Md5Checksum value="441c72cd803de866ac5656e50beeb16c"/>
+	<ModelVersion value="37"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<ZUpSource value="false"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Bottom"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Moss_Foundation"/>
+					</Item>
+				</ChildList>
+				<NodeName value="1_Small_House_Bottom_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Arched_window_simple.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Bottom.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Stone_Wall"/>
+					</Item>
+				</ChildList>
+				<NodeName value="2_Small_House_Stone_Filler_1_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="Arched_window_simple.001_0"/>
+							</Item>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="Arched_window_simple.001_1"/>
+							</Item>
+						</ChildList>
+						<NodeName value="Arched_window_simple.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Bottom.005"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Stone_Wall.001"/>
+					</Item>
+				</ChildList>
+				<NodeName value="2_Small_House_Stone_Filler_2_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Arched_window_simple.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Bottom.006"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top.005"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Stone_Wall.002"/>
+					</Item>
+				</ChildList>
+				<NodeName value="2_Small_House_Stone_Filler_3_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Bottom.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_End"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_End.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_End.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_End.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_End.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_End.005"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Long"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Short"/>
+					</Item>
+				</ChildList>
+				<NodeName value="3_Small_House_Middle_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Bottom.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Plaster_Wall"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Corners"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Diagonal_1"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Diagonal_2"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Diagonal_3"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Middle"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Window"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="windowsill.002"/>
+					</Item>
+				</ChildList>
+				<NodeName value="4_Small_House_Plaster_Filler_1_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Bottom.009"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top.008"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Plaster_Wall.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Corners.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Diagonal_1.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Diagonal_2.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Diagonal_3.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Middle.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="windowsill.006_0"/>
+							</Item>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="windowsill.006_1"/>
+							</Item>
+						</ChildList>
+						<NodeName value="windowsill.006"/>
+					</Item>
+				</ChildList>
+				<NodeName value="4_Small_House_Plaster_Filler_2_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Bottom.008"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top.007"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Plaster_Wall.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Corners.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Diagonal_1.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Diagonal_2.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Diagonal_3.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Long.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Middle.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Short.001"/>
+					</Item>
+				</ChildList>
+				<NodeName value="4_Small_House_Plaster_Filler_3_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Bottom.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Plank.007"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Plank.008"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Plank.009"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Plank.010"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Plank.011"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Plank.012"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Plank.013"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Plank.014"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Plank.015"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Plank.016"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Plank.017"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Plank.018"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Scaled_Up"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Side_Panels"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Long.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Short.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Wooden_Beam_Short.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.005"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.006"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.007"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.008"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.009"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.010"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.011"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.012"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.013"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.014"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.015"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.016"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.017"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.018"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.019"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.020"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.021"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.022"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.023"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.024"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.025"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.026"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.027"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.028"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.029"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.030"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.031"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.032"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.033"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.034"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.035"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.036"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.037"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.038"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.039"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.040"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.041"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.042"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.043"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.044"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.045"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.046"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.047"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Roof_Tile.048"/>
+					</Item>
+				</ChildList>
+				<NodeName value="5_Small_House_Roof_Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Sun"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Mat_Gen_Wall_Plaster_01A_Diff.png"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Mat_Gen_WoodPlanks_Trim_01A_Diff.png"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Mat_Wall_Stone_Rustic_01A_Diff"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Mat_Wall_Stone_Rustic_01A_Diff.png"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Mat_Wall_Stone_Rustic_Moss_Diff.png"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Roof_tiles_3"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Window_Black"/>
+		</Item>
+	</MaterialList>
+</importer>
+
