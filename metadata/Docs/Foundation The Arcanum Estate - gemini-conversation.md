@@ -14,32 +14,8 @@ Here's a breakdown of the key elements of its art style:
 * **Stylized and Relaxed:** The graphics are not hyper-realistic, but they are detailed and pleasing to the eye. The game uses a "comic-like" visual approach that makes it a "feast for the eyes" and contributes to its peaceful and laid-back gameplay.
 * **Emphasis on Organic Growth:** The art direction is central to the game's core mechanic of organic development. Houses and roads don't conform to a grid; they grow and sprawl in a natural, almost chaotic way, which is a key part of the visual identity. Paths even form on the ground where villagers walk most frequently.
 * **Lively and Detailed World:** The game focuses on creating a sense of "hustle and bustle." The art style is used to bring the village to life, with villagers having distinct clothes and tools for their professions. You can zoom in and see them working, which adds to the game's visual charm and immersion.
-
-+2
 * **Detailed and Modular Buildings:** A significant part of the art is the modular building system. This allows players to construct unique and visually impressive monuments like churches, manors, and castles from individual parts, contributing to the game's creative and personalized aesthetic.
 * **Colorful and Beautiful Graphics:** The game uses a vibrant and colorful palette to create a beautiful atmosphere. The developers have put a lot of work into the visuals, including revamping the lighting and environmental assets to enhance the overall look and feel.
-
-+1
-
----
-
-**You:**
-Can you generate an example image of a Manor monument from the game?
-
-**Gemini:**
-Here is an example of a Manor monument from the game Foundation by Polymorph Games:
-
-![, AI generated](https://lh3.googleusercontent.com/gg/AMW1TPpyniqh6DXJqXEmkhkJfdxgErSFYFBNsEusRPpn0z_npSMYyJfpIOr7D5hPq1qgTIyO4StYVNmkNPaNfeGoSplR1dhTQLVB_lXJ1qCaWIi1oJiZcUEc_MOvvFMp_QzihdFcbFDuUBfJcB8g8KR2q6Phk7rn8m-FTkQ7KvaTMKRIek-yTGd84Yy-8lJOJNAGFX6dWbyWe5m_eSunalxow4scTqRiOeRWyI8A9LMXNtQUBTGAGxpULJYT9rVRBZ8vhIw3kwDQkX9M4Mon74ZV5nDXMCaH-ZleVrLJW6X8u1S7Zz39csPbaOYXayV5i7Ux3peTN_fVsSPxIxc5zuYUKRpy=s1024-rj)
-
----
-
-**You:**
-Match the game art more closely
-
-**Gemini:**
-Got it, I'll generate an image that more closely matches the specific art style of Foundation, including its stylized realism and architectural details. 
-
-![, AI generated](https://lh3.googleusercontent.com/gg/AMW1TPoOAw_F9qk0mstFdU25oe3aztgaxfldU1xdehwAYqzgrsqBj9plZ1egYtd66f0NxtJ81S-QQosEE9uS44UXDktNKQ8qyqd33hNpCkepixNVK8nMFBG4CxHX2GcVh9In6x0HlZ91qAw77MJ1FhcsWb4XawnnHD_IMhAl_EVgU5qd2jIHPw2Jk2XcaXopeL1rV0aFanZpTxBu268xVuJOcvrDvCvNWkjLqZv0XLprV-79WlOdbaKA3GgFizOdRzCN2KXLB3NiGFcTELx73ZJjQ7aaehvzuyXuSnVXU7pTIloWXjYm3z9Pp72xu52lC9D0c1rtXuEScFXi6_CNYUlL-6g=s1024-rj)
 
 ---
 
@@ -56,12 +32,6 @@ There are three main aspirations, each tied to one of the game's estates:
 * **A Prestigious Burg (Labor Estate):** This aspiration focuses on the labor estate and creating a prosperous, bustling civilian town. The goals are centered around population growth, achieving high-density housing, and satisfying the needs of your citizens, including commoners and high-tier residents. In this aspiration, you are restricted from building both a castle and a monastery, so you must rely on civilian production, trade, and taxes to succeed.
 
 These aspirations are designed to guide your village's development, forcing you to specialize and make strategic decisions based on the specific constraints of the chosen path. They are a way to add depth and a unique challenge to the game.
-
-For a look at the "Prestigious Burg" aspiration in action, you can watch this [Foundation - Campaign Aspiration video](https://www.youtube.com/watch?v=HqvRo4gnVRU). The video is a full gameplay walkthrough of the Prestigious Burg campaign, showing how the aspiration's objectives are completed.
-
-[![image](https://www.gstatic.com/images/branding/productlogos/youtube/v9/192px.svg)
-Foundation - Campaign Aspiration: Prestigious Burg - Cozy City Builder - Full Gameplay (Version 1.0) - YouTubeRonEmpire · 757 views](https://www.youtube.com/watch?v=HqvRo4gnVRU)![image](https://i.ytimg.com/vi/HqvRo4gnVRU/maxresdefault.jpg)
-![image](https://www.gstatic.com/images/branding/productlogos/youtube/v9/192px.svg)
 
 ---
 
@@ -158,7 +128,7 @@ This estate would begin with the **Scholar**, a new common villager who is an ed
 
 * **Alchemy Lab:** Produces potions (for trading or buffs for villagers).
 * **Elemental Forge:** Allows for the creation of magical items and enchanted tools.
-* **Wizard's Tower:** A monumental building component that serves as their home and a source of Arcane Lore.
+* **Wizard's Tower:** A new estate monument with its own building parts that serves as their home and a source of Arcane Lore.
 * **Mage's Collegium:** A large monument that acts as a school and research center.
 * **Interaction with other Estates:** The Mages would have a high influence on the **Kingdom Estate**, as they could produce magical weapons or defensive spells to buff soldiers. They might also have a strained relationship with the Clergy due to conflicting views on faith versus logic.
 
@@ -4702,9 +4672,9 @@ The game *Foundation* generally employs an aesthetic known as **Medieval Provinc
 
 | Aesthetic Element | Description |
 | --- | --- |
-| **Architectural Style** | **Medieval (High/Late):** Utilizes half-timber framing, exposed stone foundations, heavy wood construction (oak/pine), and steep roofs. It avoids the polished, gothic grandeur of cathedrals, favoring sturdy, functional structures. |
-| **Materials** | **Visible & Simple:** Primary materials are unrefined **timber**, **field stone** (rough-cut, grey/brown), **limestone** (for more important structures), and **red clay tiles** or **thatch** for roofing. Materials show wear but are not overly dirty. |
-| **Color Palette** | **Earthy and Subdued:** Dominated by natural, unbleached colors: **Greys** (stone), **Earthy Browns** (wood/thatch), **Deep Reds/Terracotta** (tile roofs), and **White/Ochre Plaster** (infill panels). Bright, synthetic colors are entirely absent. |
+| **Architectural Style** | **Medieval (High/Late):** Utilizes half-timber framing, exposed stone foundations, heavy wood construction, and steep roofs. It avoids the polished, gothic grandeur of cathedrals, favoring sturdy, functional structures. |
+| **Materials** | **Visible & Simple:** Primary materials are unrefined **timber**, **field stone** (rough-cut, grey/brown), and **lavender/purple wood tiles** for roofing. Materials show wear but are not overly dirty. |
+| **Color Palette** | **Earthy and Subdued:** Dominated by natural, unbleached colors: **Greys** (stone), **Earthy Browns** (wood/thatch), **lavender/purple** (tile roofs), and **White/Ochre Plaster** (infill panels). Bright, synthetic colors are entirely absent. |
 | **Structure** | **Modular and Organic:** Buildings are designed to be constructed piece by piece. They often feature asymmetrical additions, visible scaffolding elements, and are built around irregular, organic shapes (especially the player-created monuments). |
 | **Folk Detail** | **Modest Ornamentation:** Details are simple and functional—small, rectangular windows (often unglazed), wooden shutters, modest carvings, and highly visible, simple-patterned half-timber framing. |
 
@@ -4785,35 +4755,6 @@ That description for the **Annex** is now locked in: **A place for your Aetheria
 
 ---
 
-## The Aethercourt: Aesthetic Modifications
-
-Now we will return to generating the aesthetic prompt for the **Aethercourt** and its sub-buildings, modifying the standard *Foundation* look.
-
-The **Aethercourt** must visually represent **Aether Crystals**, **Arcane Study**, and **Prestige** within the *Foundation* style.
-
-### Key Visual Modifications
-
-1. **Crystal Integration:** The **Faceted Aether Crystal** should be the primary visual accent. I propose they are used in places where glass would be, giving windows and architectural details a glowing, magical appearance.
-2. **Color Accents:** The accent color should be a magical glow that contrasts with the earthy palette. A subtle **Teal/Cyan** or **Light Violet** glow works best.
-3. **Overall Feel:** The structure should feel like a massive **Academic Observatory/Library Tower**, emphasizing intellect and height.
-
-### Aesthetic Prompt for The Aethercourt
-
-Here is the detailed prompt description, built upon the standard *Foundation* aesthetic, for AI artwork:
-
----
-
-"The structure adheres to the *Foundation* **Medieval Provincial** style (exposed timber/field stone/red tile roof).
-
-**Visual Modifications:**
-
-1. **Crystal Integration:** All windows, observation decks, and small architectural accents are built from large, cut **Faceted Aether Crystals** instead of glass. These crystals must be subtly **glowing** from within.
-2. **Color Accents:** The structure's accent color is a soft, pervasive **Light Cyan/Teal** glow emanating from the crystals and from engraved lines (**runes**) set into the stone framework.
-3. **Architecture & Materials:** Utilize smooth, **polished white/light grey limestone** for the primary building blocks (especially the core tower) to denote prestige and magical purity, contrasting sharply with the rough field stone of the lower common walls.
-4. **Overall Form:** Design should be a tiered, massive **Academic Tower/Spire**, featuring multiple **observatory decks** and **steep roofs**, giving it a look of intellectual focus and grand, controlled power."
-
----
-
 ## Next Step
 
 We should now return to the Paladin specialization to finalize the last sub-building.
@@ -4825,32 +4766,6 @@ We need a sub-building name inside the **Citadel of Light** for the **Training/M
 Options considered were: **The Watch Post, The Commandery, The Marshal's Ward.**
 
 Which of these names for the Paladin's **Training Workplace** works best?
-
----
-
-**You:**
-Distill the description to a few concise examples: a small building part, a large building part, a door part, and a small/narrow tower part.    
- Also, don't assume what i want to continue with, ask instead.
-
-**Gemini:**
-That's a good approach for creating focused art prompts. Distilling the aesthetic into components ensures consistency across all assets.
-
----
-
-## The Aethercourt: Concise Aesthetic Components
-
-Based on the overall *Foundation* style modified with the **Aethercourt** theme, here are four concise component descriptions for AI art prompts:
-
-1. **Small Building Part (Workshop/Annex):** "Exposed **dark oak half-timber** framing. Lower walls are rough **field stone**. Infill is **white plaster**. Roof is steep, **red terracotta tile**."
-2. **Large Building Part (Main Hall/Wing):** "Primary structure is clean, **polished light-grey limestone**. Features large **Faceted Aether Crystal** windows that emit a soft **Light Cyan/Teal glow**. Roof is high-pitched slate or tile."
-3. **Door/Window Part:** "Heavy, vertical-planked **dark oak door** with simple iron straps. Window aperture is filled entirely with a single, clear **Faceted Aether Crystal** block, glowing **Light Cyan/Teal**."
-4. **Small/Narrow Tower Part:** "Circular or squared **polished limestone** construction. Features thin, vertical lines of engraved **runes** that glow with **Light Cyan/Teal**. Topped with a very steep, conical roof of **red tile**."
-
----
-
-We previously locked in the **Sanctum** (Need Fulfillment) and **The Divine Forge** (Production) for the Paladins. We still need to define the **Training/Military Workplace** and its associated job.
-
-Would you like to continue defining the Paladin's specialized sub-buildings and jobs, or would you like to move on to another topic?
 
 ---
 
