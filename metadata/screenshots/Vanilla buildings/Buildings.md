@@ -30,14 +30,14 @@ TBD
 |                    | Rustic Wedge Tent                | Rustic Tower           |             |
 
 ### Chimney
-| Manor House        | Castle             | Monastery          | Aethercourt |
-| ------------------ | ------------------ | ------------------ | ----------- |
-| Short Chimney      | Short Chimney      | Heavy Chimney      |             |
-| Heavy Chimney      | Heavy Chimney      | Reinforced Chimney |             |
-| Narrow Chimney     | Narrow Chimney     | Encased Chimney    |             |
-| Reinforced Chimney | Reinforced Chimney |                    |             |
-|                    | Covered Chimney    |                    |             |
-|                    | Encased Chimney    |                    |             |
+| Manor House        | Castle             | Monastery          | Aethercourt     |
+| ------------------ | ------------------ | ------------------ | --------------- |
+| Short Chimney      | Heavy Chimney      | Heavy Chimney      | Narrow Chimney  |
+| Heavy Chimney      | Short Chimney      | Reinforced Chimney | Encased Chimney |
+| Narrow Chimney     | Encased Chimney    | Encased Chimney    | Covered Chimney |
+| Reinforced Chimney | Covered Chimney    |                    |                 |
+|                    | Reinforced Chimney |                    |                 |
+|                    | Narrow Chimney     |                    |                 |
 
 ### Bell Tower
 | Manor House | Castle | Monastery                          | Aethercourt |
