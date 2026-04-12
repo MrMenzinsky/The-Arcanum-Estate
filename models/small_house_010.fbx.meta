@@ -8,6 +8,8 @@
 		<meta id="05951bb3-9f8b-4f53-bf51-2c64a8a1aa31" name="Mat_Gen_WoodPlanks_Trim_01A_Diff.png"/>
 		<meta id="4abc812f-1d57-4670-9664-da082b900495" name="Mat_Gen_Wall_Plaster_01A_Diff.png"/>
 		<meta id="59dcd8e0-1037-4236-8c86-8f125fff60a7" name="Roof_tiles_3"/>
+		<meta id="d4e83e6d-6161-4e44-9931-a5a1de341c69" name="Roof_base"/>
+		<meta id="17911dab-b3e0-4a8d-9ff8-06be42d772a3" name="diamond_roof_tiles_2"/>
 	</meta>
 	<meta id="6ff34340-e893-4c65-84bf-554f06aa933b" type="group" folder="true" name="Meshes">
 		<meta id="94dd3ea3-c521-42a1-9769-dae19074e1bf" name="Moss_Foundation_Tex_Wall_Stone_Rustic_Moss_Diff.png"/>
@@ -97,6 +99,21 @@
 		<meta id="fd2fe470-237a-4e72-8a3b-a7e46b50c9e8" name="Roof_Tile.046_Roof_tiles_3"/>
 		<meta id="1a60f93f-c040-4e25-b65d-5156f68455d6" name="Roof_Tile.047_Roof_tiles_3"/>
 		<meta id="0452e50d-450a-43ed-9e02-b32c0ad3bcfe" name="Roof_Tile.048_Roof_tiles_3"/>
+		<meta id="7e87a304-492a-4f92-8503-0c2209df96ac" name="Alternating_Tiles_Roof_base"/>
+		<meta id="2b885f8a-4b1e-4b0c-981a-67cb71785cda" name="Alternating_Tiles_original_Roof_base"/>
+		<meta id="ef3e461a-61af-4bea-8049-0a908c1362d3" name="Roof_Tile.014_Roof_tiles_3"/>
+		<meta id="2e54243f-44f1-43d9-9831-e4df770d2e6a" name="Roof_Tile.018_Roof_tiles_3"/>
+		<meta id="e107f5c0-fbb1-4c3a-93db-c7ff165579bb" name="Roof_Tile.019_Roof_tiles_3"/>
+		<meta id="a780d809-9347-4a90-a124-52409270a4bd" name="Roof_Tile.021_Roof_tiles_3"/>
+		<meta id="57f2ae86-354b-4662-ab46-a7843fbb8f51" name="Roof_Tile.040_Roof_tiles_3"/>
+		<meta id="058528d9-23cd-4d55-a617-d0a9d603a6f5" name="Roof_Tile.042_Roof_tiles_3"/>
+		<meta id="d5809645-03fb-4800-93b3-d0d712bc4084" name="Roof_Tile.043_Roof_tiles_3"/>
+		<meta id="0d28381d-a255-4154-9b25-3137c9301369" name="Roof_Tile.044_Roof_tiles_3"/>
+		<meta id="cbdf49f5-d43c-4f1c-aef4-52d8615b7698" name="Cube"/>
+		<meta id="95c2590c-bd7e-47b9-911e-a6da156380f4" name="Cube.002"/>
+		<meta id="ddac1f96-2764-4f20-9f68-dd1d93cff0ce" name="Plane.011_diamond_roof_tiles_2"/>
+		<meta id="27674168-3a3e-411d-8a2c-9fc7822f77db" name="Roof_Tile.001_Roof_tiles_3"/>
+		<meta id="d3721edc-946d-4059-a1ff-22f6cc4dda25" name="Roof_Tile.002_Roof_tiles_3"/>
 	</meta>
 	<meta id="2a0ee8c1-e75f-4f27-bef2-e9f5705dd2eb" name="Prefab">
 		<meta id="5cc36d01-44a5-4598-bc4c-9295215b4e5e" name="1_Small_House_Bottom_Part">
@@ -245,13 +262,21 @@
 			<meta id="6e2ca9d7-4ad6-4c5e-b053-1e76d988e103" name="Roof_Tile.046"/>
 			<meta id="a1b99fb7-52ce-4c05-8404-d07c19f632fa" name="Roof_Tile.047"/>
 			<meta id="0920f385-cadd-4ca1-8e41-b03aaee9efb2" name="Roof_Tile.048"/>
+			<meta id="4a1b3ab8-1ffe-4837-a4bd-8a82dab0c508" name="Alternating_Tiles"/>
+			<meta id="58db7ae7-f9c6-45b2-8638-6e2cf93cd7f5" name="Alternating_Tiles_original"/>
 		</meta>
 		<meta id="c385b02f-6925-428a-ad0d-64d80603723d" name="Sun"/>
+		<meta id="4fbe3082-ebe1-4df4-9710-c1b9b33cb5fe" name="Cube"/>
+		<meta id="fcdbbff9-2934-40cb-98a0-e4e1feb59468" name="Cube.001"/>
+		<meta id="89051c51-c8f7-406e-856b-076fb5d356a7" name="Cube.002"/>
+		<meta id="e7cf85b1-8e68-4c83-b312-0a470068c1af" name="Plane.011"/>
+		<meta id="0b1fb3d5-7123-4690-b64e-30ef963ba1e8" name="Roof_Tile.001"/>
+		<meta id="3661fe32-1c47-4efc-9e74-1c9199dab8f6" name="Roof_Tile.002"/>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
 	<WorkFilePath value="utf8:"/>
-	<Md5Checksum value="441c72cd803de866ac5656e50beeb16c"/>
+	<Md5Checksum value="e99d055b541543a1e65b2cf5880c6cc4"/>
 	<ModelVersion value="37"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
@@ -954,6 +979,16 @@
 						<ChildList/>
 						<NodeName value="Roof_Tile.048"/>
 					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Alternating_Tiles"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Alternating_Tiles_original"/>
+					</Item>
 				</ChildList>
 				<NodeName value="5_Small_House_Roof_Part"/>
 			</Item>
@@ -962,10 +997,44 @@
 				<ChildList/>
 				<NodeName value="Sun"/>
 			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Cube"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Cube.001"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Cube.002"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Plane.011"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Roof_Tile.001"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Roof_Tile.002"/>
+			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
 	</NodeConfig>
 	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="diamond_roof_tiles_2"/>
+		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
 			<MaterialName value="Mat_Gen_Wall_Plaster_01A_Diff.png"/>
@@ -985,6 +1054,10 @@
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
 			<MaterialName value="Mat_Wall_Stone_Rustic_Moss_Diff.png"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>
+			<MaterialName value="Roof_base"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="00000000-0000-0000-0000-000000000000"/>

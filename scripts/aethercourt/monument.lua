@@ -25,15 +25,16 @@ mod:registerAsset({
   NavMeshLockCategory = "ARCANE",
   AssetCoreBuildingPart = "BUILDING_PART_MONUMENT_POLE",
   AssetBuildingPartList = {
-    -- "1X1.5M_FLAT_PART",
-    -- "1X1M_FLAT_PART",
-    -- "1X1M_PART",
-    -- "2X2M_PART",
-    -- "4X4M_PART",
-    -- "8X8M_PART",
-    -- "BIG_HOUSE_PART",
-    -- "SMALL_HOUSE_PART",
     "REAL_SMALL_HOUSE_PART",
+
+    -- Chimneys
+    "BUILDING_PART_CHIMNEY_E", -- Narrow Chimney?
+    "BUILDING_PART_MANOR_HOUSE_ENCASED_CHIMNEY",
+    "BUILDING_PART_MANOR_HOUSE_COVERED_CHIMNEY",
+
+    -- Uncomment when QoL update is released
+    -- "BUILDING_PART_VISITOR_LOCATION",
+
     -- Temporary reuse of existing building parts for quick testing
     -- Core
     "BUILDING_PART_MANOR_HOUSE_MANOR_GALLERY_MAJOR",
@@ -43,16 +44,6 @@ mod:registerAsset({
     "BUILDING_PART_MANOR_HOUSE_SIMPLE_STONE_ENTRANCE",
     "BUILDING_PART_MONASTERY_RUSTIC_GATE_ELEVATED",
     "BUILDING_PART_RUSTIC_CHURCH_HUMBLE_GATE",
-    -- Uncomment when QoL update is released
-    -- "BUILDING_PART_VISITOR_LOCATION",
-    -- Chimneys
-    "BUILDING_PART_CHIMNEY_E", -- Narrow Chimney?
-    "BUILDING_PART_MANOR_HOUSE_ENCASED_CHIMNEY",
-    "BUILDING_PART_MANOR_HOUSE_COVERED_CHIMNEY"
-    -- "BUILDING_PART_MANOR_HOUSE_SHORT_CHIMNEY",
-    -- "BUILDING_PART_MONASTERY_HEAVY_CHIMNEY",
-    -- "BUILDING_PART_TAVERN_REINFORCED_CHIMNEY",
-    -- "BUILDING_PART_CASTLE_WIDE_CHIMNEY"
   },
   SubAssetBuildingList = {
     "BUILDING_GREAT_HALL",
