@@ -1,0 +1,74 @@
+---
+title: The Arcane Lyceum
+tags:
+  - core
+  - building
+  - aethercourt
+  - architecture
+created: 2026-06-04
+status: design-locked
+sources:
+  - "[[dh-arcane-lyceum]]"
+  - "[[dh-loremaster-tier-3]]"
+---
+
+# The Arcane Lyceum
+
+## What this is
+
+**A Tier-3 sub-building inside [[the-aethercourt|The Aethercourt]]** — and the architecturally most ambitious building in the Core Arcanum mod. The Arcane Lyceum is the workplace of the [[aetherian-progression#The Loremaster — late addition, load-bearing|Loremaster]], who delivers the Lecture Service that fulfills the [[need-discourse|Discourse]] need for all T2+ Aetherians and specialists.
+
+Without the Arcane Lyceum, Loremasters have nowhere to work. Without Loremasters, the Discourse need cannot be fulfilled. Without Discourse fulfillment, T2+ Aetherians become unhappy and the late-game economy stalls. **This single building is the structural keystone of the late-game Arcanum experience.**
+
+## Architectural vision (locked)
+
+The Lyceum is two architectural ideas stacked:
+
+1. **A Pantheon-inspired domed lecture hall** — coffered dome with a central oculus, monumental rotunda interior. The Roman Pantheon reference is explicit. This is the indoor lecture space.
+2. **An open amphitheater** — concentric stone benches arranged around a central podium, classical outdoor-theater layout. This is the outdoor lecture/debate space.
+
+A single Lyceum building combines both, with the dome rising over the rotunda and the amphitheater extending outward.
+
+### Modular roof system
+
+The Lyceum's signature visual element is its roof. **Roof parts are modular and based on the icosahedron and other Platonic / geometric solids**, selectable by the player. This is the architectural motif that signals "Arcanum Estate" at a glance — geometry, not gothic.
+
+The Lyceum is the first building where this geometric vocabulary should be fully exercised. Other Aethercourt sub-buildings may use it more sparingly; the Lyceum sets the standard.
+
+## Tone
+
+Grand. Open. Unmistakably academic. The antithesis of a cramped classroom or hidden study chamber. The building must read as a public institution of learning, on par with vanilla Cathedrals and Castles in scale and presence.
+
+## Function
+
+| Role | Detail |
+| --- | --- |
+| Worker | Loremaster ([[aetherian-progression|T3 Aetherian]]) |
+| Service produced | The Lecture Service ("advanced lectures and discussions") |
+| Need fulfilled | [[need-discourse\|Discourse]] |
+| Consumers | All T2+ Aetherians and all specialist ranks (Mage, Paladin, Druid, Sorcerer) from any installed expansion |
+| Resource consumed/produced | None — service-only, no resource sink or output |
+
+The Lyceum does not produce or consume material resources. Its only "input" is the Loremaster (a worker who could otherwise have been a productive Arcanist — that's the opportunity cost balancing the system; see [[aetherian-progression]]).
+
+## Naming notes
+
+"The Arcane Lyceum" was chosen over The Grand Lecture (too plain), The Assembly Hall (too administrative), The Aetherian Forum (debate-focused, not lecture-focused), and The Great Rotunda (architectural shape baked into name — locks design too early). "Lyceum" carries Aristotelian academic prestige; "Arcane" ties it to the estate.
+
+The need it fulfills was called "Arcane Instruction" during early brainstorm — that name is **deprecated**. The final, locked need name is **[[need-discourse|Discourse]]**.
+
+## Open questions (modeling)
+
+- Exact pole / column count and proportions of the dome. `[TBD]` during modeling.
+- Whether the amphitheater is roofed by an extension of the dome or open-air. Reference: the Pantheon's portico extends in front of the rotunda — a similar arrangement could work here.
+- Modular variant count for the icosahedron roof. `[TBD]` — likely starts at 2–3 variants and expands.
+
+## Cross-links
+
+- [[the-aethercourt]] — parent monument
+- [[aetherian-progression]] — Loremaster status and its role
+- [[need-discourse]] — the need fulfilled here
+- [[core-buildings]] — other Aethercourt sub-buildings
+- [[estate-identity]] — geometric architectural language design principle
+- [[foundation-aesthetic-reference]] — the broader Foundation aesthetic this building sits inside
+- Design history: [[dh-arcane-lyceum]], [[dh-loremaster-tier-3]]
