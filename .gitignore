@@ -3,3 +3,4 @@
 local
 metadata/**/*.png
 metadata/**/*.kra*
+*.jpeg
