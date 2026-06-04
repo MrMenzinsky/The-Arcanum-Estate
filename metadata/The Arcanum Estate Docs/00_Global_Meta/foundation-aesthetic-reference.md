@@ -57,7 +57,7 @@ When prompting for Arcanum Estate buildings specifically, append: *"with subtle 
 ## Cross-links
 
 - [[estate-identity]] — visual identity for the Arcanum Estate
-- [[the-aethercourt]] — main monument; aesthetic intent
+- [[_the-aethercourt]] — main monument; aesthetic intent
 - [[arcane-lyceum]] — most ambitious building; full exercise of the geometric vocabulary
 - [[project-brief]] — overall tech stack and asset pipeline (Blender → .fbx)
 - Design history: [[dh-foundation-aesthetic-reference]]

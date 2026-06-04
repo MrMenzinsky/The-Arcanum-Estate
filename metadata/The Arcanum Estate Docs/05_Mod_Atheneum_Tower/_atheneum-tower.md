@@ -15,7 +15,7 @@ sources:
 
 ## What this is
 
-The **Tier-3 Mage specialization monument**. Houses the High Mage → Archmage progression and the four elemental work professions (Wind Weaver, Stone Shaper, Flame Forger, Mist Maker). One of four expansion-mod monuments branching off the [[the-aethercourt|Aethercourt]] — see [[monument-architecture]].
+The **Tier-3 Mage specialization monument**. Houses the High Mage → Archmage progression and the four elemental work professions (Wind Weaver, Stone Shaper, Flame Forger, Mist Maker). One of four expansion-mod monuments branching off the [[_the-aethercourt|Aethercourt]] — see [[monument-architecture]].
 
 ## Name rationale
 
@@ -56,8 +56,8 @@ The key insight from this long iteration: the Mage monument's name needed to con
 ## Cross-links
 
 - [[mage-design]] — full specialization design with the four elemental jobs
-- [[the-aethercourt]] — core monument that this expansion extends
+- [[_the-aethercourt]] — core monument that this expansion extends
 - [[monument-architecture]] — five-monument structural rationale
 - [[abandoned-ideas]] — paper trail for the Aether Tower → Atheneum Tower rename
-- Sibling Tier-3 monuments: [[citadel-of-light]], [[sacred-grove]], [[bloodforged-spire]]
+- Sibling Tier-3 monuments: [[_citadel-of-light]], [[_sacred-grove]], [[_bloodforged-spire]]
 - Design history: [[dh-atheneum-tower]], [[dh-sub-building-renames]]

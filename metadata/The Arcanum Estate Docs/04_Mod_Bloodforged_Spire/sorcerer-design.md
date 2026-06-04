@@ -40,7 +40,7 @@ The Sorcerer's identity went through a key reframe during design: from raw innat
 
 ## Workplaces
 
-The Sorcerer monument [[bloodforged-spire]] contains:
+The Sorcerer monument [[_bloodforged-spire]] contains:
 
 - **Ritual Grounds** — reserved as the Sorcerer's Tier-3 work sub-building name (`[TBD]` — function and produced resource not yet designed)
 - Additional sub-buildings `[TBD]`
@@ -69,7 +69,7 @@ See [[dh-sorcerer-ranks]] for the full progression iteration log.
 
 ## Cross-links
 
-- [[bloodforged-spire]] — the monument
+- [[_bloodforged-spire]] — the monument
 - [[aetherian-progression]] — shared Aspirant/Arcanist ladder
 - [[estate-identity]] — parent estate
 - [[dependency-logic]] — how this mod gates on Core

@@ -58,6 +58,6 @@ final_note: "[[aetherian-progression]]"
 ## Cross-links
 - [[dh-loremaster-tier-3]] — the late-added T3 status that completes the ladder
 - [[dh-discourse-need]] — the T2+ need that Loremasters fulfill
-- [[the-aethercourt]] — the core monument
+- [[_the-aethercourt]] — the core monument
 - [[dh-arcane-lyceum]] — sub-building where the Loremaster works
 - [[specialist-paths]] — Mage / Paladin / Druid / Sorcerer branches off Arcanist

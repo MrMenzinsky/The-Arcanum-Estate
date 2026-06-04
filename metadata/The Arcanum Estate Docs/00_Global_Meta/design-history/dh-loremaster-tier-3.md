@@ -42,6 +42,6 @@ final_note: "[[loremaster]]"
 ## Cross-links
 - [[dh-aetherian-progression]] — the underlying Aspirant → Arcanist → Loremaster ladder this tier completes
 - [[dh-discourse-need]] — the T2+ need fulfilled by the Lecture Service
-- [[the-aethercourt]] — parent monument
+- [[_the-aethercourt]] — parent monument
 - [[dh-arcane-lyceum]] — the T3 sub-building where the Loremaster works
 - [[specialist-paths]] — the Mage / Paladin / Druid / Sorcerer units that consume the Lecture Service

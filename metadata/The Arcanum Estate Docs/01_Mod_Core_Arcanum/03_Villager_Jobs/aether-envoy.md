@@ -3,7 +3,7 @@ title: Aether Envoy and the Grand Council
 tags:
   - core
   - external-affairs
-  - unit
+  - jobs
 created: 2026-06-04
 status: design-locked
 sources:
@@ -26,9 +26,9 @@ The Envoy lives at the Aethercourt. The Grand Council does not have a physical p
 The five-monument structure (one core + four expansions; see [[monument-architecture]]) means each monument needs its own external-quest hook. Rather than designing four separate factions, the Grand Council is a single named authority with **member roles** that can be customized per monument:
 
 - One Council member visits the Aethercourt for general Aetherian affairs
-- One visits the [[citadel-of-light]] for Paladin matters
-- One visits the [[sacred-grove]] for Druid matters
-- And so on for [[bloodforged-spire]] and [[atheneum-tower]]
+- One visits the [[_citadel-of-light]] for Paladin matters
+- One visits the [[_sacred-grove]] for Druid matters
+- And so on for [[_bloodforged-spire]] and [[_atheneum-tower]]
 
 Analogous to vanilla quests where the Abbess, Seneschal, or King visit specific monuments.
 
@@ -58,7 +58,7 @@ When fleshing out individual Council members or designing alternate quest givers
 
 ## Cross-links
 
-- [[the-aethercourt]] — where the Envoy operates
+- [[_the-aethercourt]] — where the Envoy operates
 - [[estate-identity]] — estate context
-- Expansion monuments where the Council also visits: [[citadel-of-light]], [[sacred-grove]], [[bloodforged-spire]], [[atheneum-tower]]
+- Expansion monuments where the Council also visits: [[_citadel-of-light]], [[_sacred-grove]], [[_bloodforged-spire]], [[_atheneum-tower]]
 - Design history: [[dh-aether-envoy]]

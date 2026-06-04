@@ -41,6 +41,6 @@ Gemini's description of the vanilla Foundation aesthetic. Used as the baseline r
 
 ## Cross-links
 
-- [[the-aethercourt]]
+- [[_the-aethercourt]]
 - [[dh-citadel-of-light]]
 - [[3d-modeling-pipeline]]

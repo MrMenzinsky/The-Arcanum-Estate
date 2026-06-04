@@ -14,7 +14,7 @@ final_note: "[[dh-arcane-lyceum]]"
 # Arcane Lyceum — Decision Log
 
 ## Final state
-The **Arcane Lyceum** is a T3 sub-building inside [[the-aethercourt]]. It is the workplace of the [[loremaster]], who fulfils the **Discourse** need for all specialized T3+ units (High Mage, Holy Paladin, Elder Druid, Awakened Sorcerer, and beyond).
+The **Arcane Lyceum** is a T3 sub-building inside [[_the-aethercourt]]. It is the workplace of the [[loremaster]], who fulfils the **Discourse** need for all specialized T3+ units (High Mage, Holy Paladin, Elder Druid, Awakened Sorcerer, and beyond).
 
 > **Naming note:** the source Gemini chat (lines 4948-5003) calls the need *Arcane Instruction* (with *Scholarly Contemplation* as a side option). This was the working name during brainstorm. The final, locked-in need is **Discourse** — shorter, less mechanical, and avoids redundantly stacking "Arcane" on top of every other Arcanum Estate label.
 
@@ -43,7 +43,7 @@ None at architectural level — the Pantheon + amphitheater + icosahedron brief 
 
 ## Cross-links
 - Building: [[dh-arcane-lyceum]]
-- Parent monument: [[the-aethercourt]]
+- Parent monument: [[_the-aethercourt]]
 - Worker: [[loremaster]]
 - Need: [[need-discourse]] (working name in source: *Arcane Instruction*)
 - Related: [[dh-atheneum-tower]], [[dh-citadel-of-light]], [[dh-sacred-grove]], [[dh-bloodforged-spire]]

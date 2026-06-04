@@ -67,5 +67,5 @@ See [[core-buildings#Archive (T1 / T2)|Archive]] and [[core-buildings#Aether Hol
 - [[estate-identity]] — Arcane Lore as the estate's prestige resource
 - [[aetherian-progression]] — who works each step of the chain
 - [[core-buildings]] — Academy, Aetherium, Lapidary, Archive, Aether Hold
-- [[the-aethercourt]] — the monument that houses the production / storage chain
+- [[_the-aethercourt]] — the monument that houses the production / storage chain
 - Design history: [[dh-core-economy]]

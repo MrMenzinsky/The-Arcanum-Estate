@@ -25,7 +25,7 @@ The Arcanum Estate is delivered as **one required core mod plus four optional ex
 | `04_Mod_Bloodforged_Spire` (Sorcerer) | optional expansion | `01_Mod_Core_Arcanum` |
 | `05_Mod_Atheneum_Tower` (Mage) | optional expansion | `01_Mod_Core_Arcanum` |
 
-Each expansion adds **one Tier-3 specialization monument** (see [[dh-monument-architecture]]) plus its associated work professions, status ranks, and any specialized sub-buildings. None can function without the Core Arcanum mod, because every expansion shares the core economy ([[core-economy]]), the core progression ladder ([[aetherian-progression]]), and the [[the-aethercourt]] as the entry point.
+Each expansion adds **one Tier-3 specialization monument** (see [[dh-monument-architecture]]) plus its associated work professions, status ranks, and any specialized sub-buildings. None can function without the Core Arcanum mod, because every expansion shares the core economy ([[core-economy]]), the core progression ladder ([[aetherian-progression]]), and the [[_the-aethercourt]] as the entry point.
 
 Expansions do **not** depend on each other. A player can install Citadel of Light without installing Sacred Grove, or any combination.
 
@@ -58,7 +58,7 @@ end
 
 ## Shared assets and namespaces
 
-Because expansions read core mod assets (the [[the-aethercourt]] sub-buildings, [[core-economy|core resources]], shared icons), there must be a stable namespace convention. Suggested convention:
+Because expansions read core mod assets (the [[_the-aethercourt]] sub-buildings, [[core-economy|core resources]], shared icons), there must be a stable namespace convention. Suggested convention:
 
 - Core mod namespace: `arcanum_core` or `arcanum`
 - Expansion namespaces: `arcanum_paladin`, `arcanum_druid`, `arcanum_sorcerer`, `arcanum_mage`
@@ -82,5 +82,5 @@ Resource and building IDs are prefixed with the namespace to avoid collisions wi
 
 - [[project-brief]] — the brief outlines the one-core-plus-four-expansions structure.
 - [[dh-monument-architecture]] — each expansion adds one Tier-3 monument.
-- [[the-aethercourt]] — the core monument all expansions extend from.
+- [[_the-aethercourt]] — the core monument all expansions extend from.
 - [[master-to-do]] — open action items related to dependency enforcement.

@@ -33,7 +33,7 @@ This vault documents the design of **The Arcanum Estate** — a fourth-estate mo
 The base mod. Everything else builds on this.
 
 - [[estate-identity]] — who and what the Arcanum Estate is
-- [[the-aethercourt]] — the Tier-1/2 core monument
+- [[_the-aethercourt]] — the Tier-1/2 core monument
 - [[core-buildings]] — Aethercourt sub-buildings (Academy, Annex, Aetherium, Lapidary, Archive, Aether Hold, Arcane Lyceum)
 - [[arcane-lyceum]] — standalone note for the architectural set-piece T3 building
 - [[aetherian-progression]] — Aspirant → Arcanist → Loremaster
@@ -44,23 +44,23 @@ The base mod. Everything else builds on this.
 ## 02 — Citadel of Light (Paladin expansion)
 
 - [[paladin-design]] — specialization design and rank ladder
-- [[citadel-of-light]] — the Tier-3 monument
+- [[_citadel-of-light]] — the Tier-3 monument
 - [[military-workplaces]] — Sanctum + Divine Forge + (TBD) military training workplace
 
 ## 03 — Sacred Grove (Druid expansion)
 
 - [[druid-design]] — specialization design and rank ladder
-- [[sacred-grove]] — the Tier-3 monument (originally a sub-building, promoted)
+- [[_sacred-grove]] — the Tier-3 monument (originally a sub-building, promoted)
 
 ## 04 — Bloodforged Spire (Sorcerer expansion)
 
 - [[sorcerer-design]] — specialization design and rank ladder
-- [[bloodforged-spire]] — the Tier-3 monument (note: Sorcerer has no Aethercourt sub-building by design)
+- [[_bloodforged-spire]] — the Tier-3 monument (note: Sorcerer has no Aethercourt sub-building by design)
 
 ## 05 — Atheneum Tower (Mage expansion)
 
 - [[mage-design]] — specialization design, rank ladder, and the four elemental jobs
-- [[atheneum-tower]] — the Tier-3 monument (originally "Aether Tower" sub-building; abandoned and replaced)
+- [[_atheneum-tower]] — the Tier-3 monument (originally "Aether Tower" sub-building; abandoned and replaced)
 
 ---
 

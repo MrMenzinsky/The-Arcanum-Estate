@@ -69,7 +69,7 @@ See [[master-to-do#Paladin (Citadel of Light)|master TODO]] for these items as a
 ## Cross-links
 
 - [[paladin-design]] — full specialization design
-- [[citadel-of-light]] — the monument that contains these workplaces
-- [[the-aethercourt]] — core monument
+- [[_citadel-of-light]] — the monument that contains these workplaces
+- [[_the-aethercourt]] — core monument
 - [[need-discourse]] — the universal specialist need (Discourse, fulfilled at Arcane Lyceum)
 - Design history: [[dh-paladin-workplaces]]

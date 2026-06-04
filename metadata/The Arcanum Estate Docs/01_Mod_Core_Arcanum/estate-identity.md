@@ -57,11 +57,11 @@ See [[dependency-logic]] for how expansions gate on the core mod.
 
 - **Visual distinction over visual harmony with vanilla.** The Arcanum should not feel like a fourth flavor of the existing three.
 - **Intellectual over physical.** Where Kingdom needs satisfy by feasting and Labor needs satisfy by entertainment, Arcanum needs satisfy through [[need-discourse|Discourse]] — lectures and debate.
-- **Geometric architectural language.** Domes, formalized nodes, icosahedrons mixed into the medieval base — see [[the-aethercourt]] and [[arcane-lyceum]] for the architectural vocabulary.
+- **Geometric architectural language.** Domes, formalized nodes, icosahedrons mixed into the medieval base — see [[_the-aethercourt]] and [[arcane-lyceum]] for the architectural vocabulary.
 
 ## Cross-links
 
-- [[the-aethercourt]] — the core monument
+- [[_the-aethercourt]] — the core monument
 - [[aetherian-progression]] — unit progression
 - [[core-economy]] — resources
 - [[core-buildings]] — sub-buildings

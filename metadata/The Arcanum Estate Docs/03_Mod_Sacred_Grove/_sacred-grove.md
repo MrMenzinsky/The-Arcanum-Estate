@@ -15,7 +15,7 @@ sources:
 
 ## What this is
 
-The **Tier-3 Druid specialization monument**. Houses the Elder Druid → Earthparent progression and the Druid-specific sub-buildings. One of four expansion-mod monuments branching off the [[the-aethercourt|Aethercourt]] — see [[monument-architecture]].
+The **Tier-3 Druid specialization monument**. Houses the Elder Druid → Earthparent progression and the Druid-specific sub-buildings. One of four expansion-mod monuments branching off the [[_the-aethercourt|Aethercourt]] — see [[monument-architecture]].
 
 ## Name rationale
 
@@ -53,8 +53,8 @@ The Evertree / Heartwood reservation is a hidden upside of the long iteration �
 ## Cross-links
 
 - [[druid-design]] — full specialization design
-- [[the-aethercourt]] — core monument that this expansion extends
+- [[_the-aethercourt]] — core monument that this expansion extends
 - [[monument-architecture]] — five-monument structural rationale
 - [[abandoned-ideas]] — paper trail for the sub-building-to-monument promotion
-- Sibling Tier-3 monuments: [[citadel-of-light]], [[bloodforged-spire]], [[atheneum-tower]]
+- Sibling Tier-3 monuments: [[_citadel-of-light]], [[_bloodforged-spire]], [[_atheneum-tower]]
 - Design history: [[dh-sacred-grove]], [[dh-sub-building-renames]]

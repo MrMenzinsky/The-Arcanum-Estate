@@ -15,7 +15,7 @@ sources:
 
 ## What this is
 
-The **Tier-3 Paladin specialization monument**. The Citadel of Light houses the Paladin progression from Holy Paladin onward and contains the Paladin-specific sub-buildings ([[military-workplaces]]). It's one of four expansion-mod monuments that branch off the core [[the-aethercourt|Aethercourt]] — see [[monument-architecture]].
+The **Tier-3 Paladin specialization monument**. The Citadel of Light houses the Paladin progression from Holy Paladin onward and contains the Paladin-specific sub-buildings ([[military-workplaces]]). It's one of four expansion-mod monuments that branch off the core [[_the-aethercourt|Aethercourt]] — see [[monument-architecture]].
 
 ## Name rationale
 
@@ -41,7 +41,7 @@ The Sanctum was originally workshopped as a sub-building inside the Aethercourt 
 
 - [[paladin-design]] — full specialization design
 - [[military-workplaces]] — sub-buildings detail
-- [[the-aethercourt]] — core monument that this expansion extends
+- [[_the-aethercourt]] — core monument that this expansion extends
 - [[monument-architecture]] — five-monument structural rationale
-- Sibling Tier-3 monuments: [[sacred-grove]], [[bloodforged-spire]], [[atheneum-tower]]
+- Sibling Tier-3 monuments: [[_sacred-grove]], [[_bloodforged-spire]], [[_atheneum-tower]]
 - Design history: [[dh-citadel-of-light]]

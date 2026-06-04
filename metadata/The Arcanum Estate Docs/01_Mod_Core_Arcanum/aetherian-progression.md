@@ -3,7 +3,6 @@ title: Aetherian Progression
 tags:
   - core
   - progression
-  - unit
 created: 2026-06-04
 status: design-locked
 sources:
@@ -41,7 +40,7 @@ This separation is the single most important constraint on naming inside the est
 
 ## The Loremaster — late addition, load-bearing
 
-The Loremaster status was added late in the design, after the core ladder (Aspirant → Arcanist) and the four specialist branches had already been defined. It exists to solve a structural problem: without it, the [[the-aethercourt|Aethercourt]] becomes mechanically irrelevant in the late game once specialists are trained and move to their expansion monuments.
+The Loremaster status was added late in the design, after the core ladder (Aspirant → Arcanist) and the four specialist branches had already been defined. It exists to solve a structural problem: without it, the [[_the-aethercourt|Aethercourt]] becomes mechanically irrelevant in the late game once specialists are trained and move to their expansion monuments.
 
 The Loremaster fixes this by giving the Aethercourt a permanent late-game role: it produces Loremasters who deliver the **Lecture Service** that fulfills the [[need-discourse|Discourse]] need for all T2+ Aetherians and specialists (High Mage, Holy Paladin, Elder Druid, Awakened Sorcerer, and beyond). Without Loremasters, late-game units cannot satisfy their need; without the Aethercourt, no Loremasters exist.
 
@@ -99,7 +98,7 @@ The Arcanist descriptions deliberately echo the vanilla Serf/Commoner pattern (S
 ## Cross-links
 
 - [[estate-identity]] — the estate this progression anchors
-- [[the-aethercourt]] — the monument housing T1/T2 progression
+- [[_the-aethercourt]] — the monument housing T1/T2 progression
 - [[core-buildings]] — the sub-buildings each tier works in
 - [[arcane-lyceum]] — where the Loremaster works
 - [[need-discourse]] — the need the Loremaster fulfills

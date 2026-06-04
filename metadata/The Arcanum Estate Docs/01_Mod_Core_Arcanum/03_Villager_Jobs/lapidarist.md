@@ -4,6 +4,7 @@ tags:
   - stub
   - concept
   - core
+  - jobs
 created: 2026-06-04
 status: stub
 ---

@@ -16,7 +16,7 @@ sources:
 
 ## What this is
 
-The **Tier-1 core monument** of the Arcanum Estate. The Aethercourt is the entry point: every Aetherian career starts here, and every specialization expansion mod ([[citadel-of-light]], [[sacred-grove]], [[bloodforged-spire]], [[atheneum-tower]]) extends from it. Without the Aethercourt, the Arcanum Estate doesn't exist.
+The **Tier-1 core monument** of the Arcanum Estate. The Aethercourt is the entry point: every Aetherian career starts here, and every specialization expansion mod ([[_citadel-of-light]], [[_sacred-grove]], [[_bloodforged-spire]], [[_atheneum-tower]]) extends from it. Without the Aethercourt, the Arcanum Estate doesn't exist.
 
 ## Form
 
@@ -44,11 +44,11 @@ The Aethercourt contains the following sub-buildings — see [[core-buildings]] 
 | Aether Hold | Storage for Aether Crystal and physical resources | 2 |
 | [[arcane-lyceum\|Arcane Lyceum]] | Loremaster's lecture hall; fulfils [[need-discourse\|Discourse]] for T2+ Aetherians | 3 |
 
-Note: the **Sorcerer** specialization has **no Aethercourt sub-building** by design — Sorcerers operate exclusively out of their Tier-3 monument [[bloodforged-spire]]. See [[dh-sorcerer-subbuilding-abandoned]] for the rationale.
+Note: the **Sorcerer** specialization has **no Aethercourt sub-building** by design — Sorcerers operate exclusively out of their Tier-3 monument [[_bloodforged-spire]]. See [[dh-sorcerer-subbuilding-abandoned]] for the rationale.
 
 Three names also reserved during the Aethercourt naming discussion went elsewhere:
-- **Sanctum** — kept as a sub-building, but lives inside [[citadel-of-light]], not inside Aethercourt.
-- **Aether Tower** — originally an Aethercourt sub-building; abandoned and replaced by the Tier-3 monument [[atheneum-tower]].
+- **Sanctum** — kept as a sub-building, but lives inside [[_citadel-of-light]], not inside Aethercourt.
+- **Aether Tower** — originally an Aethercourt sub-building; abandoned and replaced by the Tier-3 monument [[_atheneum-tower]].
 - **Sacred Grove** — originally a sub-building name; promoted to the Tier-3 Druid monument.
 
 See [[dh-sub-building-renames]] for the full promotion log.
@@ -71,5 +71,5 @@ This is the **Tier-1 / Tier-2** monument. The Arcanum Estate has **five monument
 - [[aether-envoy]] — external-affairs role
 - [[dh-monument-architecture]] — five-monument structure
 - [[arcane-lyceum]] — signature interior architecture
-- Tier-3 expansion monuments: [[atheneum-tower]], [[citadel-of-light]], [[sacred-grove]], [[bloodforged-spire]]
+- Tier-3 expansion monuments: [[_atheneum-tower]], [[_citadel-of-light]], [[_sacred-grove]], [[_bloodforged-spire]]
 - Design history: [[dh-the-aethercourt]], [[dh-monument-architecture]]

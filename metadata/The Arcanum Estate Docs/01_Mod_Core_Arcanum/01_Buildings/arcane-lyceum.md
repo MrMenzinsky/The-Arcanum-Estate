@@ -16,7 +16,7 @@ sources:
 
 ## What this is
 
-**A Tier-3 sub-building inside [[the-aethercourt|The Aethercourt]]** — and the architecturally most ambitious building in the Core Arcanum mod. The Arcane Lyceum is the workplace of the [[aetherian-progression#The Loremaster — late addition, load-bearing|Loremaster]], who delivers the Lecture Service that fulfills the [[need-discourse|Discourse]] need for all T2+ Aetherians and specialists.
+**A Tier-3 sub-building inside [[_the-aethercourt|The Aethercourt]]** — and the architecturally most ambitious building in the Core Arcanum mod. The Arcane Lyceum is the workplace of the [[aetherian-progression#The Loremaster — late addition, load-bearing|Loremaster]], who delivers the Lecture Service that fulfills the [[need-discourse|Discourse]] need for all T2+ Aetherians and specialists.
 
 Without the Arcane Lyceum, Loremasters have nowhere to work. Without Loremasters, the Discourse need cannot be fulfilled. Without Discourse fulfillment, T2+ Aetherians become unhappy and the late-game economy stalls. **This single building is the structural keystone of the late-game Arcanum experience.**
 
@@ -41,13 +41,13 @@ Grand. Open. Unmistakably academic. The antithesis of a cramped classroom or hid
 
 ## Function
 
-| Role | Detail |
-| --- | --- |
-| Worker | Loremaster ([[aetherian-progression|T3 Aetherian]]) |
-| Service produced | The Lecture Service ("advanced lectures and discussions") |
-| Need fulfilled | [[need-discourse\|Discourse]] |
-| Consumers | All T2+ Aetherians and all specialist ranks (Mage, Paladin, Druid, Sorcerer) from any installed expansion |
-| Resource consumed/produced | None — service-only, no resource sink or output |
+| Role                       | Detail                                                                                                    |
+| -------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Worker                     | Loremaster ([[aetherian-progression]])                                                                    |
+| Service produced           | The Lecture Service ("advanced lectures and discussions")                                                 |
+| Need fulfilled             | [[need-discourse\|Discourse]]                                                                             |
+| Consumers                  | All T2+ Aetherians and all specialist ranks (Mage, Paladin, Druid, Sorcerer) from any installed expansion |
+| Resource consumed/produced | None — service-only, no resource sink or output                                                           |
 
 The Lyceum does not produce or consume material resources. Its only "input" is the Loremaster (a worker who could otherwise have been a productive Arcanist — that's the opportunity cost balancing the system; see [[aetherian-progression]]).
 
@@ -65,7 +65,7 @@ The need it fulfills was called "Arcane Instruction" during early brainstorm —
 
 ## Cross-links
 
-- [[the-aethercourt]] — parent monument
+- [[_the-aethercourt]] — parent monument
 - [[aetherian-progression]] — Loremaster status and its role
 - [[need-discourse]] — the need fulfilled here
 - [[core-buildings]] — other Aethercourt sub-buildings

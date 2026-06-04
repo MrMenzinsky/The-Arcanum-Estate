@@ -27,7 +27,7 @@ For exhaustive per-topic naming alternatives, see the `dh-*` decision logs in `d
 
 Every name proposed for a Sorcerer-themed sub-building inside the Aethercourt was rejected: Vortex, Crucible, Chasm, Forge, Crypt, Catacomb, Atelier, Menagerie, Conduit, Arena, Kiln, Foundry, Cistern, Barrow.
 
-After ~14 rejected options Anton decided not to force a fourteenth-attempt name. The Sorcerer path expresses itself at monument scale via [[bloodforged-spire]] instead — the asymmetry is intentional. The other three specialist paths (Mage, Paladin, Druid) each had an Aethercourt sub-building during early design; the Sorcerer never did, by deliberate choice.
+After ~14 rejected options Anton decided not to force a fourteenth-attempt name. The Sorcerer path expresses itself at monument scale via [[_bloodforged-spire]] instead — the asymmetry is intentional. The other three specialist paths (Mage, Paladin, Druid) each had an Aethercourt sub-building during early design; the Sorcerer never did, by deliberate choice.
 
 **Do not revisit:** unless someone has a sub-building concept derived from monument lore (i.e., something that emerges naturally from the Bloodforged Spire's identity), not from name-first brainstorm. See [[dh-sorcerer-subbuilding-abandoned]].
 
@@ -55,9 +55,9 @@ Original concept: hidden quests unlock a post-cap Master tier (Master Mage, Radi
 
 | Name | Originally | Now | See |
 | --- | --- | --- | --- |
-| **Aether Tower** | Mage sub-building inside Aethercourt | Retired entirely; replaced by [[atheneum-tower]] | [[dh-sub-building-renames]] |
-| **Sacred Grove** | Druid sub-building inside Aethercourt | Promoted to Tier-3 Druid monument [[sacred-grove]] | [[dh-sub-building-renames]] |
-| **Sanctum** | Paladin sub-building inside Aethercourt | Kept as a sub-building, but now inside [[citadel-of-light]], not Aethercourt | [[dh-sub-building-renames]] |
+| **Aether Tower** | Mage sub-building inside Aethercourt | Retired entirely; replaced by [[_atheneum-tower]] | [[dh-sub-building-renames]] |
+| **Sacred Grove** | Druid sub-building inside Aethercourt | Promoted to Tier-3 Druid monument [[_sacred-grove]] | [[dh-sub-building-renames]] |
+| **Sanctum** | Paladin sub-building inside Aethercourt | Kept as a sub-building, but now inside [[_citadel-of-light]], not Aethercourt | [[dh-sub-building-renames]] |
 | **Aether Court** (two-word) | Working spelling | Locked as single-word **The Aethercourt** | [[dh-the-aethercourt]] |
 | **Scribe / Researcher / Theorist / Practitioner** | Working names for Aspirant/Arcanist work professions | Locked as **Scholar (Aspirant)** + **Caster (Arcanist)** | [[dh-aspirant-arcanist-jobs]] |
 | **Arcane Instruction** | Working name for the T2+ need | Locked as **[[need-discourse\|Discourse]]** | [[dh-discourse-need]] |

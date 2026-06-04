@@ -50,8 +50,8 @@ Before Anton locked in *Grand Council* as the umbrella, Gemini presented three f
 
 ## Cross-links
 
-- [[the-aethercourt]]
-- [[grand-council]]
+- [[_the-aethercourt]]
+- [[_grand-council]]
 - [[arch-seer]]
 - [[dh-discourse-need]]
 - [[external-quests]]
