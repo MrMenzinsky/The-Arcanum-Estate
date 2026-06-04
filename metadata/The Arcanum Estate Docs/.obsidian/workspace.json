@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Mod_Core_Arcanum/the-aethercourt.md",
+                "file": "00_Global_Meta/master-to-do.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "the-aethercourt"
+              "title": "master-to-do"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Mod_Core_Arcanum/the-aethercourt.md",
+                "file": "00_Global_Meta/master-to-do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for the-aethercourt"
+              "title": "Backlinks for master-to-do"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Mod_Core_Arcanum/the-aethercourt.md",
+                "file": "00_Global_Meta/master-to-do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from the-aethercourt"
+              "title": "Outgoing links from master-to-do"
             }
           },
           {
@@ -186,6 +186,13 @@
   },
   "active": "33b1667c1fdc8b5d",
   "lastOpenFiles": [
+    "01_Mod_Core_Arcanum/sanctum.md",
+    "01_Mod_Core_Arcanum/aether-crystal.md",
+    "05_Mod_Atheneum_Tower/mage-design.md",
+    "00_Global_Meta/master-to-do.md",
+    "00_Global_Meta/monument-architecture.md",
+    "00_Global_Meta/design-history/dh-monument-architecture.md",
+    "01_Mod_Core_Arcanum/the-aethercourt.md",
     "00_Global_Meta/design-history/dh-mermaid-master-diagram-source.md.tmp.29556.7d646e619ac0",
     "00_Global_Meta/project-brief.md.tmp.39116.1c13a845b31a",
     "00_Global_Meta/master-to-do.md.tmp.39116.ce37e20deb40",
@@ -212,15 +219,8 @@
     "01_Mod_Core_Arcanum/arch-seer.md",
     "01_Mod_Core_Arcanum/grand-council.md",
     "01_Mod_Core_Arcanum/lecture-service.md",
-    "01_Mod_Core_Arcanum/sanctum.md",
     "01_Mod_Core_Arcanum/aether-tower.md",
-    "01_Mod_Core_Arcanum/aetherian.md",
-    "01_Mod_Core_Arcanum/aether-crystal-mining-camp.md",
-    "01_Mod_Core_Arcanum/lapidary.md",
-    "01_Mod_Core_Arcanum/aetherium.md",
-    "01_Mod_Core_Arcanum/academy.md",
     "00_Global_Meta/_pass-3-plan.md.tmp.30400.2f1c90bf730c",
-    "00_Global_Meta/_pass-3-plan.md.tmp.30400.9f9df86173f3",
-    "05_Mod_Atheneum_Tower/atheneum-tower.md.tmp.30400.e031bf3e9521"
+    "00_Global_Meta/_pass-3-plan.md.tmp.30400.9f9df86173f3"
   ]
 }

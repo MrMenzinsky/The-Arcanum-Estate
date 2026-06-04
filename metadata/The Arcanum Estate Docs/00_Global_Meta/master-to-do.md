@@ -8,7 +8,7 @@ status: living-document
 sources:
   - "[[project-brief]]"
   - "[[_chat-index]]"
-  - "design-history/paladin-workplaces.md"
+  - "[[dh-paladin-workplaces]]"
 ---
 
 # Master To-Do
