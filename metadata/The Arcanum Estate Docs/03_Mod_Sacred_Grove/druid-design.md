@@ -34,15 +34,15 @@ Aspirants who reach Arcanist may branch into the Druid path. The Druid rank ladd
 ## Promotion
 
 - Arcanist → Druid: costs [[core-economy|Arcane Lore]] (Core mod resource)
-- Druid → Elder Druid → Ancient Druid: costs `[TBD]` — likely a Druid-specific resource (e.g. a refined herbal or ritual component produced in the [[_sacred-grove]])
+- Druid → Elder Druid → Ancient Druid: costs `[TBD]` — likely a Druid-specific resource (e.g. a refined herbal or ritual component produced in the [[sacred-grove]])
 - Ancient Druid → Earthparent: hidden quest; cost `[TBD]`
 
 ## Workplaces
 
-The Druid monument [[_sacred-grove]] contains:
+The Druid monument [[sacred-grove]] contains:
 
 - **Tier-3 work buildings and professions** — `[TBD]` — not yet designed
-- A signature **tree-building** carrying one of the reserved names **Evertree** or **Heartwood** (see [[_sacred-grove]])
+- A signature **tree-building** carrying one of the reserved names **Evertree** or **Heartwood** (see [[sacred-grove]])
 
 See [[master-to-do#Druid (Sacred Grove)|master TODO]] for these open items.
 
@@ -82,7 +82,7 @@ See [[master-to-do#Druid (Sacred Grove)|TODO]] for actionable items.
 
 ## Cross-links
 
-- [[_sacred-grove]] — the monument
+- [[sacred-grove]] — the monument
 - [[aetherian-progression]] — shared Aspirant/Arcanist ladder
 - [[estate-identity]] — parent estate
 - [[dependency-logic]] — how this mod gates on Core

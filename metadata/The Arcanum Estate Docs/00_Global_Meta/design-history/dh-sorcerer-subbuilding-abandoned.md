@@ -16,7 +16,7 @@ final_note: "[[dh-bloodforged-spire]]"
 ## Final state
 **The Aethercourt has no Sorcerer sub-building.** Every proposed name failed to land, and the decision was made (line 1294) to set the slot aside rather than force a weak design.
 
-The Sorcerer path's architectural home is instead the Tier-3 monument [[dh-bloodforged-spire]]. The other three paths each get a sub-building inside [[_the-aethercourt]] ([[aether-tower]] → later [[dh-atheneum-tower]], [[sanctum]], [[dh-sacred-grove]]); the Sorcerer path expresses itself at monument scale, not sub-building scale. This asymmetry is intentional and reinforces that the Sorcerer is the chaotic, unstructured counterpart to the Mage's ordered scholarship.
+The Sorcerer path's architectural home is instead the Tier-3 monument [[dh-bloodforged-spire]]. The other three paths each get a sub-building inside [[the-aethercourt]] ([[aether-tower]] → later [[dh-atheneum-tower]], [[sanctum]], [[dh-sacred-grove]]); the Sorcerer path expresses itself at monument scale, not sub-building scale. This asymmetry is intentional and reinforces that the Sorcerer is the chaotic, unstructured counterpart to the Mage's ordered scholarship.
 
 ## Iteration history
 The brief shifted across three rounds (lines 1173-1289):
@@ -50,6 +50,6 @@ Forcing a fourteenth-attempt name would produce a weak design (line 1298: "forci
 
 ## Cross-links
 - Sorcerer monument: [[dh-bloodforged-spire]]
-- Parent monument: [[_the-aethercourt]]
+- Parent monument: [[the-aethercourt]]
 - Sibling sub-buildings: [[aether-tower]], [[sanctum]], [[dh-sacred-grove]]
 - Sibling decision log: [[dh-sub-building-renames]]

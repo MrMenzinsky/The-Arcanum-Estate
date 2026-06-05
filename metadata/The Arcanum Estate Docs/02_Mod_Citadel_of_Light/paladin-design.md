@@ -40,7 +40,7 @@ The Hallow Lord is locked behind a hidden quest, paralleling the structure of th
 
 ## Workplaces
 
-The Paladin monument [[_citadel-of-light]] contains:
+The Paladin monument [[citadel-of-light]] contains:
 
 - **The Sanctum** — Need Fulfillment for the Paladin's spiritual need (working name: *Holy Reflection*; `[TBD]`)
 - **The Divine Forge** — Production workplace where the Reliquary Smith job `[tentative]` produces Divine Seals
@@ -71,7 +71,7 @@ See [[master-to-do#Paladin (Citadel of Light)|TODO list for this expansion]] for
 
 ## Cross-links
 
-- [[_citadel-of-light]] — the monument
+- [[citadel-of-light]] — the monument
 - [[military-workplaces]] — Sanctum, Divine Forge, military training workplace
 - [[aetherian-progression]] — shared Aspirant/Arcanist ladder
 - [[estate-identity]] — parent estate

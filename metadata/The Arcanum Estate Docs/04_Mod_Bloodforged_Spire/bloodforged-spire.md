@@ -15,7 +15,7 @@ sources:
 
 ## What this is
 
-The **Tier-3 Sorcerer specialization monument**. Houses the Awakened Sorcerer → Supreme Sorcerer progression and the Sorcerer-specific sub-buildings. One of four expansion-mod monuments branching off the [[_the-aethercourt|Aethercourt]] — see [[monument-architecture]].
+The **Tier-3 Sorcerer specialization monument**. Houses the Awakened Sorcerer → Supreme Sorcerer progression and the Sorcerer-specific sub-buildings. One of four expansion-mod monuments branching off the [[the-aethercourt|Aethercourt]] — see [[monument-architecture]].
 
 **The Bloodforged Spire is the Sorcerer's only architectural home** — there is no Sorcerer sub-building inside the Aethercourt (by design). See [[abandoned-ideas#Structural|the rationale]].
 
@@ -54,8 +54,8 @@ The key insight from this iteration: the Sorcerer's monument name had to encode 
 ## Cross-links
 
 - [[sorcerer-design]] — full specialization design
-- [[_the-aethercourt]] — core monument that this expansion extends
+- [[the-aethercourt]] — core monument that this expansion extends
 - [[monument-architecture]] — five-monument structural rationale
 - [[abandoned-ideas]] — why there's no Sorcerer Aethercourt sub-building
-- Sibling Tier-3 monuments: [[_citadel-of-light]], [[_sacred-grove]], [[_atheneum-tower]]
+- Sibling Tier-3 monuments: [[citadel-of-light]], [[sacred-grove]], [[atheneum-tower]]
 - Design history: [[dh-bloodforged-spire]]

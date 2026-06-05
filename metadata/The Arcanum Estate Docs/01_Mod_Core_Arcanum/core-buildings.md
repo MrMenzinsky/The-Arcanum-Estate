@@ -15,7 +15,7 @@ sources:
 
 # Core Buildings — Aethercourt Sub-Buildings
 
-The [[_the-aethercourt|Aethercourt]] is an invisible container monument. It does not render as a single building — it groups the sub-buildings below under one monument game-object and grants access to the special monument build menu.
+The [[the-aethercourt|Aethercourt]] is an invisible container monument. It does not render as a single building — it groups the sub-buildings below under one monument game-object and grants access to the special monument build menu.
 
 ## Sub-buildings overview
 
@@ -83,14 +83,14 @@ Three names originally workshopped as Aethercourt sub-buildings shifted role dur
 
 | Name                      | Originally                              | Now                                                                                                                                                                                                                                                                                                              |
 | ------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Sanctum**               | Paladin sub-building inside Aethercourt | Remains a sub-building, but lives inside the Tier-3 Paladin monument [[_citadel-of-light]], not inside the Aethercourt                                                                                                                                                                                            |
-| **Sacred Grove**          | Druid sub-building inside Aethercourt   | Promoted to Tier-3 Druid monument: [[_sacred-grove]]                                                                                                                                                                                                                                                              |
-| **Aether Tower**          | Mage sub-building inside Aethercourt    | Name retired; replaced by Tier-3 Mage monument [[_atheneum-tower]]                                                                                                                                                                                                                                                |
-| **Sorcerer sub-building** | —                                       | The sorcerer never got to be a sub-building inside the Aethercourt. Every proposed name (Vortex, Crucible, Chasm, Forge, Crypt, Catacomb, Atelier, Menagerie, Conduit, Arena, Kiln, Foundry, Cistern, Barrow) was rejected.<br><br>The Sorcerer path expresses itself as Tier-3 monument  [[_bloodforged-spire]]. |
+| **Sanctum**               | Paladin sub-building inside Aethercourt | Remains a sub-building, but lives inside the Tier-3 Paladin monument [[citadel-of-light]], not inside the Aethercourt                                                                                                                                                                                            |
+| **Sacred Grove**          | Druid sub-building inside Aethercourt   | Promoted to Tier-3 Druid monument: [[sacred-grove]]                                                                                                                                                                                                                                                              |
+| **Aether Tower**          | Mage sub-building inside Aethercourt    | Name retired; replaced by Tier-3 Mage monument [[atheneum-tower]]                                                                                                                                                                                                                                                |
+| **Sorcerer sub-building** | —                                       | The sorcerer never got to be a sub-building inside the Aethercourt. Every proposed name (Vortex, Crucible, Chasm, Forge, Crypt, Catacomb, Atelier, Menagerie, Conduit, Arena, Kiln, Foundry, Cistern, Barrow) was rejected.<br><br>The Sorcerer path expresses itself as Tier-3 monument  [[bloodforged-spire]]. |
 
 ## Cross-links
 
-- [[_the-aethercourt]] — parent monument
+- [[the-aethercourt]] — parent monument
 - [[aetherian-progression]] — who works and lives in these buildings
 - [[core-economy]] — what they produce, refine, and store
 - [[need-discourse]] — what the Arcane Lyceum fulfils

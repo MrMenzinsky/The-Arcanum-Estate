@@ -14,7 +14,7 @@ sources:
   - Foundation-The-Arcanum-Estate-gemini-conversation.md lines 4225-4267
   - Foundation-The-Arcanum-Estate-gemini-conversation.md lines 4720-4755
   - Foundation-The-Arcanum-Estate-gemini-conversation.md lines 4930-5010
-final_note: "[[_the-aethercourt]]"
+final_note: "[[the-aethercourt]]"
 ---
 
 # Core Aethercourt Sub-Buildings — Decision Log
@@ -121,7 +121,7 @@ entirely — see [[dh-sorcerer-subbuilding-abandoned]].
 
 ## Cross-links
 
-- [[_the-aethercourt]] — parent monument
+- [[the-aethercourt]] — parent monument
 - [[dh-core-economy]] — resources processed and stored here
 - [[dh-arcane-lyceum]] — architectural vision
 - [[dh-sub-building-renames]] — Sacred Grove, Sanctum and Aether Tower were

@@ -18,7 +18,7 @@ sources:
 >
 > **Decision (2026-06-04):** the diagram will not be validated or repaired. The reasoning, briefly:
 > - The block contains Mermaid syntax errors (multi-target `-->` arrows, duplicate node ID redefinitions inside subgraphs) and will not render in Obsidian as-is.
-> - All the information it tries to convey is now captured in the structured notes — see [[_the-aethercourt]], [[core-buildings]], [[aetherian-progression]], [[core-economy]], [[need-discourse]], and [[aether-envoy]].
+> - All the information it tries to convey is now captured in the structured notes — see [[the-aethercourt]], [[core-buildings]], [[aetherian-progression]], [[core-economy]], [[need-discourse]], and [[aether-envoy]].
 > - Obsidian's built-in **graph view** provides a live, auto-generated visualization of the same relationships from the wikilinks across the vault — no manual maintenance required.
 > - If a focused visual aid is ever needed (e.g., for a Discord post or a tutorial), drafting a small, scope-limited Mermaid diagram inside the relevant note will be cheaper than repairing this one.
 >
@@ -103,7 +103,7 @@ graph TD
 
 ## Cross-links
 
-- [[_the-aethercourt]]
+- [[the-aethercourt]]
 - [[dh-discourse-need]]
 - [[dh-aether-envoy]]
 - [[dh-arcane-lyceum]]

@@ -17,7 +17,7 @@ Last updated: 2026-06-04 (migrated into vault from `metadata/Docs/Project-brief.
 
 ## What This Game Is
 
-A comprehensive mod expanding the base city-builder Foundation (made by Polymorph Games) by introducing a fourth, distinct social class: **The Arcanum Estate** (see [[estate-identity]]). The mod allows players to cultivate a society of scholars and magic-users (Aetherians — see [[aetherian-progression]]), harvest unique arcane resources (see [[core-economy]]), and construct grand, geometrically inspired monuments (see [[_the-aethercourt]]). The core fantasy is managing the intersection of medieval science, academic study, and high magic within a thriving settlement.
+A comprehensive mod expanding the base city-builder Foundation (made by Polymorph Games) by introducing a fourth, distinct social class: **The Arcanum Estate** (see [[estate-identity]]). The mod allows players to cultivate a society of scholars and magic-users (Aetherians — see [[aetherian-progression]]), harvest unique arcane resources (see [[core-economy]]), and construct grand, geometrically inspired monuments (see [[the-aethercourt]]). The core fantasy is managing the intersection of medieval science, academic study, and high magic within a thriving settlement.
 
 ## Tech Stack
 
@@ -42,7 +42,7 @@ git repo root
 │   ├───Blender
 │   │   ├───Models
 │   │   └───Roof textures
-│   ├───Docs                              <-- transitional; being migrated into The Arcanum Estate Docs/
+│   ├───Docs                              <-- now NotebookLM merge staging; clears after the merge
 │   ├───The Arcanum Estate Docs           <-- THIS Obsidian vault
 │   ├───icons
 │   ├───Inspiration
@@ -66,7 +66,7 @@ git repo root
 | --- | --- | --- |
 | **Estate Definition** | Done | Arcanum Estate established, distinct from Labor / Kingdom / Clergy. See [[estate-identity]]. |
 | **Visual Identity** | Done | Heraldry: soft purple/lavender metal. Shape: flared top with sharp points. See [[estate-identity]]. |
-| **Core Monument** | Done | [[_the-aethercourt]] — includes sub-buildings (Academy, Aetherium, Lapidary, Arcane Lyceum, Annex, Archive, Aether Hold, Sanctum). See [[core-buildings]]. |
+| **Core Monument** | Done | [[the-aethercourt]] — includes sub-buildings (Academy, Aetherium, Lapidary, Arcane Lyceum, Annex, Archive, Aether Hold). The Sanctum has been relocated to the Paladin monument [[citadel-of-light]]. See [[core-buildings]]. |
 | **Unit Progression** | Done | Aetherians: Aspirant → Arcanist → Loremaster. See [[aetherian-progression]]. |
 | **Resource Economy** | Done | Aether Crystal, Glyph, Faceted Aether Crystal, Arcane Lore. See [[core-economy]]. |
 | **Custom Needs** | Done | Discourse — fulfilled at the Arcane Lyceum, replaces Entertainment for T2+. See [[need-discourse]]. |
@@ -90,10 +90,10 @@ git repo root
 
 Designing the secondary specialized paths as their own mods, which will branch off from the core Arcanum Estate and focus on specific magical disciplines (see [[dependency-logic]] for how these mods will gate on the core):
 
-- Paladins → see [[paladin-design]] + [[_citadel-of-light]]
-- Mages → see [[mage-design]] + [[_atheneum-tower]]
-- Sorcerers → see [[sorcerer-design]] + [[_bloodforged-spire]]
-- Druids → see [[druid-design]] + [[_sacred-grove]]
+- Paladins → see [[paladin-design]] + [[citadel-of-light]]
+- Mages → see [[mage-design]] + [[atheneum-tower]]
+- Sorcerers → see [[sorcerer-design]] + [[bloodforged-spire]]
+- Druids → see [[druid-design]] + [[sacred-grove]]
 
 ## Design Principles / Non-Negotiables
 
@@ -124,4 +124,4 @@ Link to the modding API wiki: https://www.polymorph.games/foundation/modding/sta
 
 The `metadata/` folder is for anything that isn't part of the mod itself — design documents, concept art, AI chat exports, and other reference materials go here.
 
-The original Gemini "living design document" lived at `metadata/Docs/Foundation-The-Arcanum-Estate-gemini-conversation.md`. As of 2026-06-04 it has been parsed into this Obsidian vault and archived at `00_Global_Meta/_raw/gemini-conversation.md` (byte-identical copy). The original at `metadata/Docs/` is preserved as the immutable historical source.
+The original Gemini "living design document" was parsed into this Obsidian vault as of 2026-06-04 and now lives only at `00_Global_Meta/_raw/gemini-conversation.md`. The prior `metadata/Docs/` copy has been deleted. `metadata/Docs/` is currently the staging area for four NotebookLM exports awaiting merge into the vault; see [[_notebooklm-merge-plan]]. After the merge those files will be renamed and moved to `00_Global_Meta/_raw/` and the folder cleared.

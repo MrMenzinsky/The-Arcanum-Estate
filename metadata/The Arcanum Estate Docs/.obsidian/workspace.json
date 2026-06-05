@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b99d78f42adce187",
+        "id": "92790f5af625fdbe",
         "type": "tabs",
         "children": [
           {
-            "id": "33b1667c1fdc8b5d",
+            "id": "c3ffe663e695c020",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Mod_Core_Arcanum/_the-aethercourt.md",
-                "mode": "preview",
+                "file": "01_Mod_Core_Arcanum/00_Monuments/arcane-lyceum.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_the-aethercourt"
+              "title": "arcane-lyceum"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Mod_Core_Arcanum/_the-aethercourt.md",
+                "file": "01_Mod_Core_Arcanum/00_Monuments/arcane-lyceum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _the-aethercourt"
+              "title": "Backlinks for arcane-lyceum"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Mod_Core_Arcanum/_the-aethercourt.md",
+                "file": "01_Mod_Core_Arcanum/00_Monuments/arcane-lyceum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _the-aethercourt"
+              "title": "Outgoing links from arcane-lyceum"
             }
           },
           {
@@ -184,43 +184,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "33b1667c1fdc8b5d",
+  "active": "8547f8edc196fccf",
   "lastOpenFiles": [
+    "00_Global_Meta/_notebooklm-merge-plan.md.tmp.32932.2eba01c5d264",
+    "00_Global_Meta/_notebooklm-merge-plan.md.tmp.32932.8551b3abc1ef",
+    "00_Global_Meta/master-to-do.md.tmp.32932.34f5c8aad510",
+    "00_Global_Meta/master-to-do.md.tmp.32932.c8c5df927644",
+    "00_Global_Meta/project-brief.md.tmp.32932.274593dc579a",
+    "00_Global_Meta/project-brief.md.tmp.32932.282d64b8cf32",
+    "00_Global_Meta/project-brief.md.tmp.32932.995a24113963",
+    "00_Global_Meta/_index.md.tmp.32932.283559259033",
+    "05_Mod_Atheneum_Tower/expansion-mage.md",
+    "05_Mod_Atheneum_Tower/atheneum-tower.md",
+    "05_Mod_Atheneum_Tower/mage-design.md",
+    "05_Mod_Atheneum_Tower/flame-forger.md",
+    "00_Global_Meta/design-history/dh-mage-path-jobs.md",
+    "01_Mod_Core_Arcanum/04_Resources/lecture-service.md",
+    "01_Mod_Core_Arcanum/need-discourse.md",
+    "01_Mod_Core_Arcanum/00_Monuments/the-aethercourt.md",
+    "01_Mod_Core_Arcanum/00_Monuments/arcane-lyceum.md",
+    "00_Global_Meta/project-brief.md",
+    "00_Global_Meta/monument-architecture.md",
+    "00_Global_Meta/foundation-aesthetic-reference.md",
+    "00_Global_Meta/dependency-logic.md",
+    "00_Global_Meta/abandoned-ideas.md",
+    "02_Mod_Citadel_of_Light/citadel-of-light.md",
+    "01_Mod_Core_Arcanum/00_Monuments",
     "00_Global_Meta/_chat-index.md",
     "00_Global_Meta/_index.md",
     "00_Global_Meta/_pass-3-plan.md",
     "00_Global_Meta/_pass-4-progress.md",
     "00_Global_Meta/3d-modeling-pipeline.md",
-    "00_Global_Meta/foundation-aesthetic-reference.md",
-    "00_Global_Meta/monument-architecture.md",
-    "01_Mod_Core_Arcanum/_the-aethercourt.md",
     "01_Mod_Core_Arcanum/05_Grand_Council/_grand-council.md",
     "05_Mod_Atheneum_Tower/mage.md",
-    "05_Mod_Atheneum_Tower/mage-design.md",
-    "05_Mod_Atheneum_Tower/expansion-mage.md",
-    "04_Mod_Bloodforged_Spire/_bloodforged-spire.md",
-    "03_Mod_Sacred_Grove/_sacred-grove.md",
-    "02_Mod_Citadel_of_Light/_citadel-of-light.md",
+    "04_Mod_Bloodforged_Spire/bloodforged-spire.md",
+    "03_Mod_Sacred_Grove/sacred-grove.md",
     "01_Mod_Core_Arcanum/01_Buildings/aetherium.md",
-    "01_Mod_Core_Arcanum/01_Buildings/arcane-lyceum.md",
-    "05_Mod_Atheneum_Tower/flame-forger.md",
-    "05_Mod_Atheneum_Tower/mist-maker.md",
-    "05_Mod_Atheneum_Tower/stone-shaper.md",
-    "05_Mod_Atheneum_Tower/wind-weaver.md",
-    "05_Mod_Atheneum_Tower/_atheneum-tower.md",
-    "05_Mod_Atheneum_Tower/arch-mage.md",
-    "02_Mod_Citadel_of_Light/military-workplaces.md",
-    "02_Mod_Citadel_of_Light/divine-seal.md",
-    "01_Mod_Core_Arcanum/specialist-paths.md",
     "01_Mod_Core_Arcanum/05_Grand_Council",
-    "Archive",
-    "01_Mod_Core_Arcanum/00_Monuments",
-    "01_Mod_Core_Arcanum/04_Resources",
-    "01_Mod_Core_Arcanum/03_Villager_Jobs",
-    "01_Mod_Core_Arcanum/02_Villager_Statuses",
-    "01_Mod_Core_Arcanum/01_Buildings",
-    "00_Global_Meta/master-to-do.md.tmp.41104.61d790e61bf6",
-    "00_Global_Meta/_notebooklm-merge-plan.md.tmp.41104.b0a4d5fb2751",
-    "00_Global_Meta/design-history/dh-mermaid-master-diagram-source.md.tmp.29556.7d646e619ac0"
+    "Archive"
   ]
 }

@@ -27,7 +27,7 @@ Three Aethercourt sub-buildings were workshopped during the early Gemini brainst
 ## Iteration history
 
 ### Sacred Grove (lines 935-970)
-Originally workshopped as the Druid main sub-building inside [[_the-aethercourt]]. Candidates considered: Grove, Enclave, Druid Circle, Lodge, Cauldron, Root-Hall, Druid Grove. **Sacred Grove** was chosen (line 965) for its spiritual-yet-natural tone, contrasting the Mage Tower's verticality and the Paladin Sanctum's formality.
+Originally workshopped as the Druid main sub-building inside [[the-aethercourt]]. Candidates considered: Grove, Enclave, Druid Circle, Lodge, Cauldron, Root-Hall, Druid Grove. **Sacred Grove** was chosen (line 965) for its spiritual-yet-natural tone, contrasting the Mage Tower's verticality and the Paladin Sanctum's formality.
 
 Promoted later in the design to a standalone Tier-3 monument — see [[dh-sacred-grove]].
 
@@ -48,7 +48,7 @@ Subsequently abandoned entirely: the name was retired and the Mage path's archit
 - **Aether Tower itself** — accepted as a working name, then retired when the path was reorganized around the [[dh-atheneum-tower]] monument.
 
 ## Cross-links
-- Parent monument: [[_the-aethercourt]]
+- Parent monument: [[the-aethercourt]]
 - Promoted monuments: [[dh-sacred-grove]], [[dh-citadel-of-light]], [[dh-atheneum-tower]]
 - Sibling decision logs: [[dh-arcane-lyceum]], [[dh-sorcerer-subbuilding-abandoned]]
 - Sorcerer counterpart monument: [[dh-bloodforged-spire]]

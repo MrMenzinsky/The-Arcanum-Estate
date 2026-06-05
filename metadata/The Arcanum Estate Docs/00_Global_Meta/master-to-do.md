@@ -37,10 +37,11 @@ Two sections: in-scope work for the Core Arcanum mod, and design-captured-but-de
 
 ### Documentation / vault hygiene
 
-- [x] Run **Pass 4** (Obsidianify raw Gemini chat) and move the resulting file into `00_Global_Meta/_raw/`. ✓ 2026-06-04 — no content transformation needed; raw chat had zero active Obsidian syntax. File copied byte-identical to `00_Global_Meta/_raw/gemini-conversation.md`; original preserved at `metadata/Docs/`. See [[_pass-4-progress]].
+- [x] Run **Pass 4** (Obsidianify raw Gemini chat) and move the resulting file into `00_Global_Meta/_raw/`. ✓ 2026-06-04 — no content transformation needed; raw chat had zero active Obsidian syntax. File copied byte-identical to `00_Global_Meta/_raw/gemini-conversation.md`. Source file at `metadata/Docs/` has since been deleted; `_raw/` copy is now the sole canonical location. See [[_pass-4-progress]].
 - [x] Validate the **master Mermaid diagram** at `design-history/dh-mermaid-master-diagram-source.md` against the written design notes; fix or replace. ✓ 2026-06-04 — **closed without repair.** The Gemini-generated diagram has Mermaid syntax errors and tries to show everything in one 74-line block. All its information is now in the structured notes, and Obsidian's graph view provides a live equivalent. The block is kept in design-history as a historical snapshot only. See the callout in [[dh-mermaid-master-diagram-source]] for full rationale.
 - [ ] Programmatic vault check: all wikilinks resolve, frontmatter parses, no orphan notes outside the MOC.
-- [ ] Incorporate **NotebookLM** material — 4 files now in `metadata/Docs/` (conversation 2412 lines, report 191 lines, two saved-response notes). Merge plan drafted in [[_notebooklm-merge-plan]] for a future session.
+- [ ] Incorporate **NotebookLM** material — 4 files now in `metadata/Docs/` (conversation 2412 lines, report 191 lines, two saved-response notes). Merge plan in [[_notebooklm-merge-plan]]; merge session started 2026-06-05.
+- [x] **Vault hygiene refresh** — MOC ([[_index]]) updated to reflect post-reorg subfolder layout under `01_Mod_Core_Arcanum/`, all new per-entity notes linked, stale "Pass 4 will Obsidianify" and Mermaid-`[TBD]` text removed. Project brief updated: Sanctum moved off Aethercourt to Citadel of Light, gemini-chat path corrected, `metadata/Docs/` repurposed for NotebookLM staging. ✓ 2026-06-05
 
 ## Out of scope — Expansion mods (design captured, work deferred)
 
@@ -55,12 +56,12 @@ These are documented in `02_Mod_*` through `05_Mod_*` folders. No implementation
 ### Druid (Sacred Grove)
 
 - [ ] **Tier-3 work buildings and professions** inside the Sacred Grove monument. Monument name is locked; interior is unspecified. See [[druid-design]].
-- [ ] The **Evertree** / **Heartwood** signature tree-building inside the Sacred Grove (reserved names; design not started). See [[_sacred-grove]].
+- [ ] The **Evertree** / **Heartwood** signature tree-building inside the Sacred Grove (reserved names; design not started). See [[sacred-grove]].
 
 ### Sorcerer (Bloodforged Spire)
 
 - [ ] **Tier-3 work buildings and professions** inside the Bloodforged Spire. Monument name is locked; interior is unspecified. See [[sorcerer-design]].
-- [ ] **Ritual Grounds** sub-building (reserved name; design not started). See [[_bloodforged-spire]].
+- [ ] **Ritual Grounds** sub-building (reserved name; design not started). See [[bloodforged-spire]].
 
 ### Mage (Atheneum Tower)
 

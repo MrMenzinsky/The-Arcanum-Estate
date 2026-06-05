@@ -37,5 +37,5 @@ final_note: "[[dh-discourse-need]]"
 - [[dh-arcane-lyceum]]
 - [[loremaster]]
 - [[aetherian]]
-- [[_the-aethercourt]]
+- [[the-aethercourt]]
 - [[lecture-service]]

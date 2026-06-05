@@ -61,7 +61,7 @@ The decision to split into two professions (rather than one shared title across 
 
 - [[dh-mage-path-jobs]]
 - [[academy]]
-- [[_the-aethercourt]]
+- [[the-aethercourt]]
 - [[aspirant]]
 - [[arcanist]]
 - [[scholar]]

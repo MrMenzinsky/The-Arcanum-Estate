@@ -57,6 +57,8 @@ The new session won't have this conversation's context. Step 1 for the next agen
 
 The 191-line report is the highest-leverage starting point. NotebookLM was asked to synthesize the design; comparing its synthesis to the vault will surface major contradictions and additions fast.
 
+**Caveat (added 2026-06-05):** the report was generated **early** in NotebookLM's lifecycle, shortly after the raw Gemini chat was added as a source — most refinements happened later in the main chat. Phase 1 will under-represent additions/changes; Phase 3 (chat topic-index) is the real workhorse.
+
 Output: a short reconciliation table in this file's "Phase 1 results" section, listing:
 - Items NotebookLM affirms (matches vault) — likely most of them
 - Items NotebookLM contradicts — flag for Anton
@@ -128,6 +130,29 @@ Re-run the wikilink + frontmatter + MOC check. Confirm zero broken links, all ne
    - `notebooklm-note-scholastic-foundations-and-medieval-academic-progr-2026-06-04.md` → `notebooklm-note-scholastic-foundations.md`
 
    Any `dh-*.md` citations to these files (created during Phases 1-5) must use the shortened names, since archival happens at Phase 6 — author citations against the FINAL filenames from the start so no rewrite pass is needed.
+
+6. **New-content routing (added 2026-06-05 after vault reorg).** Place new final notes by mod + entity type:
+   - **Core Arcanum** → into the appropriate `01_Mod_Core_Arcanum/0N_*/` subfolder by type:
+     - new monument → `00_Monuments/`
+     - new building → `01_Buildings/`
+     - new villager status → `02_Villager_Statuses/`
+     - new villager job → `03_Villager_Jobs/`
+     - new resource (including any new Fulfillment Need, which is a resource in-engine) → `04_Resources/`
+     - new Grand Council content → `05_Grand_Council/`
+     - Core overview notes that don't fit a subfolder → directly under `01_Mod_Core_Arcanum/` root
+   - **Expansion mods (02-05)** → flat under their respective mod folder; no subfolders at this time.
+   - **Design-history files** → always flat in `00_Global_Meta/design-history/`, regardless of source. NotebookLM-derived files use the `dh-notebooklm-<topic>.md` prefix.
+
+7. **Superseded content (added 2026-06-05).** When NotebookLM supersedes locked vault content, the existing final note **stays in place**. Add an Obsidian callout at the top of the affected note:
+
+   ```
+   > [!NOTE] Superseded by [[X]]
+   > Brief description of what changed. Citation: notebooklm-conversation lines NNN-NNN.
+   ```
+
+   Do NOT move old notes to `Archive/` as part of the merge. Anton adjudicates folder reorganization after the merge is complete.
+
+8. **Arcane Lyceum pivot — preserve both readings (added 2026-06-05).** The free-standing-monument vs. Aethercourt-sub-building question remains open. Any NotebookLM-derived prose mentioning the Lyceum must be neutral on this — do not assume the pivot has happened, do not assume it hasn't.
 
 ## Resumption rules (mirroring Pass 4)
 

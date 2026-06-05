@@ -47,7 +47,7 @@ The Mage path is the only specialization with **four parallel work professions**
 | Fire | **Flame Forger** | `[TBD]` |
 | Water | **Mist Maker** | `[TBD]` |
 
-A Mage chooses one element to specialize in upon promoting from Arcanist. The element determines which sub-building the Mage works in inside the [[_atheneum-tower]] (currently `[TBD]` — four element-specific sub-buildings not yet designed).
+A Mage chooses one element to specialize in upon promoting from Arcanist. The element determines which sub-building the Mage works in inside the [[atheneum-tower]] (currently `[TBD]` — four element-specific sub-buildings not yet designed).
 
 Note the **water specialization specifically picks Mist** (a form of water), mirroring how Earth specifically picks Stone (a form of earth). This is intentional — it avoids the bland generic "Water Mage" feel and gives each path more specific architectural and tonal identity.
 
@@ -78,7 +78,7 @@ See [[dh-mage-ranks]] and [[dh-mage-path-jobs]] for full iteration logs.
 
 ## Cross-links
 
-- [[_atheneum-tower]] — the monument
+- [[atheneum-tower]] — the monument
 - [[aetherian-progression]] — shared Aspirant/Arcanist ladder; status/profession-split discipline that this path exemplifies
 - [[estate-identity]] — parent estate
 - [[dependency-logic]] — how this mod gates on Core

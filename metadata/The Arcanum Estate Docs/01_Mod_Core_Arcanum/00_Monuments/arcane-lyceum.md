@@ -5,6 +5,7 @@ tags:
   - building
   - aethercourt
   - architecture
+  - monument
 created: 2026-06-04
 status: design-locked
 sources:
@@ -15,8 +16,9 @@ sources:
 # The Arcane Lyceum
 
 ## What this is
+**EDIT:** Possibly pivot on this and making it its own free-standing monument instead of a sub-building inside the Aethercourt, much like the Labor Estate Tavern monument, which is used by both Labor and Kingdom villagers. As this would be used not only by the Aethercourt villagers, but also the expansion mods for the specializations (Mages, Druids, Paladins, Sorcerers).
 
-**A Tier-3 sub-building inside [[_the-aethercourt|The Aethercourt]]** — and the architecturally most ambitious building in the Core Arcanum mod. The Arcane Lyceum is the workplace of the [[aetherian-progression#The Loremaster — late addition, load-bearing|Loremaster]], who delivers the Lecture Service that fulfills the [[need-discourse|Discourse]] need for all T2+ Aetherians and specialists.
+**A Tier-3 sub-building inside [[the-aethercourt|The Aethercourt]]** — and the architecturally most ambitious building in the Core Arcanum mod. The Arcane Lyceum is the workplace of the [[aetherian-progression#The Loremaster — late addition, load-bearing|Loremaster]], who delivers the Lecture Service that fulfills the [[need-discourse|Discourse]] need for all T2+ Aetherians and specialists.
 
 Without the Arcane Lyceum, Loremasters have nowhere to work. Without Loremasters, the Discourse need cannot be fulfilled. Without Discourse fulfillment, T2+ Aetherians become unhappy and the late-game economy stalls. **This single building is the structural keystone of the late-game Arcanum experience.**
 
@@ -65,7 +67,7 @@ The need it fulfills was called "Arcane Instruction" during early brainstorm —
 
 ## Cross-links
 
-- [[_the-aethercourt]] — parent monument
+- [[the-aethercourt]] — parent monument
 - [[aetherian-progression]] — Loremaster status and its role
 - [[need-discourse]] — the need fulfilled here
 - [[core-buildings]] — other Aethercourt sub-buildings

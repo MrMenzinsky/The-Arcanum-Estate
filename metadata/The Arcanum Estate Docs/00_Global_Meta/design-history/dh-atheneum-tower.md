@@ -9,7 +9,7 @@ status: locked
 sources:
   - Foundation-The-Arcanum-Estate-gemini-conversation.md lines 3408-3612
   - Foundation-The-Arcanum-Estate-gemini-conversation.md lines 4095-4120
-final_note: "[[_atheneum-tower]]"
+final_note: "[[atheneum-tower]]"
 ---
 
 # Atheneum Tower — Decision Log

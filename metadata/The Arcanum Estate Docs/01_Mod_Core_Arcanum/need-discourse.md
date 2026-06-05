@@ -22,7 +22,7 @@ sources:
 
 ## How it's fulfilled
 
-Aetherians and specialists fulfill Discourse by attending lectures at the **[[arcane-lyceum|Arcane Lyceum]]** (a T3 sub-building of the [[_the-aethercourt|Aethercourt]]). Lectures are delivered by **Loremasters** — the T3 Aetherian status whose entire purpose is providing this Lecture Service. See [[aetherian-progression#The Loremaster — late addition, load-bearing|Loremaster overview]].
+Aetherians and specialists fulfill Discourse by attending lectures at the **[[arcane-lyceum|Arcane Lyceum]]** (a T3 sub-building of the [[the-aethercourt|Aethercourt]]). Lectures are delivered by **Loremasters** — the T3 Aetherian status whose entire purpose is providing this Lecture Service. See [[aetherian-progression#The Loremaster — late addition, load-bearing|Loremaster overview]].
 
 ## Tier coverage
 
@@ -40,7 +40,7 @@ The vanilla Clergy religious-service need is also bypassed by these high-tier un
 Two reasons:
 
 1. **Theme** — high-tier Aetherians are scholars and magic-users. Drinking at a tavern doesn't fit. Attending lectures does.
-2. **Structure** — Discourse is the mechanic that keeps the [[_the-aethercourt|Aethercourt]] mechanically relevant after specialists are trained. Without Discourse, the Aethercourt's late-game role evaporates. With it, every specialist building needs the Aethercourt to keep producing Loremasters.
+2. **Structure** — Discourse is the mechanic that keeps the [[the-aethercourt|Aethercourt]] mechanically relevant after specialists are trained. Without Discourse, the Aethercourt's late-game role evaporates. With it, every specialist building needs the Aethercourt to keep producing Loremasters.
 
 This is the same load-bearing role described in the Loremaster decision: Discourse is one half of the two-part fix (Loremaster status + Discourse need) that wires the Aethercourt into the late game.
 
@@ -58,6 +58,6 @@ This is the same load-bearing role described in the Loremaster decision: Discour
 
 - [[arcane-lyceum]] — the building where Discourse is fulfilled
 - [[aetherian-progression]] — Loremaster status and its job
-- [[_the-aethercourt]] — the parent monument
+- [[the-aethercourt]] — the parent monument
 - [[estate-identity]] — the "intellectual over physical" design principle this need embodies
 - Design history: [[dh-discourse-need]], [[dh-loremaster-tier-3]]
