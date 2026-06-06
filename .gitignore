@@ -1,3 +1,7 @@
 *.blend1
 *.zip
 local
+metadata/**/*.png
+metadata/**/*.kra*
+*.jpg
+*.jpeg

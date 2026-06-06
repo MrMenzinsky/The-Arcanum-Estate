@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "6c24dfb444e9f207",
+    "type": "split",
+    "children": [
+      {
+        "id": "92790f5af625fdbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3ffe663e695c020",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00_Global_Meta/project-brief.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "project-brief"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aef7215beea63c2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "6022728251797423",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8547f8edc196fccf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bcfae5b1377862fa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "742afb56e1253274",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bc75cca947b52bf7",
+    "type": "split",
+    "children": [
+      {
+        "id": "e56f7d7bd077bfe6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a002222b95b36676",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00_Global_Meta/project-brief.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for project-brief"
+            }
+          },
+          {
+            "id": "9e8105bd8a716fe2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00_Global_Meta/project-brief.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from project-brief"
+            }
+          },
+          {
+            "id": "fec6b58fbb30aace",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a39cf1504026aa8f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3ef2635efcbb1771",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c3ffe663e695c020",
+  "lastOpenFiles": [
+    "00_Global_Meta/master-to-do.md",
+    "00_Global_Meta/monument-architecture.md",
+    "01_Mod_Core_Arcanum/00_Monuments/arcane-lyceum.md",
+    "01_Mod_Core_Arcanum/00_Monuments/the-aethercourt.md",
+    "00_Global_Meta/_notebooklm-merge-plan.md",
+    "00_Global_Meta/master-to-do.md.tmp.30268.cde5edfab16e",
+    "00_Global_Meta/_notebooklm-merge-plan.md.tmp.30268.aefba6b5907b",
+    "00_Global_Meta/_notebooklm-merge-plan.md.tmp.30268.94e9c8a5ee3c",
+    "00_Global_Meta/design-history/dh-mage-path-jobs.md.tmp.30268.b5e807dded0d",
+    "00_Global_Meta/_index.md.tmp.30268.3561f4510be1",
+    "00_Global_Meta/design-history/dh-notebooklm-artificer.md.tmp.30268.549bb26b67fb",
+    "00_Global_Meta/_notebooklm-merge-plan.md.tmp.30268.a4a4965b752b",
+    "00_Global_Meta/master-to-do.md.tmp.30268.1f211344647b",
+    "00_Global_Meta/master-to-do.md.tmp.30268.cad7b67b1719",
+    "00_Global_Meta/_index.md.tmp.30268.43b08c81627e",
+    "00_Global_Meta/_raw/notebooklm-note-scholastic-foundations.md",
+    "00_Global_Meta/_raw/notebooklm-note-aethercourt-architecture.md",
+    "00_Global_Meta/_raw/notebooklm-report.md",
+    "00_Global_Meta/_raw/notebooklm-conversation.md",
+    "00_Global_Meta/foundation-mod-api-reference.md",
+    "04_Mod_Bloodforged_Spire/bloodforged-spire-decorations.md",
+    "03_Mod_Sacred_Grove/sacred-grove-decorations.md",
+    "02_Mod_Citadel_of_Light/citadel-of-light-decorations.md",
+    "05_Mod_Atheneum_Tower/atheneum-tower-decorations.md",
+    "01_Mod_Core_Arcanum/06_Decorations/aethercourt-decorations.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-blood-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-life-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-radiant-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-water-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-earth-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-wind-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-fire-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-pure-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-anchorstone.md",
+    "01_Mod_Core_Arcanum/03_Villager_Jobs/artificer.md",
+    "01_Mod_Core_Arcanum/01_Buildings/artificer.md"
+  ]
+}
