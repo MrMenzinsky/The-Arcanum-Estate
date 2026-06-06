@@ -25,6 +25,9 @@ mod:registerAsset({
   NavMeshLockCategory = "ARCANE",
   AssetCoreBuildingPart = "BUILDING_PART_MONUMENT_POLE",
   AssetBuildingPartList = {
+    "SCHOLASTIC_QUARTERS_MINOR_PART",
+
+    -- Test house
     "REAL_SMALL_HOUSE_PART",
 
     -- Chimneys
