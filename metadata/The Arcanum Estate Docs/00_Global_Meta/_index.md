@@ -25,7 +25,9 @@ This vault documents the design of **The Arcanum Estate** — a fourth-estate mo
 - [[monument-architecture]] — the five-monument structural decision
 - [[3d-modeling-pipeline]] — Blender → FBX → game asset workflow notes
 - [[foundation-aesthetic-reference]] — vanilla Foundation visual language
+- [[foundation-mod-api-reference]] — Lua API surface, engine constraints, debugging hooks
 - [[_chat-index]] — line-range map of the original Gemini chat
+- [[_notebooklm-chat-index]] — line-range map + bucket flags for the NotebookLM chat
 - [[_notebooklm-merge-plan]] — plan for merging NotebookLM exports into the vault
 
 ---
@@ -54,9 +56,18 @@ The base mod. Organized into subfolders by entity type.
 ### `01_Buildings/`
 
 - [[academy]]
+- [[annex]]
 - [[aetherium]]
 - [[lapidary]]
+- [[archive]]
+- [[aether-hold]]
 - [[aether-crystal-mining-camp]]
+- [[aether-bloom-garden]]
+- [[arcane-weaver]]
+- [[apothecary]]
+- [[rune-crafter]]
+- [[artificer]]
+- [[aether-bindery]]
 
 ### `02_Villager_Statuses/`
 
@@ -70,6 +81,10 @@ The base mod. Organized into subfolders by entity type.
 - [[caster]]
 - [[lapidarist]]
 - [[aether-envoy]] (the job; same name as the role note above)
+- [[arcane-weaver]] (Serf / Commoner — Labor workforce, not Aetherian)
+- [[rune-crafter]]
+- [[artificer]] (Serf / Commoner — Labor workforce, not Aetherian)
+- [[tomebinder]]
 
 ### `04_Resources/`
 
@@ -78,16 +93,28 @@ The base mod. Organized into subfolders by entity type.
 - [[faceted-aether-crystal]]
 - [[arcane-lore]]
 - [[lecture-service]]
+- [[aether-crystal-dust]]
+- [[aether-bloom]]
+- [[scholar-vestments]]
+- [[aetherial-elixir]]
+- [[runic-talisman]]
+- [[enchanted-tome]]
+- **Charged-container family** ([[dh-notebooklm-charged-containers|naming]]) — [[arcane-anchorstone]] (empty), [[arcane-pure-anchorstone]] (Aethercourt), [[arcane-fire-anchorstone]] / [[arcane-wind-anchorstone]] / [[arcane-earth-anchorstone]] / [[arcane-water-anchorstone]] (Mage), [[arcane-radiant-anchorstone]] (Paladin), [[arcane-life-anchorstone]] (Druid), [[arcane-blood-anchorstone]] (Sorcerer)
 
 ### `05_Grand_Council/`
 
 - [[_grand-council]] — front-door overview
 - [[arch-seer]]
 
+### `06_Decorations/`
+
+- [[aethercourt-decorations]] — T1-T5 roster (status `design-iterating` pending decoration naming convention)
+
 ## 02 — Citadel of Light (Paladin expansion)
 
 - [[paladin-design]] — specialization design and rank ladder
 - [[citadel-of-light]] — the Tier-3 monument
+- [[citadel-of-light-decorations]] — decoration roster T3-T5
 - [[military-workplaces]] — Sanctum + Divine Forge + (TBD) military training workplace
 - [[sanctum]] — Paladin sub-building (relocated from Aethercourt to Citadel of Light)
 - [[divine-seal]]
@@ -97,16 +124,19 @@ The base mod. Organized into subfolders by entity type.
 
 - [[druid-design]] — specialization design and rank ladder
 - [[sacred-grove]] — the Tier-3 monument (originally a sub-building, promoted)
+- [[sacred-grove-decorations]] — decoration roster T3-T5
 
 ## 04 — Bloodforged Spire (Sorcerer expansion)
 
 - [[sorcerer-design]] — specialization design and rank ladder
 - [[bloodforged-spire]] — the Tier-3 monument (note: Sorcerer has no Aethercourt sub-building by design)
+- [[bloodforged-spire-decorations]] — decoration roster T3-T5
 
 ## 05 — Atheneum Tower (Mage expansion)
 
 - [[mage-design]] — specialization design, rank ladder, and the four elemental jobs
 - [[atheneum-tower]] — the Tier-3 monument (originally "Aether Tower" sub-building; abandoned and replaced)
+- [[atheneum-tower-decorations]] — decoration roster T3-T5
 - [[mage]] — collective term for Mage-path villagers
 - [[arch-mage]] — top-rank Mage status
 - [[flame-forger]], [[mist-maker]], [[stone-shaper]], [[wind-weaver]] — the four elemental jobs
@@ -115,9 +145,9 @@ The base mod. Organized into subfolders by entity type.
 
 ## Design history (paper trail)
 
-25 decision-log files in `00_Global_Meta/design-history/`. These capture the iteration process from the original Gemini chat — alternatives considered, why they were rejected, line citations into the raw chat. Each final note above cites its design-history sources in frontmatter.
+35 decision-log files in `00_Global_Meta/design-history/` — 25 Gemini-derived plus 10 NotebookLM-derived. These capture the iteration process from each AI chat — alternatives considered, why they were rejected, line citations into the raw chats. Each final note above cites its design-history sources in frontmatter.
 
-NotebookLM-derived design-history files (added during the NotebookLM merge) use the `dh-notebooklm-<topic>.md` prefix to keep them visually distinct from Gemini-derived ones; they live flat in the same folder.
+NotebookLM-derived files use the `dh-notebooklm-<topic>.md` prefix to keep them visually distinct from the Gemini-derived ones; they live flat in the same folder.
 
 Organized roughly by topic:
 
@@ -141,6 +171,12 @@ Organized roughly by topic:
 ### Reference (paper trail only)
 - [[dh-mermaid-master-diagram-source]] — verbatim copy of Gemini's end-of-chat Mermaid diagram. Closed 2026-06-04 without repair; kept as a historical snapshot. Obsidian's graph view replaces it.
 
+### NotebookLM merge (2026-06-05)
+- Core systems: [[dh-notebooklm-artificer]], [[dh-notebooklm-charged-containers]], [[dh-notebooklm-aether-bindery]], [[dh-notebooklm-inter-estate-goods]]
+- Architecture and naming: [[dh-notebooklm-tech-unlock-naming]], [[dh-notebooklm-tier1-room-parts]], [[dh-notebooklm-aesthetic-corrections]]
+- Decorations: [[dh-notebooklm-aethercourt-decorations]], [[dh-notebooklm-expansion-monument-decorations]]
+- Engine reference: [[dh-notebooklm-mod-api-reference]]
+
 ---
 
 ## Archive
@@ -159,13 +195,13 @@ Organized roughly by topic:
 ## Conventions
 
 - **Filenames:** lowercase-kebab-case. Folders use the numeric `NN_Mod_Name/` prefix to maintain visual order.
-- **Core mod subfolders:** organized by entity type (`00_Monuments`, `01_Buildings`, `02_Villager_Statuses`, `03_Villager_Jobs`, `04_Resources`, `05_Grand_Council`). Expansion mods are flat for now.
+- **Core mod subfolders:** organized by entity type (`00_Monuments`, `01_Buildings`, `02_Villager_Statuses`, `03_Villager_Jobs`, `04_Resources`, `05_Grand_Council`, `06_Decorations`). Expansion mods are flat for now.
 - **Frontmatter:** every note has `title`, `tags`, `created`, `status`, `sources`. Expansion notes also carry `status: planned`.
-- **Wikilinks:** bare `[[note]]` for final notes; `[[dh-note]]` for design-history references. The `dh-` prefix is the disambiguation convention to avoid filename collisions. NotebookLM-derived design-history files use `[[dh-notebooklm-<topic>]]`.
+- **Wikilinks:** bare `[[note]]`-style for final notes; `[[dh-note]]`-style for design-history references. The `dh-` prefix is the disambiguation convention to avoid filename collisions. NotebookLM-derived design-history files use the `dh-notebooklm-<topic>` slug pattern.
 - **`[TBD]`:** anything genuinely undecided is marked with this. Open items also live in [[master-to-do]] as actionable bullets.
 - **Vault editing guidelines:** see [[obsidian-ai-editing-guidelines]] for rules the AI follows when editing notes directly on disk.
 
 ## Cross-vault notes
 
 - The original Gemini chat lives at `00_Global_Meta/_raw/gemini-conversation.md` (the only copy; the prior `metadata/Docs/` copy has been deleted).
-- `metadata/Docs/` is now the staging area for four NotebookLM source files (chat, report, two saved-response notes) awaiting merge. See [[_notebooklm-merge-plan]]. After the merge they will be renamed and moved to `00_Global_Meta/_raw/`.
+- The four NotebookLM exports have been archived to `00_Global_Meta/_raw/` under short slugs: `notebooklm-conversation.md`, `notebooklm-report.md`, `notebooklm-note-aethercourt-architecture.md`, `notebooklm-note-scholastic-foundations.md`. Byte-equal copies of the originals still sit in `metadata/Docs/` pending Anton's deletion sweep.

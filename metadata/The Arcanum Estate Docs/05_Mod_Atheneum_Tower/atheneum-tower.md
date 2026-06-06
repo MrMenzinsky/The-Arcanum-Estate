@@ -59,5 +59,6 @@ The key insight from this long iteration: the Mage monument's name needed to con
 - [[the-aethercourt]] — core monument that this expansion extends
 - [[monument-architecture]] — five-monument structural rationale
 - [[abandoned-ideas]] — paper trail for the Aether Tower → Atheneum Tower rename
+- [[atheneum-tower-decorations]] — decoration roster (T3-T5)
 - Sibling Tier-3 monuments: [[citadel-of-light]], [[sacred-grove]], [[bloodforged-spire]]
 - Design history: [[dh-atheneum-tower]], [[dh-sub-building-renames]]

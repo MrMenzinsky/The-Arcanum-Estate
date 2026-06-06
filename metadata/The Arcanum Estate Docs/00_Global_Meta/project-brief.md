@@ -42,7 +42,7 @@ git repo root
 │   ├───Blender
 │   │   ├───Models
 │   │   └───Roof textures
-│   ├───Docs                              <-- now NotebookLM merge staging; clears after the merge
+│   ├───Docs                              <-- transitional; NotebookLM exports now archived to _raw/, originals will be deleted
 │   ├───The Arcanum Estate Docs           <-- THIS Obsidian vault
 │   ├───icons
 │   ├───Inspiration
@@ -66,12 +66,15 @@ git repo root
 | --- | --- | --- |
 | **Estate Definition** | Done | Arcanum Estate established, distinct from Labor / Kingdom / Clergy. See [[estate-identity]]. |
 | **Visual Identity** | Done | Heraldry: soft purple/lavender metal. Shape: flared top with sharp points. See [[estate-identity]]. |
-| **Core Monument** | Done | [[the-aethercourt]] — includes sub-buildings (Academy, Aetherium, Lapidary, Arcane Lyceum, Annex, Archive, Aether Hold). The Sanctum has been relocated to the Paladin monument [[citadel-of-light]]. See [[core-buildings]]. |
+| **Core Monument** | Done | [[the-aethercourt]] — sub-buildings: Academy, Annex, Aetherium, Lapidary, Archive, Aether Hold, [[arcane-lyceum]] (T3), [[aether-bloom-garden]] (T1), [[arcane-weaver]] (T2), [[apothecary]] (T2), [[rune-crafter]] (T3), [[artificer]] (T3), [[aether-bindery]] (T4). Sanctum relocated to [[citadel-of-light]]. See [[core-buildings]]. |
+| **Aethercourt Tech-Unlock Names** | Done | T2: Aethercourt Scholastic Architecture. T3: Aethercourt Arcane Architecture. Arcane Lyceum has its own dedicated T2 unlock (Cloister / Tavern pattern). See [[the-aethercourt#Tech-unlock progression]]. |
+| **Aethercourt Tier 1 Room Parts** | Done | 8 locked parts with `Scholastic` prefix (Study Hall Minor, Tower Minor, Quarters Minor+Major, Passageway, Vestibule, Study Nook Minor+Major). See [[the-aethercourt#Tier 1 Room parts]]. |
 | **Unit Progression** | Done | Aetherians: Aspirant → Arcanist → Loremaster. See [[aetherian-progression]]. |
-| **Resource Economy** | Done | Aether Crystal, Glyph, Faceted Aether Crystal, Arcane Lore. See [[core-economy]]. |
+| **Resource Economy** | Done | Knowledge chain: [[glyph]] → [[arcane-lore]]. Physical chain: [[aether-crystal]] → [[faceted-aether-crystal]] + [[aether-crystal-dust]] (byproduct). Inter-estate goods: [[scholar-vestments]], [[aetherial-elixir]], [[runic-talisman]]. Trade good: [[enchanted-tome]] (T4). Charged containers: [[arcane-anchorstone]] + per-path variants. See [[core-economy]]. |
 | **Custom Needs** | Done | Discourse — fulfilled at the Arcane Lyceum, replaces Entertainment for T2+. See [[need-discourse]]. |
 | **External Affairs Role** | Done | Aether Envoy + Grand Council. See [[aether-envoy]]. |
 | **UI Symbol** | In progress | Defining the internal icon for the estate shield. |
+| **Decoration Naming Convention** | Open | Decoration name format unsettled. Three candidate patterns (core-mod progression / vanilla Common / vanilla estate). See [[master-to-do]] forgotten-items + [[aethercourt-decorations]]. |
 | **Other Monuments** | Planned | Specialized magic schools as their own mods. See expansion folders 02-05. |
 
 ## Current Focus
@@ -124,4 +127,6 @@ Link to the modding API wiki: https://www.polymorph.games/foundation/modding/sta
 
 The `metadata/` folder is for anything that isn't part of the mod itself — design documents, concept art, AI chat exports, and other reference materials go here.
 
-The original Gemini "living design document" was parsed into this Obsidian vault as of 2026-06-04 and now lives only at `00_Global_Meta/_raw/gemini-conversation.md`. The prior `metadata/Docs/` copy has been deleted. `metadata/Docs/` is currently the staging area for four NotebookLM exports awaiting merge into the vault; see [[_notebooklm-merge-plan]]. After the merge those files will be renamed and moved to `00_Global_Meta/_raw/` and the folder cleared.
+The original Gemini "living design document" was parsed into this Obsidian vault as of 2026-06-04 and now lives only at `00_Global_Meta/_raw/gemini-conversation.md`. The prior `metadata/Docs/` copy has been deleted.
+
+The four NotebookLM source files (chat 2412 lines, report 191 lines, two saved-response notes) were merged into the vault between 2026-06-05 and 2026-06-06 and archived to `00_Global_Meta/_raw/` under short slugs (`notebooklm-conversation.md`, `notebooklm-report.md`, `notebooklm-note-aethercourt-architecture.md`, `notebooklm-note-scholastic-foundations.md`). Byte-equal copies of the originals still sit in `metadata/Docs/` pending Anton's deletion sweep. See [[_notebooklm-merge-plan]] for the full merge log.

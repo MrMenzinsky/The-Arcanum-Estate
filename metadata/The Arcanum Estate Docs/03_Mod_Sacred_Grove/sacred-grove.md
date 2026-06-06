@@ -56,5 +56,6 @@ The Evertree / Heartwood reservation is a hidden upside of the long iteration �
 - [[the-aethercourt]] — core monument that this expansion extends
 - [[monument-architecture]] — five-monument structural rationale
 - [[abandoned-ideas]] — paper trail for the sub-building-to-monument promotion
+- [[sacred-grove-decorations]] — decoration roster (T3-T5)
 - Sibling Tier-3 monuments: [[citadel-of-light]], [[bloodforged-spire]], [[atheneum-tower]]
 - Design history: [[dh-sacred-grove]], [[dh-sub-building-renames]]

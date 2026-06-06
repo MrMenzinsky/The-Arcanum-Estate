@@ -67,4 +67,3 @@ Notable rejected titles, grouped by element:
 - [[stone-shaper]]
 - [[flame-forger]]
 - [[mist-maker]]
-- [[expansion-mage]]

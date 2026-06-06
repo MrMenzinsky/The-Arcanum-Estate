@@ -11,6 +11,7 @@ status: design-locked
 sources:
   - "[[dh-arcane-lyceum]]"
   - "[[dh-loremaster-tier-3]]"
+  - "[[dh-notebooklm-tech-unlock-naming]]"
 ---
 
 # The Arcane Lyceum
@@ -36,6 +37,17 @@ A single Lyceum building combines both, with the dome rising over the rotunda an
 The Lyceum's signature visual element is its roof. **Roof parts are modular and based on the icosahedron and other Platonic / geometric solids**, selectable by the player. This is the architectural motif that signals "Arcanum Estate" at a glance — geometry, not gothic.
 
 The Lyceum is the first building where this geometric vocabulary should be fully exercised. Other Aethercourt sub-buildings may use it more sparingly; the Lyceum sets the standard.
+
+## Tech-unlock placement (its own Tier 2 unlock)
+
+The Arcane Lyceum is unlocked as **its own dedicated Tier 2 tech-tree node**, separate from the broader [[the-aethercourt#Tech-unlock progression|Aethercourt Scholastic Architecture]] T2 unlock. This mirrors the Clergy Estate's standalone `Rustic Cloister` and the Labor Estate's standalone `Tavern` — vanilla precedent for a single high-impact T2 building getting its own unlock node.
+
+Two reasons:
+
+1. **Vanilla synergy.** Breaks up the T2 unlock tree so the player isn't handed everything at once; matches the Cloister / Tavern pattern.
+2. **Need-pacing.** Since the Lyceum is the **only** building that fulfills the [[need-discourse|Discourse]] need, gating it behind a dedicated unlock forces the player to actively choose when their estate is ready to start consuming high-level services. Without this gate, Discourse would arrive automatically alongside other T2 unlocks and the player would have less agency in pacing the economic shift.
+
+This dedicated-T2-unlock framing is **consistent with both readings of the Lyceum pivot** (free-standing monument vs Aethercourt sub-building). A standalone tech unlock doesn't on its own settle the structural placement question — see the pivot note at the top of this file.
 
 ## Tone
 

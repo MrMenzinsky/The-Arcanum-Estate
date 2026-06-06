@@ -57,5 +57,6 @@ The key insight from this iteration: the Sorcerer's monument name had to encode 
 - [[the-aethercourt]] — core monument that this expansion extends
 - [[monument-architecture]] — five-monument structural rationale
 - [[abandoned-ideas]] — why there's no Sorcerer Aethercourt sub-building
+- [[bloodforged-spire-decorations]] — decoration roster (T3-T5)
 - Sibling Tier-3 monuments: [[citadel-of-light]], [[sacred-grove]], [[atheneum-tower]]
 - Design history: [[dh-bloodforged-spire]]

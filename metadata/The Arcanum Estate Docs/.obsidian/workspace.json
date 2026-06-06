@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Mod_Core_Arcanum/00_Monuments/arcane-lyceum.md",
-                "mode": "source",
+                "file": "00_Global_Meta/project-brief.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "arcane-lyceum"
+              "title": "project-brief"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Mod_Core_Arcanum/00_Monuments/arcane-lyceum.md",
+                "file": "00_Global_Meta/project-brief.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for arcane-lyceum"
+              "title": "Backlinks for project-brief"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Mod_Core_Arcanum/00_Monuments/arcane-lyceum.md",
+                "file": "00_Global_Meta/project-brief.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from arcane-lyceum"
+              "title": "Outgoing links from project-brief"
             }
           },
           {
@@ -184,43 +184,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "8547f8edc196fccf",
+  "active": "c3ffe663e695c020",
   "lastOpenFiles": [
-    "00_Global_Meta/_notebooklm-merge-plan.md.tmp.32932.2eba01c5d264",
-    "00_Global_Meta/_notebooklm-merge-plan.md.tmp.32932.8551b3abc1ef",
-    "00_Global_Meta/master-to-do.md.tmp.32932.34f5c8aad510",
-    "00_Global_Meta/master-to-do.md.tmp.32932.c8c5df927644",
-    "00_Global_Meta/project-brief.md.tmp.32932.274593dc579a",
-    "00_Global_Meta/project-brief.md.tmp.32932.282d64b8cf32",
-    "00_Global_Meta/project-brief.md.tmp.32932.995a24113963",
-    "00_Global_Meta/_index.md.tmp.32932.283559259033",
-    "05_Mod_Atheneum_Tower/expansion-mage.md",
-    "05_Mod_Atheneum_Tower/atheneum-tower.md",
-    "05_Mod_Atheneum_Tower/mage-design.md",
-    "05_Mod_Atheneum_Tower/flame-forger.md",
-    "00_Global_Meta/design-history/dh-mage-path-jobs.md",
-    "01_Mod_Core_Arcanum/04_Resources/lecture-service.md",
-    "01_Mod_Core_Arcanum/need-discourse.md",
-    "01_Mod_Core_Arcanum/00_Monuments/the-aethercourt.md",
-    "01_Mod_Core_Arcanum/00_Monuments/arcane-lyceum.md",
-    "00_Global_Meta/project-brief.md",
+    "00_Global_Meta/master-to-do.md",
     "00_Global_Meta/monument-architecture.md",
-    "00_Global_Meta/foundation-aesthetic-reference.md",
-    "00_Global_Meta/dependency-logic.md",
-    "00_Global_Meta/abandoned-ideas.md",
-    "02_Mod_Citadel_of_Light/citadel-of-light.md",
-    "01_Mod_Core_Arcanum/00_Monuments",
-    "00_Global_Meta/_chat-index.md",
-    "00_Global_Meta/_index.md",
-    "00_Global_Meta/_pass-3-plan.md",
-    "00_Global_Meta/_pass-4-progress.md",
-    "00_Global_Meta/3d-modeling-pipeline.md",
-    "01_Mod_Core_Arcanum/05_Grand_Council/_grand-council.md",
-    "05_Mod_Atheneum_Tower/mage.md",
-    "04_Mod_Bloodforged_Spire/bloodforged-spire.md",
-    "03_Mod_Sacred_Grove/sacred-grove.md",
-    "01_Mod_Core_Arcanum/01_Buildings/aetherium.md",
-    "01_Mod_Core_Arcanum/05_Grand_Council",
-    "Archive"
+    "01_Mod_Core_Arcanum/00_Monuments/arcane-lyceum.md",
+    "01_Mod_Core_Arcanum/00_Monuments/the-aethercourt.md",
+    "00_Global_Meta/_notebooklm-merge-plan.md",
+    "00_Global_Meta/master-to-do.md.tmp.30268.cde5edfab16e",
+    "00_Global_Meta/_notebooklm-merge-plan.md.tmp.30268.aefba6b5907b",
+    "00_Global_Meta/_notebooklm-merge-plan.md.tmp.30268.94e9c8a5ee3c",
+    "00_Global_Meta/design-history/dh-mage-path-jobs.md.tmp.30268.b5e807dded0d",
+    "00_Global_Meta/_index.md.tmp.30268.3561f4510be1",
+    "00_Global_Meta/design-history/dh-notebooklm-artificer.md.tmp.30268.549bb26b67fb",
+    "00_Global_Meta/_notebooklm-merge-plan.md.tmp.30268.a4a4965b752b",
+    "00_Global_Meta/master-to-do.md.tmp.30268.1f211344647b",
+    "00_Global_Meta/master-to-do.md.tmp.30268.cad7b67b1719",
+    "00_Global_Meta/_index.md.tmp.30268.43b08c81627e",
+    "00_Global_Meta/_raw/notebooklm-note-scholastic-foundations.md",
+    "00_Global_Meta/_raw/notebooklm-note-aethercourt-architecture.md",
+    "00_Global_Meta/_raw/notebooklm-report.md",
+    "00_Global_Meta/_raw/notebooklm-conversation.md",
+    "00_Global_Meta/foundation-mod-api-reference.md",
+    "04_Mod_Bloodforged_Spire/bloodforged-spire-decorations.md",
+    "03_Mod_Sacred_Grove/sacred-grove-decorations.md",
+    "02_Mod_Citadel_of_Light/citadel-of-light-decorations.md",
+    "05_Mod_Atheneum_Tower/atheneum-tower-decorations.md",
+    "01_Mod_Core_Arcanum/06_Decorations/aethercourt-decorations.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-blood-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-life-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-radiant-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-water-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-earth-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-wind-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-fire-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-pure-anchorstone.md",
+    "01_Mod_Core_Arcanum/04_Resources/arcane-anchorstone.md",
+    "01_Mod_Core_Arcanum/03_Villager_Jobs/artificer.md",
+    "01_Mod_Core_Arcanum/01_Buildings/artificer.md"
   ]
 }

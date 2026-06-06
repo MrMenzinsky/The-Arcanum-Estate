@@ -8,6 +8,7 @@ created: 2026-06-04
 status: reference
 sources:
   - "[[dh-foundation-aesthetic-reference]]"
+  - "[[dh-notebooklm-aesthetic-corrections]]"
 ---
 
 # Foundation Aesthetic Reference
@@ -35,6 +36,13 @@ The Arcanum Estate must **sit visibly inside** this aesthetic while adding its o
 1. **Exposed frame** — Structural bones (posts, beams, trusses) are always visible, giving a solid constructive appearance.
 2. **Verticality** — Important structures achieve height via stepped, stacked modules and steep, pointed roofs (not single-pour towers).
 3. **Clean lines** — Texture work is clean, keeping focus on geometry and modular assembly. **Critical for 3D modeling discipline.**
+
+## Vanilla style rules (engine-aware)
+
+Two load-bearing rules that affect every custom texture / asset the mod adds:
+
+- **Washed-out color palette.** Vanilla roof and accent textures use deliberately **washed-out colors** to avoid intensity that would distract the player from gameplay-relevant elements. Any custom texture the Arcanum mod adds (roofs, accents, decorations) must match this restraint — saturated or fully-bright tones break the visual integration with vanilla buildings.
+- **No custom light sources (modding-API constraint).** The Foundation modding API **does not support custom light sources or glow shaders**. Anything the design describes as "glowing", "luminous", "shining", or "emissive" must be implemented via standard **vertex colors with HDR-capable RGBA channels (values > 1.0)** — the same technique vanilla uses for its candles and forge fires. There is no light-source API to fall back on. See [[dh-notebooklm-aesthetic-corrections]] and [[dh-notebooklm-mod-api-reference]] for engine specifics, and [[master-to-do]] for the consistent-emissive-treatment design task.
 
 ## Arcanum Estate departures
 

@@ -43,5 +43,6 @@ The Sanctum was originally workshopped as a sub-building inside the Aethercourt 
 - [[military-workplaces]] — sub-buildings detail
 - [[the-aethercourt]] — core monument that this expansion extends
 - [[monument-architecture]] — five-monument structural rationale
+- [[citadel-of-light-decorations]] — decoration roster (T3-T5)
 - Sibling Tier-3 monuments: [[sacred-grove]], [[bloodforged-spire]], [[atheneum-tower]]
 - Design history: [[dh-citadel-of-light]]
