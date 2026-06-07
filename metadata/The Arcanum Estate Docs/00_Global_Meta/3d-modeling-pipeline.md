@@ -79,10 +79,11 @@ Asset-pipeline work touches these Foundation modding API calls (see [[foundation
 
 ## Active blockers
 
-- **LOD pipeline blocker on the first Aethercourt building part.** Currently unclear whether the issue is Blender .fbx export quirks or on the engine's `registerAssetProcessor` side. Diagnose-the-blocker task is in [[master-to-do]] Lua/code section.
+- **LOD pipeline blocker on the first Aethercourt building part.** **Diagnosed 2026-06-07** (see [[blender-fbx-export-guide]]): the FBX export is fine and Blender isn't losing nesting. Two separate causes confirmed by comparing the `005`/`006` exports and the `temp/` PoC: (1) the **Apply Transform** export option (the community-recommended setting) mis-bakes the transforms of the collection-instance windows — a child-of-child case — so they vanish in `006` but render in `005` where it was off; (2) `LOD_X` nodes are **terminal** — the engine discards any mesh parented under a `LOD_X` (proven by the PoC test 3 `.meta`), so each LOD level must be a single mesh. Fix: flatten/realise instances (then Apply Transform is safe) or use the Apply-Transform-off + RootNode-rotation workaround; merge geometry per `LOD_X`. Not a Blender/Maya FBX-quality issue. Diagnose-the-blocker task is in [[master-to-do]] Lua/code section.
 
 ## Cross-links
 
+- [[blender-fbx-export-guide]] — full Blender→FBX export recipe, LOD setup, and the collection-instance fix (resolves the active blocker below)
 - [[foundation-aesthetic-reference]] — aesthetic targets and vanilla style rules
 - [[foundation-mod-api-reference]] — Lua API surface and engine constraints
 - [[the-aethercourt]] — monument-specific architectural language and Tier 1 parts list

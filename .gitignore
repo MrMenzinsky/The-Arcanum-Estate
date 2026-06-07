@@ -6,3 +6,5 @@ metadata/**/*.kra*
 *.jpg
 *.jpeg
 metadata/The Arcanum Estate Docs/.obsidian/workspace.json
+temp/
+**/__pycache__/
